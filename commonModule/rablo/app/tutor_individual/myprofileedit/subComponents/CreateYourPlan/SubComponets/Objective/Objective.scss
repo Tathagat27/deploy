@@ -1,0 +1,116 @@
+.Objective_Section_heading{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #4A3794CC;
+    margin: 0;
+    padding: 0;
+}
+.Objective_Section_description{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.9vw;
+    font-weight: 400;
+    color: #00000066;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.8vh;
+    margin-bottom: 1.5vw;
+    margin-left: 1vh;
+}
+.highlight{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.9vw;
+    font-weight: 700;
+    color: #00000066;
+}
+
+.Objective__wrapper{
+    margin-top: 1vw;
+
+    .Objective_Section_1,
+    .Objective_Section_2{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+
+    .Objective_Complete_course{
+        display: flex;
+        flex-wrap: wrap;
+        gap:1vw;
+    }
+    .Others_Objective{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: 2.447vw;
+        padding: 1.5vw, 0;
+        border-radius: 2vw;
+        border: 0.91px solid #6764FF;
+        background-color: linear-gradient(0deg, #6764FF, #6764FF),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        gap: 9.06px;
+        position: relative;
+        color: #6764FF;
+        cursor: pointer;
+        user-select: none;
+        margin-top: 1vw;
+        >p:nth-of-type(1){
+            font-family: 'Poppins',sans-serif;
+            font-size: 0.9vw;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+            margin-left: 1vw;
+            margin-right: 1vw;
+        }
+        .Other_input{
+            height: 2vw;
+            // width: fit-content;
+            border-radius: 2vw;
+            border: 0.5px solid #6764FF;
+            margin-right: 0.5vh;
+            background-color: #eeeeee;
+            padding-left: 2vw;
+        }
+        .Other_input:focus{
+            outline: none;
+        }
+        .Other_input::placeholder {
+            text-align: center;
+            letter-spacing: 0.5vh;
+            color: #aaaaaa;
+            margin-right: 1vw;
+        }
+        .Plus_icon{
+            position: absolute;
+            color: #6764FF;
+            font-size: 1.7vw;
+            right: 0.5vw;
+        }
+    }
+
+    .Clickable_Options,
+    .Active_Clickable_Options{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: 2.447vw;
+        padding: 1vw;
+        border-radius: 40.75px;
+        border: 0.91px solid #6764FF;
+        background-color: linear-gradient(0deg, #6764FF, #6764FF),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        gap: 9.06px;
+        font-family: 'Poppins',sans-serif;
+        font-size: 0.9vw;
+        font-weight: 500;
+        color: #6764FF;
+        cursor: pointer;
+        user-select: none;
+    }
+    .Active_Clickable_Options{
+        background-color: #6764FF;
+        color: #FFFFFF;
+    }
+    }
+    
+}

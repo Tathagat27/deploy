@@ -1,0 +1,95 @@
+.Section_1_main_content{
+    height: fit-content;
+    width: fit-content;
+
+    .Down_arrow{
+        font-size: 1.8vw; 
+        margin-left: 8vw;
+        margin-top: -1vh;
+        color: #6764FF;
+        animation: moveUpDown 2s infinite;
+    }
+    @keyframes moveUpDown {
+      0%, 100% { transform: translateY(0); } /* Element at original position */
+      50% { transform: translateY(-10px); } /* Move element up */
+    }
+}
+
+    .Section1_option,
+    .active{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 18.5vw;
+        height: 3.385vw;
+        border-radius: 0.6vw;
+        background-color: #ffffff;
+        border: 2px solid #6764FFCC;
+        font-family: Poppins;
+        font-size: 1.041vw;
+        font-weight: 600;
+        color: #6764FFCC;
+        margin-bottom: 1.3vh;
+        flex-shrink:0;
+        position: relative;
+        .Others_input{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-left: 1vw;
+            width: 9vw;
+            height: 90%;
+            margin-left: 1.2vh;
+            border-radius: 1vh;
+            z-index: 999;
+            letter-spacing: 0.2vh;
+            border: 2px solid #F4F2F2;
+        }
+        .Others_input:focus {outline: none;}
+        >span{
+            height: 1.562vw;
+            width: 1.562vw;
+            border-radius: 0.5vh;
+            background-color: #6764FF1A;
+            color: #6764FF;
+            font-size: 1.041vw;
+            font-weight: 700;
+            margin-right: 1.5vw;
+            margin-left: 1vh;
+        }
+    }
+    .Section1_option:hover{
+        background-color: #F4F2F2;
+
+    }
+    .active{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 18.5vw;
+        height: 3.385vw;
+        border-radius: 0.6vw;
+        background-color:#6764FF;
+        border: 2px solid #6764FFCC;
+        font-family: Poppins;
+        font-size: 1.041vw;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 1.3vh;
+        flex-shrink:0;
+        position: relative;
+        >span{
+            height: 1.562vw;
+            width: 1.562vw;
+            border-radius: 0.5vh;
+            background-color: #ffffff;
+            color: #ffffff;
+            font-size: 1.041vw;
+            font-weight: 700;
+            margin-right: 1.5vw;
+            margin-left: 1vh;
+        }
+    }
+  

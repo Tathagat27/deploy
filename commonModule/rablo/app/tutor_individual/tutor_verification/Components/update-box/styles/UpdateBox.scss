@@ -1,0 +1,61 @@
+.update-background {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .update-box {
+    background-color: white;
+    width: 42.24vw;
+    height: 40.3704vh;
+    border-radius: 1.689vw;
+    position: relative;
+
+    .close-btn {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      cursor: pointer;
+    }
+
+    .container-ub1 {
+      position: absolute;
+      width: 27.344vw;
+      height: 21.111vh;
+      top: 13.426vh;
+      left: 7.396vw;
+      .heading {
+        font-weight: 600;
+        font-size: 1.492vw;
+        line-height: 3.978vh;
+        text-align: center;
+        color: rgba(101, 6, 6, 0.8);
+      }
+
+      .label {
+        font-weight: 400;
+        font-size: 0.994vw;
+        line-height: 2.652vh;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.4);
+      }
+
+      .proceed-btn {
+        box-sizing: border-box;
+        width: 7.292vw;
+        height: 4.815vh;
+        padding: 1.389vh 2.083vw;
+        border-radius: 1.689vw;
+        background-color: rgba(103, 100, 255, 0.6);
+        color: white;
+        font-weight: 500;
+        font-size: 0.751vw;
+        line-height: 2.001vh;
+        margin: auto;
+        margin-top: 1.2rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

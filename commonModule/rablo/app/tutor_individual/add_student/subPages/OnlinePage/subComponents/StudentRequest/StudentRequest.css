@@ -1,0 +1,142 @@
+.StudentRequest_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 68vw;
+  height: 3.2vw;
+  border-radius: 5px;
+  margin-left: 1vh;
+  margin-bottom: 1vw;
+  background-color: #FBFBFB;
+}
+.StudentRequest_wrapper .Name {
+  margin: 0;
+  padding: 0;
+  width: 7vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.6980392157);
+  margin-left: 1vw;
+}
+.StudentRequest_wrapper .Class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 6vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+.StudentRequest_wrapper .Subjects_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 10vw;
+  flex-shrink: 0;
+  margin-left: 1vw;
+}
+.StudentRequest_wrapper .Subjects_wrapper .Subjects {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  flex-shrink: 0;
+  margin-left: 1vh;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+.StudentRequest_wrapper .MaxBudget {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 4.2vw;
+  width: 10vw;
+}
+.StudentRequest_wrapper .MaxBudget > h4:nth-of-type(1) {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2vw;
+  flex-shrink: 0;
+  color: #6764FF;
+}
+.StudentRequest_wrapper .MaxBudget .rupees {
+  font-size: 1vw;
+  font-weight: 600;
+  margin-bottom: 0.6vh;
+  margin-right: 0vh;
+  color: #6764FF;
+}
+.StudentRequest_wrapper .MaxBudget > span {
+  margin: 0;
+  padding: 0;
+  margin-left: 0.5vh;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  color: rgba(0, 0, 0, 0.3019607843);
+}
+.StudentRequest_wrapper .Match {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  width: 7vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  color: #6764FF;
+  margin-left: 2vw;
+}
+.StudentRequest_wrapper .success {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 6vw;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  color: #6764FF;
+  margin-left: 3vw;
+}
+.StudentRequest_wrapper .Accept_or_Close {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  margin-left: 1vw;
+}
+.StudentRequest_wrapper .Accept_or_Close .cancel_or_remove {
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  font-weight: 600;
+  color: #6764FF;
+  cursor: pointer;
+  margin-top: 1vh;
+}
+.StudentRequest_wrapper .Accept_or_Close .accept_btn {
+  width: 5.2vw;
+  height: 2.187vw;
+  border-radius: 0.6vw;
+  background-color: #6764FF;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.78vw;
+  border-style: none;
+}
+.StudentRequest_wrapper .Accept_or_Close .accept_btn:hover {
+  border: 2px solid #6764FF;
+  color: #6764FF;
+  background-color: #FFFFFF;
+}
+.StudentRequest_wrapper .Accept_or_Close .Close_btn {
+  width: 0.8vw;
+  margin-left: 1.5vh;
+  cursor: pointer;
+}/*# sourceMappingURL=StudentRequest.css.map */

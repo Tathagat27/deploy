@@ -1,0 +1,37 @@
+.locked_button__wrapper,
+.Shrinked_locked_button__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.208vw;
+  width: 20.833vw;
+  transition: 0.3s;
+}
+
+.Locked_button {
+  height: 5.208vw;
+  width: 20.833vw;
+  border-radius: 10px;
+  border: 4px dashed rgba(103, 100, 255, 0.5);
+  background: rgba(103, 100, 255, 0.1);
+  transition: 0.3s;
+}
+
+.Shrinked_locked_button__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.645vw;
+  width: 3.645vw;
+  transition: 0.3s;
+}
+.Shrinked_locked_button__wrapper .Locked_button {
+  height: 3.645vw;
+  width: 3.645vw;
+  border-radius: 10px;
+  border: 4px dashed rgba(103, 100, 255, 0.5019607843);
+  transition: 0.3s;
+}
+.Shrinked_locked_button__wrapper .Locked_button:hover {
+  background: rgba(103, 100, 255, 0.3019607843);
+}/*# sourceMappingURL=lockedButton.css.map */

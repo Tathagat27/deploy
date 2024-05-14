@@ -1,0 +1,58 @@
+.referral-box {
+  display: flex;
+  border: 1px solid;
+  padding: 0.538rem 1.1rem;
+  width: 16.8vw;
+  color: #999;
+  font-size: 0.78rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  border-radius: 4px;
+  border: 1px solid #6764ff;
+  background: #fff;
+  position: relative;
+}
+.referral-box .referral-ip {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.referral-box .referral-ip input {
+  border: none;
+  background: none;
+}
+.referral-box .referral-ip input:focus {
+  outline: none;
+  background: none;
+}
+.referral-box .referral-verify {
+  float: right;
+  color: #fff;
+  text-align: center;
+  font-size: 0.77rem;
+  font-weight: 500;
+  padding: 0.2rem 10px 0.2rem 10px;
+  border-radius: 6px;
+  opacity: 0.5;
+  background: #6764ff;
+  cursor: pointer;
+}
+
+.referral-valid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16.8vw;
+  height: 1.562vw;
+  margin-top: -0.4vh;
+  border-radius: 0 0 0.52vw 0.52vw;
+  background-color: #6764ff;
+  font-family: "Poppins" sans-serif;
+  font-size: 0.937vw;
+  font-weight: 600;
+  color: #fff;
+}/*# sourceMappingURL=Referral.css.map */

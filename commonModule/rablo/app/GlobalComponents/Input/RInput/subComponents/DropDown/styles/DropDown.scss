@@ -1,0 +1,98 @@
+.Dropdown_Wrapper {
+    position: relative;
+    height: 5vw;
+  }
+  
+  .dropDown_Input,
+  .Active_dropDown_Input {
+    display: flex;
+    align-items: center;
+    height: 2.864vw;
+    width: 16.7vw;
+    border-radius: 0.208vw;
+    border: 1px solid #6764FF;
+    background: #FFF;
+    color: #999;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    text-transform: capitalize;
+    padding-left: 1vw;
+    cursor: pointer;
+    >div:nth-of-type(1){
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 1vh;
+      padding-right: 1vh;
+      gap: 1vw;
+      height: 80%;
+      width: fit-content;
+      margin-left: -0.5vw;
+      color: #ffff;
+      border-radius: 0.5vw;
+      background-color: #6764FF;
+    }
+    .Close_Icon{
+      font-size: 1.3vw;
+      color: #FFFF;
+    }
+    >h4:nth-of-type(1){
+      margin: 0;
+      padding: 0;
+      font-size: 1vw;
+    }
+  }
+  .Active_dropDown_Input{
+    border: 2px solid #6764FF;
+  }
+  
+  .Toggle_arrow {
+    right: 0.8vw;
+    top: 0.8vw;
+    font-size: 1.5vw;
+    color: #6764FF;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .States_List_Wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3vw;
+    height:6vw;
+    overflow-y: scroll;
+    width: 100%;
+    z-index: 999;
+    background-color: #FFFF;
+  }
+  
+  .States {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.8vw;
+    flex-shrink: 0;
+    width: 98%;
+    margin-bottom: 0.2vh;
+    margin-top: 0.2vh;
+    border-radius: 0.5vw;
+    background-color: #FFFF;
+    border: 2px solid #6764FFCC;
+    cursor: pointer;
+  }
+  
+  .States_List_Wrapper::-webkit-scrollbar {
+    width: 8px;
+    background-color: #eeee;
+  }
+  
+  .States_List_Wrapper::-webkit-scrollbar-thumb {
+    background-color: #6764FF;
+    border-radius: 4px;
+  }
+ 

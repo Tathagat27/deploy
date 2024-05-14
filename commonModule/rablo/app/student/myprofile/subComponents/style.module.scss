@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.transMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    border-radius: calc((14 / 1920) * 100vw);
+    width: calc((1250 / 1920) * 100vw);
+    height: 60vh;
+    overflow: scroll;
+    padding: calc((100 / 1920) * 100vw) 0px;
+}
+
+.transContent {
+    margin-top: calc((100 / 1920) * 100vw);
+    margin-bottom: calc((200 / 1920) * 100vw);
+    padding: calc((20 / 1920) * 100vw) 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    height: calc((60 / 1920) * 100vw);
+    width: calc((250 / 1920) * 100vw);
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ec5f70;
+    border-radius: calc((12 / 1920) * 100vw);
+}
+
+
+.transMain::-webkit-scrollbar {
+    width: 0px;
+}
+
+.overMain {
+    width: calc((1150 / 1920) * 100vw);
+    height: 60vh;
+    overflow: scroll;
+    font-family: "Poppins", sans-serif;
+    padding: calc((50 / 1920) * 100vw) calc((50 / 1920) * 100vw) calc((50 / 1920) * 100vw);
+    background-color: #fff;
+    border-radius: calc((8 / 1920) * 100vw);
+
+    .overview {
+        margin: calc((10 / 1920) * 100vw) 0;
+        padding-bottom: calc((280 / 1920) * 100vw);
+        color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .row {
+            display: flex;
+            width: 100%;
+            text-decoration: none;
+            justify-content: space-between;
+            margin-bottom: calc((30 / 1920) * 100vw);
+            color: #ec5f70;
+
+            .rowMain {
+                font-weight: 700;
+                font-size: calc((22 / 1920) * 100vw);
+            }
+
+            .edit {
+                cursor: pointer;
+            }
+        }
+
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: calc((10 / 1920) * 100vw);
+
+            > div {
+                width: 27vw;
+                padding: calc((20 / 1920) * 100vw);
+                display: flex;
+                // gap: calc((10 / 1920) * 100vw);
+
+                h3 {
+                    color: rgba(0, 0, 0, 0.6);
+                    font-size: calc((20 / 1920) * 100vw);
+                    margin-bottom: calc((10 / 1920) * 100vw);
+                }
+
+                .profile,
+                .locked {
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    background-color: #ec5f70;
+                    width: calc((60 / 1920) * 100vw);
+                    height: calc((60 / 1920) * 100vw);
+                }
+
+                .profile {
+                    background-color: lightblue;
+                }
+
+                .addbutton {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    span {
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+
+                    .red {
+                        font-size: calc((16 / 1920) * 100vw);
+                        color: #ec5f70;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                &.locked {
+                    .add-button {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .textBlack {
+        font-size: calc((24 / 1920) * 100vw);
+        color: #000000;
+    }
+
+    .red {
+        color: rgba(236, 95, 112, 1);
+        font-size: calc((14 / 1920) * 100vw);
+    }
+
+    .divCenter {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .location {
+        width: 100%;
+    }
+
+    .borderBottom {
+        padding-bottom: calc((10 / 1920) * 100vw);
+        border-bottom: calc((1 / 1920) * 100vw) solid rgba(0, 0, 0, 0.15);
+    }
+
+    .rowEd {
+        display: flex;
+        width: 100%;
+        margin-top: calc((20 / 1920) * 100vw);
+        justify-content: space-between;
+        margin-bottom: calc((15 / 1920) * 100vw);
+        color: #ec5f70;
+
+        .rowMain {
+            font-weight: 700;
+            font-size: calc((22 / 1920) * 100vw);
+        }
+
+        .edit {
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+    .details {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: calc((1 / 1920) * 100vw) solid #ccc;
+
+        .divCenter {
+            display: flex;
+        }
+    }
+
+    .subjects {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+        margin-left: calc((30 / 1920) * 100vw);
+        border-bottom: calc((1 / 1920) * 100vw) solid #ccc;
+        gap: calc((30 / 1920) * 100vw);
+    }
+
+    .divCenter {
+        display: flex;
+        align-items: center;
+        width: calc((300 / 1920) * 100vw);
+        margin-bottom: calc((20 / 1920) * 100vw);
+        flex-shrink: 0; /* Prevent items from shrinking */
+    }
+
+    .detLogo{
+        width: calc((70 / 1920) * 100vw);
+        height: calc((70 / 1920) * 100vw);
+    }
+
+    .locked {
+        width: calc((75 / 1920) * 100vw);
+        height: calc((75 / 1920) * 100vw);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+        border-radius: 50%;
+        margin-right: calc((35 / 1920) * 100vw); /* Adjust as needed */
+    }
+
+    .textBlack {
+        font-size: calc((22 / 1920) * 100vw); /* Adjust as needed */
+        color: rgba(0, 0, 0, 0.6); /* Black color */
+    }
+
+    .addbutton {
+        display: flex;
+        align-items: center;
+    }
+
+    .subLogo{
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+
+    .red {
+        color: #ec5f70; 
+        font-weight: bold; 
+    }
+
+    > div {
+        align-items: flex-start;
+    }
+}
+
+
+.overMain::-webkit-scrollbar {
+    width: 0px;
+}

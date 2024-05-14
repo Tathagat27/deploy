@@ -1,0 +1,65 @@
+.Others_Objective {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 4.68vh;
+  padding: 1.5vw, 0;
+  border-radius: 2vw;
+  background-color: linear-gradient(0deg, #6764ff, #6764ff),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  gap: 9.06px;
+  position: relative;
+  color: rgba(103, 100, 255, 0.8);
+  border: 1px solid rgba(103, 100, 255, 0.8);
+  cursor: pointer;
+  user-select: none;
+  margin-top: 1vw;
+  margin-bottom: 0.5rem;
+  > p:nth-of-type(1) {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .Other_input {
+    height: 2vw;
+    // width: fit-content;
+    border-radius: 2vw;
+    border: 0.5px solid #6764ff;
+    margin-right: 0.5vh;
+    background-color: #eeeeee;
+    padding-left: 2vw;
+  }
+
+  .Other_input_sq {
+    height: 2vw;
+    width: 3rem;
+    margin-left: 4rem;
+    padding-left: 0.7rem;
+    border: none;
+  }
+
+  .Other_input:focus {
+    outline: none;
+  }
+  .Other_input::placeholder {
+    text-align: center;
+    letter-spacing: 0.5vh;
+    color: #aaaaaa;
+    margin-right: 1vw;
+  }
+  .Plus_icon {
+    position: absolute;
+    color: #6764ff;
+    font-size: 1.7vw;
+    right: 0.5vw;
+  }
+}
+
+.Others_Objective:hover {
+  background-color: rgba(103, 100, 255, 0.233);
+}

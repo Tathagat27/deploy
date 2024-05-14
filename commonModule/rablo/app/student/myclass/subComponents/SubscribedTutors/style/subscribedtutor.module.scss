@@ -1,0 +1,139 @@
+.subscribedtutorcontainer{
+    width: 66.198vw;
+    min-height: 20.417vw;
+
+    .heading{
+        font-family: Poppins;
+        font-size: 1.667vw;
+        font-weight: 600;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.7);
+
+
+    }
+
+    .subscribedtutorwrapper{
+        width: 63.54vw;
+        height: 16.302vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 1.823vw;
+        align-items: center;
+        overflow-x: auto;
+        padding-left: 0.4vw;
+        padding-right: 0.4vw;
+
+
+        .subtutorcard{
+            width: 11.25vw;
+            height: 14.45vw;
+            border-radius: 11.41px;
+            background: rgba(255, 255, 255, 1);
+            border: 0.4px solid rgba(197, 197, 197, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0.22vw;
+
+
+            .subtutorimage{
+                width: 10.417vw;
+                height: 8.542vw;
+                border-radius: 7.6px;
+                border: 0.2px;
+
+            }
+
+            .tutorname{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 0.878vw;
+                width: 10vw;
+                
+                font-family: Poppins;
+                font-size: 0.792vw;
+                font-weight: 600;
+                letter-spacing: 0.01em;
+                color: rgba(0, 0, 0, 0.7);
+
+
+
+
+                .verifyicon{
+                    width: 0.792vw;
+                    height: 0.778vw;
+                
+
+                }
+            }
+
+            .tutorclass{
+                font-family: Poppins;
+                height: 0.573vw;
+                width: 9.6vw;
+
+                font-size: 0.634vw;
+                font-weight: 600;
+                letter-spacing: 0.01em;
+                text-align: left;
+                line-height: 0.713vw;
+                color: rgba(0, 0, 0, 0.3);
+
+            }
+
+            .viewprofilebutton{
+                width: 9.688vw;
+                height: 1.667vw;
+                padding: 0.713vw 0px 0.713vw 0px;
+                gap: 0.713vw;
+                border-radius: 9.13px;
+                border: 1.52px;
+                background: rgba(255, 255, 255, 1);
+                border: 1.52px solid rgba(236, 95, 112, 1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                font-family: Poppins;
+                font-size: 0.625vw;
+                font-weight: 500;
+                letter-spacing: -0.01em;
+                text-align: center;
+                color: rgba(236, 55, 55, 1);
+
+                .arrowline{
+                    width: 0.607vw;                  
+                    
+
+                }
+
+                &:hover {
+                    background-color: rgba(236, 95, 112, 1);
+                    color: rgba(255, 255, 255, 1);
+
+
+                    .arrowline{
+                        filter: brightness(0) invert(1);
+
+                    }
+
+
+                }
+
+
+            }
+
+
+
+        }
+
+    }
+    .subscribedtutorwrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+}

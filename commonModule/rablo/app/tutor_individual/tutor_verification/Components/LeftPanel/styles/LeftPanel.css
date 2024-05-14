@@ -1,0 +1,39 @@
+.left-panel {
+  width: 36.5vw;
+  height: 100vh;
+  background: rgba(103, 100, 255, 0.56);
+}
+.left-panel .logo-container {
+  margin: 5.648vh 0 0 5.555vh;
+}
+.left-panel .logo-container .back-arrow {
+  width: 3.125vw;
+  height: 5.555vh;
+  margin-right: 0.925vh;
+}
+.left-panel .logo-container .rablo-logo {
+  width: 13.021vw;
+  height: 6.666vh;
+}
+.left-panel .logout-button {
+  background-color: white;
+  width: 7.5vw;
+  height: 4.537vh;
+  background-image: url(../../../../../GlobalComponents/Assets_tutor/Images/logout-button.svg);
+  border-radius: 0.5rem;
+  margin: 78.426vh 0 0 5.648vh;
+  display: flex;
+  color: #1d35fb;
+}
+.left-panel .logout-button .logout-logo {
+  width: 1.563vw;
+  height: 2.788vh;
+  margin: 0.926vh 0 0 0.833vh;
+}
+.left-panel .logout-button .logo-content {
+  font-size: 1.852vh;
+  font-weight: 500;
+  line-height: normal;
+  font-family: "Poppins";
+  margin: 0.833vh 2.222vh 0.926vh 1.111vh;
+}/*# sourceMappingURL=LeftPanel.css.map */

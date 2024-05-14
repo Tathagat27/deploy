@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.transMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    border-radius: 14px;
+    width: 1000px;
+    height: 550px;
+
+    .transContent {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        height: 40px;
+        width: 130px;
+        border: 0;
+        color: #fff;
+        font-weight: bold;
+        background-color: #ec5f70;
+        border-radius: 12px;
+    }
+}
+
+.overMain {
+    width: 1000px;
+    font-family: "Poppins", sans-serif;
+    padding: 50px 50px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+
+    .overview {
+        margin: 10px 0;
+        padding-bottom: 150px;
+        color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .row {
+            display: flex;
+            width: 100%;
+            text-decoration: none;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            color: #ec5f70;
+
+            .rowMain {
+                font-weight: 700;
+                font-size: 22px;
+            }
+
+            .edit {
+                cursor: pointer;
+            }
+        }
+
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 10px;
+
+            > div {
+                width: calc(43.33% - 20px);
+                padding: 20px;
+                display: flex;
+                gap: 10px;
+
+                h3 {
+                    color: rgba(0, 0, 0, 0.6);
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+
+                .profile,
+                .locked {
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    background-color: #ec5f70;
+                    width: 60px;
+                    height: 60px;
+                }
+
+                .profile {
+                    background-color: lightblue;
+                }
+
+                .addbutton {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    span {
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+
+                    .red {
+                        font-size: 16px;
+                        color: #ec5f70;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                &.locked {
+                    .add-button {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .textBlack {
+        font-size: 24px;
+        color: #000000;
+    }
+
+    .red {
+        color: rgba(236, 95, 112, 1);
+        font-size: 14px;
+    }
+
+    .divCenter {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .location {
+        width: 100%;
+    }
+
+    .borderBottom {
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    }
+
+    .rowEd {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        color: #ec5f70;
+
+        .rowMain {
+            font-weight: 700;
+            font-size: 22px;
+        }
+
+        .edit {
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+    .details {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        .divCenter {
+            display: flex;
+        }
+    }
+
+    .subjects {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        border-bottom: 1px solid #ccc;
+        gap: 30px;
+    }
+
+    .divCenter {
+        display: flex;
+        align-items: center;
+        width: 270px;
+        margin-bottom: 20px;
+        h3 {
+            font-size: 16px;
+        }
+    }
+
+    .locked {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+        border-radius: 50%;
+        margin-right: 20px; /* Adjust as needed */
+    }
+
+    .textBlack {
+        font-size: 18px; /* Adjust as needed */
+        color: rgba(0, 0, 0, 0.6); /* Black color */
+    }
+
+    .addbutton {
+        display: flex;
+        align-items: center;
+    }
+
+    .red {
+        color: #ec5f70; /* Red color */
+        font-weight: bold; /* Bold font weight */
+    }
+
+    > div {
+        align-items: flex-start;
+    }
+}

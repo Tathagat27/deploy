@@ -1,0 +1,142 @@
+.questionContainer {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.LogoFill {
+  fill: #fff;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgba(101, 6, 6, 0.8);
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.option {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+  z-index: 10;
+  font-weight: 600;
+  border: 2px solid rgba(245, 51, 74, 0.8);
+  border-radius: 10px;
+  color: rgba(245, 51, 74, 0.8);
+  padding: 12px 35px 12px 12px;
+}
+.option img {
+  margin-right: 20px;
+}
+
+.belowDiv {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: rgba(245, 51, 74, 0.8);
+  color: #fff;
+}
+.belowDiv > p {
+  font-weight: bold;
+}
+.belowDiv > div p {
+  font-size: 10px;
+}
+
+.optionsColumn {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.optionC {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid rgba(245, 51, 74, 0.8);
+  border-radius: 10px;
+  color: rgba(245, 51, 74, 0.8);
+  padding: 12px 35px 12px 12px;
+}
+.optionC img {
+  margin-right: 20px;
+}
+.optionC p {
+  font-size: 12px;
+}
+.optionC .optionText {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.optionC .optionText > span {
+  margin: 0;
+  font-weight: 600;
+}
+.optionC .optionText > p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.span {
+  display: flex;
+}
+
+.selected {
+  background-color: rgba(245, 51, 74, 0.8);
+  color: #fff;
+}
+
+.selectd {
+  background-color: rgba(245, 51, 74, 0.8);
+  border-radius: 10px;
+}
+
+.input {
+  margin-right: 5px;
+}
+
+.span {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.optionRangeB {
+  width: 300px;
+}
+
+.optionRange {
+  width: 300px;
+}
+
+.optionRangeA {
+  width: 380px;
+}
+
+.DarkLogo {
+  margin-right: 15px;
+}/*# sourceMappingURL=MultipleChoice.module.css.map */

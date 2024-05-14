@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.profile {
+  font-family: "Poppins", sans-serif;
+  padding: 30px 50px;
+  width: 65.1041666667vw;
+}
+.profile h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.profile h2:hover {
+  cursor: pointer;
+}
+.profile input:focus {
+  outline: none;
+}
+.profile .emailinp {
+  width: 240px;
+}
+.profile .tab {
+  display: flex;
+  margin-bottom: 20px;
+}
+.profile .tab div {
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid rgb(217, 217, 217);
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.profile .tab div:hover {
+  background-color: #f3f3f3;
+}
+.profile .tab div.active {
+  border-bottom: 4px solid rgb(245, 51, 74);
+  color: #ec5f70;
+}
+.profile .formDiv {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.profile .form {
+  background-color: #fff;
+  width: 45vw;
+  height: 52vh;
+  overflow: scroll;
+  padding: 1.04166667vw;
+  margin-top: 1.78125vh;
+  margin-bottom: 1.04166667vw;
+}
+.profile .form h2 {
+  font-size: 1.04166667vw;
+  margin-bottom: 1.19791667vw;
+  color: #000000;
+}
+.profile .form .formGroup {
+  margin-bottom: 1.04166667vw;
+  width: 100%;
+}
+.profile .form .formGroup label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.04166667vw;
+  margin-bottom: 0.52083333vw;
+  color: rgba(245, 51, 74, 0.8);
+}
+.profile .form .formGroup .prelabel {
+  color: rgba(101, 6, 6, 0.8);
+}
+.profile .form .formGroup .inputWithButton {
+  display: flex;
+  padding: 0.36041667vw;
+  border-radius: 0.20833333vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0.10416667vw solid rgb(245, 51, 74);
+}
+.profile .form .formGroup .inputWithButton h4 {
+  font-size: 0.9375vw;
+  margin-left: 0.78125vw;
+  margin-top: 0.52083333vw;
+  color: rgba(0, 0, 0, 0.5);
+}
+.profile .form .formGroup .inputWithButton input[type=file],
+.profile .form .formGroup .inputWithButton input[type=email],
+.profile .form .formGroup .inputWithButton input[type=text],
+.profile .form .formGroup .inputWithButton input[type=tel] {
+  width: 100%;
+  height: 3vw;
+  border: 0px;
+  margin: 0px;
+}
+.profile .form .formGroup .inputWithButton button {
+  font-size: 0.625vw; /* 12px / 1920 * 100vw */
+  width: 4.16666667vw; /* 80px / 1920 * 100vw */
+}
+.profile .form .formGroup .inputWithButton img {
+  margin: 0.52083333vw; /* 10px / 1920 * 100vw */
+}
+.profile .form .formGroup .inputWithButton .phoneInput {
+  display: flex;
+  margin: 0;
+}
+.profile .form .formGroup .inputWithButton .phoneInput .phoneIn {
+  width: 0.78125vw; /* 15px / 1920 * 100vw */
+  height: 1.5625vw; /* 30px / 1920 * 100vw */
+  margin: 0 0.26041667vw; /* 5px / 1920 * 100vw */
+  text-align: center;
+  border: none;
+  border: 0.05208333vw solid black; /* 1px / 1920 * 100vw */
+  font-size: 0.83333333vw; /* 16px / 1920 * 100vw */
+}
+.profile .form .formGroup .inputWithButton .phoneInput .phoneIn:focus {
+  outline: none;
+  border-bottom-color: blue; /* Change focus border color as needed */
+}
+.profile .form .formGroup select,
+.profile .form .formGroup input[type=text],
+.profile .form .formGroup input[type=file],
+.profile .form .formGroup input[type=email],
+.profile .form .formGroup input[type=tel],
+.profile .form .formGroup textarea {
+  width: 100%;
+  height: 3vw;
+  padding: 0.52083333vw 1.04166667vw;
+  border: 0.10416667vw solid rgb(245, 51, 74); /* 2px / 1920 * 100vw */
+  border-radius: 0.20833333vw; /* 4px / 1920 * 100vw */
+  margin-bottom: 0.52083333vw; /* 10px / 1920 * 100vw */
+  box-sizing: border-box;
+}
+.profile .form .formGroup .verifyButton {
+  background-color: rgba(245, 51, 74, 0.8);
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  width: 3.64583333vw; /* 70px / 1920 * 100vw */
+  height: 1.5625vw; /* 30px / 1920 * 100vw */
+  border-radius: 0.3125vw; /* 6px / 1920 * 100vw */
+  cursor: pointer;
+}
+.profile .form .formGroup .verifyButton:hover {
+  background-color: rgba(245, 51, 74, 0.8);
+}
+.profile .form .formGroup textarea {
+  height: 5.20833333vw; /* 100px / 1920 * 100vw */
+}
+.profile .form .formGroupRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 2.34375vw;
+}
+.profile .form .formGroupRow .formGroup input,
+.profile .form .formGroupRow .formGroup input[type=file],
+.profile .form .formGroupRow .formGroup input[type=email],
+.profile .form .formGroupRow .formGroup input[type=tel] {
+  width: 20.5vw;
+}
+.profile .form .formGroupRow .formGroup .inputWithButton {
+  width: 21vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.3vw;
+}
+.profile .form .formGroupRow .formGroup .inputWithButton h4 {
+  font-size: 1.4vw;
+  margin: 0.5vw;
+  color: #ccc;
+  font-weight: 500;
+}
+.profile .form button {
+  background-color: rgba(245, 51, 74, 0.8);
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.profile .form .languageButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.52083333vw; /* 10px / 1920 * 100vw */
+  margin-top: 1.04166667vw; /* 20px / 1920 * 100vw */
+  margin-bottom: 4.6875vw; /* 90px / 1920 * 100vw */
+}
+.profile .form .languageButton {
+  background-color: #fff;
+  color: rgb(245, 51, 74);
+  border: 0.05208333vw solid rgb(245, 51, 74); /* 1px / 1920 * 100vw */
+  padding: 0.52083333vw 1.04166667vw; /* 10px 20px / 1920 * 100vw */
+  border-radius: 1.04166667vw; /* 20px / 1920 * 100vw */
+  margin-right: 1.04166667vw; /* 20px / 1920 * 100vw */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.profile .form .languageButton:hover {
+  color: #fff;
+  background-color: rgba(245, 51, 74, 0.5);
+  border: 0.05208333vw solid rgb(245, 51, 74); /* 1px / 1920 * 100vw */
+  transition: background-color 0.3s ease;
+}
+.profile .form .languageButton.selected {
+  background-color: rgba(245, 51, 74, 0.8);
+  color: #fff;
+}
+.profile input {
+  height: 3vw;
+}
+.profile .form::-webkit-scrollbar {
+  width: 0px;
+}
+.profile .form::-webkit-scrollbar {
+  width: 0px;
+}
+.profile .rowBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.82291667vw;
+}
+.profile .rowBtn .basicbtn {
+  border: 0;
+  width: 4.16666667vw; /* 80px / 1920 * 100vw */
+  background-color: #fff;
+  color: #ec5f70;
+}
+.profile .rowBtn button {
+  font-size: 0.83333333vw; /* 16px / 1920 * 100vw */
+  padding: 0.625vw 1.04166667vw; /* 12px 20px / 1920 * 100vw */
+}
+.profile .acadRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2.60416667vw; /* 50px / 1920 * 100vw */
+  gap: 1.04166667vw; /* 20px / 1920 * 100vw */
+}
+.profile .acadRow .backBtn {
+  border: 0.15625vw solid #ec5f70; /* 3px / 1920 * 100vw */
+  color: #ec5f70;
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 0.41666667vw; /* 8px / 1920 * 100vw */
+  height: 3.08333333vw; /* 40px / 1920 * 100vw */
+  width: 5.2vw; /* 100px / 1920 * 100vw */
+}
+.profile .acadRow .saveBtn {
+  width: 10.41666667vw; /* 200px / 1920 * 100vw */
+  border-radius: 0.41666667vw; /* 8px / 1920 * 100vw */
+  height: 2.08333333vw; /* 40px / 1920 * 100vw */
+  font-weight: bold;
+}
+.profile .rowPre {
+  display: flex;
+  align-items: center;
+  margin-top: 0.13020833vw; /* 2.5px / 1920 * 100vw */
+  justify-content: space-between;
+}
+.profile .rowPre .backBtn {
+  border: 0.15625vw solid #ec5f70; /* 3px / 1920 * 100vw */
+  color: #ec5f70;
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 0.41666667vw; /* 8px / 1920 * 100vw */
+  height: 2.08333333vw; /* 40px / 1920 * 100vw */
+  width: 5.20833333vw; /* 100px / 1920 * 100vw */
+}
+.profile .rowPre .saveBtn {
+  width: 10.41666667vw; /* 200px / 1920 * 100vw */
+  border-radius: 0.41666667vw; /* 8px / 1920 * 100vw */
+  height: 2.08333333vw; /* 40px / 1920 * 100vw */
+  font-weight: bold;
+}
+.profile .fileinputcontainer {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.profile .fileinputcontainer button {
+  width: 11.19791667vw; /* 215px / 1920 * 100vw */
+  border-radius: 0.78125vw; /* 15px / 1920 * 100vw */
+}
+.profile .fileinput {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.profile .customdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.10416667vw dashed rgba(0, 0, 0, 0.5); /* 2px / 1920 * 100vw */
+  border-radius: 0.625vw; /* 12px / 1920 * 100vw */
+  padding: 1.04166667vw; /* 20px / 1920 * 100vw */
+  margin: 0 auto;
+}
+.profile .customdiv .button {
+  border: none;
+  color: white;
+  padding: 0.52083333vw 1.04166667vw; /* 10px 20px / 1920 * 100vw */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.83333333vw; /* 16px / 1920 * 100vw */
+  cursor: pointer;
+  margin-bottom: 0.52083333vw; /* 10px / 1920 * 100vw */
+}
+.profile .customdiv .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.72916667vw; /* 14px / 1920 * 100vw */
+  line-height: 0.0130208333vw; /* 0.25px / 1920 * 100vw */
+  color: rgba(0, 0, 0, 0.5);
+}
+.profile .basicsave {
+  width: 13.02083333vw; /* 250px / 1920 * 100vw */
+  padding: 0.26041667vw; /* 5px / 1920 * 100vw */
+  border-radius: 0.41666667vw; /* 8px / 1920 * 100vw */
+}
+.profile .container {
+  margin-top: 1.04166667vw; /* 20px / 1920 * 100vw */
+  padding: 0px 1.04166667vw; /* 20px / 1920 * 100vw */
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile .subject {
+  padding: 0.78125vw 1.30208333vw; /* 15px 25px / 1920 * 100vw */
+  margin: 0.26041667vw 0.52083333vw; /* 5px 10px / 1920 * 100vw */
+  gap: 1.04166667vw; /* 10px / 1920 * 100vw */
+  border: 0.078125vw solid rgb(245, 51, 74); /* 1.5px / 1920 * 100vw */
+  font-weight: bold;
+  color: rgb(245, 51, 74);
+  border-radius: 1.30208333vw; /* 25px / 1920 * 100vw */
+  cursor: pointer;
+}
+.profile .subject:hover {
+  color: #fff;
+  background-color: rgba(245, 51, 74, 0.5);
+  border: 0.05208333vw solid rgb(245, 51, 74); /* 1px / 1920 * 100vw */
+  transition: background-color 0.3s ease;
+}
+.profile .selected {
+  background-color: rgb(245, 51, 74);
+  color: #fff;
+}
+.profile .marginB {
+  margin-top: 9.375vw; /* 180px / 1920 * 100vw */
+}/*# sourceMappingURL=Profile.module.css.map */

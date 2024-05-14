@@ -1,0 +1,161 @@
+.bottomwrapper{
+
+    width: 52.62vw;
+    height: 60.208vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1.5vw;
+
+
+    .bwheading{
+        font-family: Poppins;
+        font-size: 1.146vw;
+        font-weight: 600;
+        text-align: left;
+        color: rgba(236, 95, 112, 1);
+
+
+    }
+
+    .bwhline{
+        width: 51.667vw;
+        height: 0px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex: 0.9;
+    }
+
+    .contactdetails{
+        height: 12.4vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+    }
+
+    .currentlocation{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 15.833vw;
+
+
+        .mapImage{
+            width: 52.604vw;
+            height: 11.51vw;
+            border-radius: 20px;
+
+        }
+    }
+
+    .preference{
+     height: 11.094vw;
+     display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .language{
+     height: 7.552vw;
+     display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .educationalinfo{
+        height: 6.042vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    
+
+    .bwrow{
+        width: 52.24vw;
+        height: 3.385vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+        grid-template-rows: auto; /* One row with auto height */
+        gap: 1.5vw; /* Gap between grid items */
+    }
+
+    .bwlangrow{
+        width: 52.24vw;
+        height: 3.385vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Two columns with equal width */
+        grid-template-rows: auto; /* One row with auto height */
+        gap: 1vw; /* Gap between grid items */
+    }
+
+    .bwcard{
+        height: 3.125vw;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .imgcontainer{
+            width: 3.125vw;
+            height: 3.125vw;
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background:  rgba(236, 95, 112, 1);
+
+            color:rgba(255, 255, 255, 1);
+
+            margin-right: 1vw;
+
+        }
+
+        .bwicon{
+            width: 1.47vw;
+            height: 1.2vw;
+
+        }
+
+        .bwtext{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .toptext{
+                font-family: Poppins;
+                font-size: 1.042vw;
+                font-weight: 600;
+                text-align: left;
+                color: rgba(0, 0, 0, 0.6);
+                margin: 0;
+
+
+            }
+            .bottomtext{
+                font-family: Poppins;
+                font-size: 0.833vw;
+                font-weight: 500;
+                text-align: left;
+                color: rgba(184, 184, 184, 1);
+                margin: 0;
+
+
+            }
+        }
+    }
+
+}

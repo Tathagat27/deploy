@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.tab {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.0416666667vw;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.5208333333vw;
+}
+.tab div {
+  padding: 0.78125vw;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.0520833333vw solid transparent;
+  gap: 0px;
+  font-weight: 600;
+  font-size: 1.1458333333vw;
+  color: #ec5f70;
+  border-radius: 0.7291666667vw;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.tab div .tabImg {
+  height: 1.1979166667vw;
+  margin-right: 0.5208333333vw;
+}
+.tab div .borderright {
+  border-radius: 0;
+  border-right: 0.0520833333vw solid #cfcfcf;
+  margin-right: 1.5625vw;
+}
+.tab div.active {
+  background-color: #ec5f70;
+  color: #fff;
+}
+.tab div .tabdiv {
+  background-color: #fff;
+}
+
+.MySideProfile {
+  width: 24.4791666667vw;
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5208333333vw;
+  transition: 0.3s;
+}
+.MySideProfile h2 {
+  font-weight: bold;
+}
+.MySideProfile .MySideProfileContainer {
+  height: 94vh;
+  width: 19.7916666667vw;
+  margin: 0.2604166667vw;
+  padding: 0.5208333333vw;
+  border-radius: 0.4166666667vw;
+  background-color: rgba(223, 205, 210, 0.7);
+  transition: 0.3s;
+}
+.MySideProfile .profileDetails {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.MySideProfile .profileDetails .button {
+  margin-top: 0.2604166667vw;
+  background-color: #ef6b7d;
+  color: #fff;
+  border-radius: 0.3125vw;
+}
+.MySideProfile .img {
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+}
+.MySideProfile .img .Logo {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+}
+.MySideProfile .statlogo {
+  width: 1.8229166667vw;
+  color: #ec5f70;
+  margin-top: 0.2604166667vw;
+}
+.MySideProfile .username {
+  margin: 0;
+  margin-top: 0.5208333333vw;
+  color: #fff;
+  font-size: 0.9375vw;
+}
+.MySideProfile .fullName {
+  margin: 0;
+  font-size: 1.1458333333vw;
+}
+.MySideProfile .grade {
+  margin: 0;
+  font-size: 0.9375vw;
+}
+.MySideProfile .gradeType {
+  font-size: 0.7291666667vw;
+  font-weight: 400;
+}
+.MySideProfile .board {
+  font-weight: bold;
+}
+.MySideProfile .editProfileButton {
+  padding: 0.78125vw 0.78125vw;
+  border: none;
+  border-radius: 0.5208333333vw;
+  background-color: #ef6b7d;
+  color: #fff;
+  font-size: 0.9375vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.MySideProfile .editProfileButton:hover {
+  background-color: #ea5b6e;
+}
+.MySideProfile .statistics {
+  flex: 1 1 28%;
+  margin-top: 15px;
+  align-items: center;
+}
+.MySideProfile .statisticsTitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.MySideProfile .statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.MySideProfile .stat {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 8.59375vw;
+  height: auto;
+  padding: 2px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+}
+.MySideProfile .statInfo {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.MySideProfile .statVal {
+  margin: 0;
+  font-size: 1.1458333333vw;
+}
+.MySideProfile .statValue {
+  margin: 0;
+  font-size: 1.0416666667vw;
+}
+.MySideProfile .statLabel {
+  margin: 0;
+  color: #000;
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: bold;
+}
+.MySideProfile .calender {
+  flex: 1 1 48%;
+  margin-top: 5px;
+}
+.MySideProfile .calenderTitle {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.MySideProfile .calenderContent {
+  height: 200px;
+  background-color: #f4f4f4;
+}
+.MySideProfile .preferredLanguages {
+  flex: 1 1 50%;
+  margin-top: 10px;
+}
+.MySideProfile .languagesTitle {
+  font-size: 16px;
+}
+.MySideProfile .languagesContent {
+  display: flex;
+  justify-content: space-between;
+}
+.MySideProfile .svglogo {
+  height: 20px;
+}
+.MySideProfile .stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: auto;
+  padding: 4px;
+  gap: 10px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+}
+.MySideProfile .statlog {
+  color: #ec5f70;
+}
+.MySideProfile .ArrowUp {
+  width: 100%;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.MyProfilePage {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+}
+.MyProfilePage .tabDiv {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.myprofile {
+  font-family: "Poppins", sans-serif;
+}
+.myprofile .wrapupbar {
+  padding: 0.625vw 1.25vw;
+  border-radius: 0.625vw;
+  font-weight: bold;
+  background-color: #fff;
+}
+.myprofile .wrapLogo {
+  width: 2.8645833333vw;
+  height: 2.8645833333vw;
+}
+.myprofile h3 {
+  font-size: 1.25vw;
+}
+.myprofile h1 {
+  font-size: 1.25vw;
+  margin-bottom: 0.5208333333vw;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.myprofile .details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5208333333vw;
+}
+.myprofile .details .borderright {
+  display: flex;
+  align-items: center;
+  border-right: 0.0520833333vw solid #c7c7c7;
+  padding-right: 1.5625vw;
+  margin-right: 1.0416666667vw;
+}
+.myprofile .details .right {
+  margin-left: 2.6041666667vw;
+  margin-right: 2.0833333333vw;
+}
+.myprofile .details .right h3 {
+  color: rgba(236, 95, 112, 0.75);
+  border-bottom: 0.0520833333vw solid #cfcfcf;
+}
+.myprofile .details .border {
+  display: flex;
+  align-items: center;
+  padding: 1.0416666667vw;
+}
+.myprofile .details .profile,
+.myprofile .details .locked {
+  border-radius: 50%;
+  background-color: rgba(236, 95, 112, 0.5);
+  width: 3.90625vw;
+  height: 3.90625vw;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.myprofile .details .locked {
+  background-color: #ec5f70;
+}
+.myprofile .details .addbutton {
+  display: flex;
+  flex-direction: row;
+  gap: 2.0833333333vw;
+}
+.myprofile .details .red {
+  color: rgb(236, 95, 112);
+}/*# sourceMappingURL=MyProfile.module.css.map */

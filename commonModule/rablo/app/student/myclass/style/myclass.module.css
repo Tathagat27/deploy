@@ -1,0 +1,443 @@
+.main {
+  display: flex;
+  flex-grow: unset;
+  width: 100vw;
+  height: 100vh;
+  margin: -8px;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(248, 248, 248);
+}
+
+.wrapper2 {
+  min-width: 23.8vw;
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../icons/SealLightHouse.gif") no-repeat fixed 0 20%/100vw 100vh;
+  transition: all 0.3s ease-in;
+}
+.wrapper2.hidden {
+  display: none;
+}
+
+.wrapper {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 90vh;
+  display: flex;
+  font-family: Poppins;
+}
+.container .viewplancard {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.container .viewplancard .crossicon {
+  width: 0.938vw;
+  height: 0.938vw;
+  background: transparent;
+  position: fixed;
+  top: 5%;
+  left: 95%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+}
+.container .viewplancard .bottomviewplancard {
+  width: 39.375vw;
+  height: 5.104vw;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15vw;
+  margin-top: 2vw;
+  border-radius: 15px;
+}
+.container .viewplancard .bottomviewplancard .sharebutton {
+  width: 7.43vw;
+  height: 3.177vw;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid rgba(248, 32, 131, 0.8);
+  background: transparent;
+  font-family: Poppins;
+  font-size: 1.042vw;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(248, 32, 131, 0.8);
+}
+.container .viewplancard .bottomviewplancard .subscribebutton {
+  width: 12.76vw;
+  height: 3.281vw;
+  border-radius: 8px;
+  border: 1px solid rgba(248, 32, 131, 0.8);
+  background: rgba(248, 32, 131, 0.8);
+  font-family: Poppins;
+  font-size: 1.25vw;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.container .lightbrightness {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6784313725);
+}
+.container .leftContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.container .leftContainer .myclassTabs {
+  width: 40.867vw;
+  height: 7.916vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 2vw;
+}
+.container .leftContainer .myclassTabs .top {
+  width: 29.982vw;
+  min-height: 3.4375vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .leftContainer .myclassTabs .top p {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  font-size: 1.667vw;
+  width: 7.604vw;
+}
+.container .leftContainer .myclassTabs .top .searchbox {
+  width: 17.169vw;
+  min-height: 3.4375vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.container .leftContainer .myclassTabs .top .searchbox input {
+  width: 17.169vw;
+  min-height: 3.4375vw;
+  padding-left: 3.646vw;
+  border: 0px;
+  border-radius: 16px;
+  font-size: 0.833vw;
+  background: rgb(236, 236, 236);
+}
+.container .leftContainer .myclassTabs .top .searchbox .searchIcon {
+  position: absolute;
+  height: 1.666vw;
+  width: 1.666vw;
+  margin-left: 1.25vw;
+}
+.container .leftContainer .myclassTabs .bottom {
+  width: 14.114vw;
+  min-height: 2.656vw;
+  display: flex;
+}
+.container .leftContainer .myclassTabs .bottom button {
+  width: 7.27vw;
+  min-height: 2.448vw;
+  cursor: pointer;
+  font-family: Poppins;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.042vw;
+  border: 0px;
+  border-bottom: 0.208vw solid rgba(208, 78, 98, 0.3);
+  background-color: transparent;
+}
+.container .leftContainer .myclassTabs .bottom .selected {
+  color: rgb(208, 78, 98);
+  border-bottom: 0.208vw solid rgb(208, 78, 98);
+}
+.container .leftContainer .classContent {
+  display: flex;
+  height: 75vh;
+  width: 79.167vw;
+  flex: 1;
+}
+.container .leftContainer .classContent .left {
+  flex: 0.36;
+  display: flex;
+  justify-content: center;
+}
+.container .leftContainer .classContent .left .list {
+  width: 20.833vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1vh;
+}
+.container .leftContainer .classContent .left .list .listheading {
+  font-size: 1.1458vw;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 0.52vw;
+}
+.container .leftContainer .classContent .left .list button {
+  width: 11.198vw;
+  min-height: 2.6vw;
+  font-size: 1.041vw;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 95, 112);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.container .leftContainer .classContent .left .list button .addicon {
+  height: 1.25vw;
+  width: 1.25vw;
+}
+.container .leftContainer .classContent .left .list .classCardContainer {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  gap: 40px;
+  width: 24.833vw;
+  height: 75vh;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+.container .leftContainer .classContent .left .list .classCardContainer::-webkit-scrollbar {
+  display: none;
+}
+.container .leftContainer .classContent .horizontalline {
+  border: 1px solid rgba(208, 78, 98, 0.5);
+  height: 61.018vh;
+  align-self: center;
+}
+.container .leftContainer .classContent .right {
+  flex: 0.64;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .leftContainer .classContent .right .overview {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  width: 39.375vw;
+  height: 70vh;
+}
+.container .leftContainer .classContent .right .overview .bottombuttons {
+  width: 39.375vw;
+  height: 5.104vw;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.container .leftContainer .classContent .right .overview .bottombuttons a {
+  font-family: Poppins;
+  font-size: 1.041vw;
+  font-weight: 500;
+  text-align: left;
+  color: var(--New-red-color, rgb(236, 95, 112));
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container .leftContainer .classContent .right .overview .bottombuttons button {
+  border: 2px solid var(--New-red-color, rgb(236, 95, 112));
+  width: 11.146vw;
+  height: 3.177vw;
+  color: var(--New-red-color, rgb(236, 95, 112));
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 1.041vw;
+  font-weight: 500;
+  cursor: pointer;
+  background: transparent;
+}
+.container .leftContainer .tutorcontainer {
+  display: flex;
+  height: auto;
+  width: 66.5vw;
+  flex: 1;
+  flex-direction: column;
+  padding: 2vw;
+  /* Hide scrollbar for IE, Edge and Firefox */
+}
+.container .leftContainer .tutorcontainer .scroller {
+  display: flex;
+  width: 63.27vw;
+  padding: 0.52vw;
+  height: 40vw;
+  gap: 0.52vw;
+  overflow: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.container .leftContainer .tutorcontainer .scroller::-webkit-scrollbar {
+  display: none;
+}
+.container .leftContainer .tutorcontainer .scroller {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.container .leftContainer .tutorcontainer .wrapper4 {
+  display: flex;
+  width: 64.53vw;
+  height: auto;
+  padding: 0px 0.26vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.833vw;
+}
+.container .leftContainer .tutorcontainer .wrapper4 .heading {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Poppins" sans-serif;
+  font-size: 1.667vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container .leftContainer .tutorcontainer .wrapper4 .sub_heading {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins" sans-serif;
+  font-size: 1.145vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .leftContainer .leftcontainer {
+  width: 66.042vw;
+  height: auto;
+  margin: 2vw;
+}
+.container .leftContainer::-webkit-scrollbar {
+  display: none;
+}
+.container .rightContainer {
+  width: 26.281vw;
+  height: 90vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex: 1;
+  overflow-y: auto;
+}
+.container .rightContainer .verticallineright {
+  width: 0px;
+  height: 70vh;
+  border: 2px solid rgba(103, 100, 255, 0.2);
+  margin-top: 5vw;
+}
+.container .rightContainer .rightwrapper {
+  width: 22.292vw;
+  height: 46.302vw;
+  border-radius: 30px;
+  background: rgb(236, 236, 236);
+  padding-left: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 1.5vw;
+}
+.container .rightContainer .rightwrapper .heading {
+  width: 17.552vw;
+  height: 4.854vw;
+  font-family: Poppins;
+  font-size: 1.458vw;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 1.6vw;
+}
+.container .rightContainer .rightwrapper .points {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+  width: 20.052vw;
+  height: 4.583vw;
+  margin-left: 1.6vw;
+}
+.container .rightContainer .rightwrapper .points .point {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .rightContainer .rightwrapper .points .redtick {
+  width: 1.5625vw;
+  height: 1.5625vw;
+  padding: 0px;
+  margin-right: 0.7vw;
+}
+.container .rightContainer .rightwrapper .points p {
+  font-family: Poppins;
+  font-size: 1.042vw;
+  font-weight: 400;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  color: rgb(29, 29, 29);
+}
+.container .rightContainer .rightwrapper .planline {
+  font-family: Poppins;
+  font-size: 0.9375vw;
+  font-weight: 600;
+  text-align: left;
+  height: 1.046vw;
+  margin-left: 1.6vw;
+  color: rgba(0, 0, 0, 0.7);
+}
+.container .rightContainer .rightwrapper .plans {
+  width: 17.24vw;
+  height: 24.479vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.6vw;
+}
+.container .rightContainer .rightwrapper .downkey {
+  width: 1.563vw;
+  height: 1.563vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.container .rightContainer::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=myclass.module.css.map */

@@ -1,0 +1,59 @@
+.MuiInputBase-root {
+  height: 6.019vh !important;
+  color: #787878 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  text-transform: capitalize !important;
+  position: relative;
+  width: 16.563vw;
+  font-size: 0.833vw !important;
+}
+.MuiOutlinedInput-notchedOutline {
+  border-radius: 0.208vw !important;
+  border: 1px solid #6764ff !important;
+  outline: none !important;
+}
+.MuiOutlinedInput-notchedOutline:focus {
+  border: 2px solid #6764ff !important;
+}
+.MuiDateCalendar-root {
+  border-radius: 0.52vw !important;
+  width: 19.875vw !important;
+  height: 17.843vw !important;
+  border: 2px solid #6764ff !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+
+  .MuiPickersCalendarHeader-root {
+    display: flex !important;
+    border-bottom: 2px solid rgba(103, 100, 255, 0.2);
+
+    justify-content: space-evenly !important;
+
+    .MuiPickersCalendarHeader-labelContainer {
+      //background-color: #787878 !important;
+      position: absolute !important;
+    }
+    .MuiPickersArrowSwitcher-root {
+      // background-color: #6764FF !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      // background-color: #6764FF !important;
+
+      .MuiButtonBase-root {
+        color: #6764ff;
+      }
+
+      .MuiPickersArrowSwitcher-spacer {
+        width: 30vh !important;
+        //background-color: #787878 !important;
+      }
+    }
+  }
+
+  .css-i4bv87-MuiSvgIcon-root{
+    width: 1.042vw !important;
+    height: 1.042vw !important;
+  }
+}

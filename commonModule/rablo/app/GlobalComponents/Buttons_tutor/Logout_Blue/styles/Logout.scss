@@ -1,0 +1,44 @@
+//@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.logout_btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    right:3vw ;
+    background: #ffffff;
+    height: 4.629vh;
+    width: 9.94vw;
+    border-radius: 0.5vw;
+    border: none;
+    z-index: 999;
+    color: rgba(103, 100, 255, 1);
+    margin-top: 2.2vh ;
+    margin-bottom: 1.8vh;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+    
+
+    .logout-icon{
+        font-size: 1.8vw;
+        margin-left: 1vw;
+    }
+    .ajak {
+        margin: 0 2vw;
+        padding: 0;
+        font-family: 'Poppins', sans-serif ;
+        color: rgba(103, 100, 255, 1);
+        font-size: 1.041vw ;
+        font-style: normal;
+        font-weight: 600;
+        margin-left: 0.4vw ;
+    }
+}
+
+.logout_btn:hover {
+    
+    margin-bottom: 2vh;
+    
+}
+

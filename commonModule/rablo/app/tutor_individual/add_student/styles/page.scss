@@ -1,0 +1,120 @@
+.add_student_main_wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding:1vh 1vh 2vw 2vw ;
+    background-color:#f3f3f3;
+
+    /* <=== Search bar to search students === > */
+    .search_students_search_bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 50vw;
+        margin-left: 3vw;
+        margin-top: 1vw;
+       
+        >h3:nth-of-type(1){
+            font-family: 'Poppins',sans-serif;
+            font-size: 1.66vw;
+            font-weight: 550;
+            color: #000000B2;
+        }
+        >div:nth-of-type(1){
+            position: relative;
+
+            .search_icon{
+                position: absolute;
+                top: 1.8vh;
+                left: 2vh;
+                color:#00000080;
+                font-size: 1.7vw;
+                font-weight: 600;
+            }
+            >input:nth-of-type(1){
+                width: 19vw;
+                height: 3.437vw;
+                border-radius: 1.294vw;
+                border: none;
+                font-weight: 600;
+                color: #6764FF;
+                padding-left:3.2vw;
+                padding-bottom: 0.5vh;
+                background-color: #ECECEC;
+            }
+            >input:nth-of-type(1):active{
+                    list-style: none;
+            }
+            input:nth-of-type(1)::placeholder,
+            textarea::placeholder{
+            font-family: 'Poppins',sans-serif;
+            font-size: 1vw;
+            font-weight: 600;
+            color: #00000080;
+            }
+            input:nth-of-type(1):focus{
+                outline: none;
+            }
+            .search_btn{
+                position: absolute;
+                padding-bottom: 0.7vh;
+                top: 1.2vh;
+                height: 2.3vw;
+                width: 4.8vw;
+                right:2vh;
+                background-color: #6764FF;
+                color: #ffffff;
+                border-radius: 1vh;
+                border-style: none;
+            }
+        }
+    }
+
+     /* <=== Navigation bar for tabs ONLINE, NEAR ME, INVITE, REQUEST, PROPOSAL === > */
+
+     .NavBar_for_Tabs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 2.5vw;
+        width: 40vw;
+        margin-left: 2vw;
+        margin-top: 1.2vw;
+
+        .Navigation_tab_headings{
+            display: flex;
+            flex-direction: row;
+            width: 98%;
+            align-items: center;
+            justify-content: space-between;
+            
+
+            >h4{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins',sans-serif;
+                font-size: 1.2vw;
+                cursor: pointer;
+                user-select: none;
+            }
+        }
+
+        .NavBar_underLine{
+            position: relative;
+            height: 0.5vh;
+            width: 100%;
+            border-radius: 0.7vh;
+            background-color: #D9D9D9;
+            >div:nth-of-type(1){
+                position: relative;
+                height: 0.5vh;
+                transition: 0.3s;
+                border-radius: 0.7vh;
+                background-color: #6764FF;
+            }
+        }
+     }
+}

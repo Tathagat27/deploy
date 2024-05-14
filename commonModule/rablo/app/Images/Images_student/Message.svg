@@ -1,0 +1,8 @@
+<svg width="42" height="32" viewBox="0 0 42 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1484 25.7959H12.2839C5.36808 25.7959 1.91016 24.4217 1.91016 17.5504V10.6791C1.91016 5.18211 5.36808 2.43359 12.2839 2.43359H26.1156C33.0314 2.43359 36.4894 5.18211 36.4894 10.6791V17.5504C36.4894 23.0474 33.0314 25.7959 26.1156 25.7959H25.2511C24.7151 25.7959 24.1965 26.0021 23.868 26.3456L21.2745 29.0942C20.1334 30.3035 18.2661 30.3035 17.125 29.0942L14.5316 26.3456C14.2549 26.0433 13.6152 25.7959 13.1484 25.7959Z" stroke="#D04E62" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.1094 14.8008H26.1248" stroke="#D04E62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.1914 14.8008H19.207" stroke="#D04E62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.2734 14.8008H12.289" stroke="#D04E62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="35.3374" cy="6.08108" rx="5.7632" ry="6.08108" fill="white"/>
+<path d="M39.1804 6.0814C39.1804 8.32039 37.4602 10.1355 35.3382 10.1355C33.2163 10.1355 31.4961 8.32039 31.4961 6.0814C31.4961 3.84241 33.2163 2.02734 35.3382 2.02734C37.4602 2.02734 39.1804 3.84241 39.1804 6.0814Z" fill="#D04E62"/>
+</svg>

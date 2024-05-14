@@ -1,0 +1,15 @@
+.checkbox {
+  margin-right: 4.097vw;
+  margin-left: -8.45vw;
+  width: 1.588vw;
+  height: 3.168vh;
+  border-radius: 0.26vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(236, 95, 112, 0.1019607843);
+  color: #EC5F70;
+  position: absolute;
+  font-weight: 600;
+}/*# sourceMappingURL=Checkbox.css.map */

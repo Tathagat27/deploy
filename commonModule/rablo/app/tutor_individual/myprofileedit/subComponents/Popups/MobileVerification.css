@@ -1,0 +1,148 @@
+*:focus{
+    outline: none;
+}
+
+.main-button {
+    background-color: #6764ff;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 4.1667vw 3.125vw 0 3.125vw;
+    display: flex;
+    height: 45vw;
+    width: 32.60vw;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    border: 0;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.78125vw;
+}
+
+.modal-actions button {
+    /* padding: 10px 15px; */
+    background-color: #6764ff;
+    color: #fff;
+    border: none;
+    width: 13.23vw;
+    height: 3.28vw;
+    border-radius: 0.4166vw;
+    font-size: 1.25vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+}
+
+
+.modal-actions button:hover {
+    background-color: #6764ff;
+}
+
+.logo {
+    margin-top: 25px;
+    position: relative;
+    right:20px;
+}
+
+.modal-actions button:not(:first-child) {
+    margin-left: 10px;
+}
+
+h2 {
+    
+    font-family: Poppins;
+    font-size: 1.875vw;
+    font-weight: 600;
+    line-height: 2.8125vw;
+    text-align: center;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.otp-input {
+    margin-top: 15px;
+    display: flex;
+}
+
+p {
+    margin: 0;
+    border: 0;
+}
+
+.modal-content p{
+    font-family: Poppins;
+font-size: 0.833vw;
+font-weight: 400;
+line-height: 1.25vw;
+text-align: center;
+
+}
+
+.top {
+    margin-top: 10px;
+}
+
+.topb {
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.otp-input input {
+    flex: 1;
+    padding: 10px;
+    height: 2.8645vw;
+    width: 3.9583vw;
+    margin-top: 15px;
+    border: 1px solid rgba(74, 94, 249, 1);
+    border-radius: 0.20833vw;
+    margin-right: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: rgba(74, 94, 249, 1);
+}
+
+.otp-input input:last-child {
+    margin-right: 0;
+}
+
+
+.otp-input input:last-child {
+    margin-right: 0;
+}
+
+.otp-input input:focus {
+    border: 2px solid rgba(74, 94, 249, 1);
+    outline: none;
+}
+
+.blue {
+    color: rgba(103, 100, 255, 1);
+}

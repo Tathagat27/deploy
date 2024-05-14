@@ -1,0 +1,267 @@
+.tutordetailwrapper{
+    width: 64.583vw;
+    height: 21.98vw;
+    border-radius: 20px;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: rgba(255, 241, 241, 1);
+
+
+    .profilepic{
+        width: 14.583vw;
+        height: 14.583vw;
+        padding : 1px;
+        border-radius: 10px;
+        border: 0.5px;
+        border: 0.5px solid rgba(236, 95, 112, 1);
+    }
+
+
+    .tutordetailbox{            
+        width: 40.938vw;
+        height: 15.313vw;
+        border-radius: 10px;
+        border: 0px 0px 0px 6px;
+        border-left: 6px solid rgba(236, 95, 112, 1);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: rgba(255, 255, 255, 1);
+
+
+        .tutordetailcontainer{
+        width: 36.198vw;
+        height: 12.4vw;
+
+
+
+        display: flex;
+        flex-direction: column;
+
+            .heading{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .name{
+                    font-family: Poppins;
+                    font-size: 1.667vw;
+                    font-weight: 600;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: rgba(0, 0, 0, 0.7);
+
+                    .verifyIcon{
+                        width: 1.042vw;
+                        height: 1.042vw; 
+                        margin-left: 0.5vw;
+
+                    }
+
+                }
+
+                .subscriber{
+                    width: 10.625vw;
+                    height: 1.875vw;
+                    background: rgba(255, 241, 241, 1);
+
+                    font-family: Poppins;
+                    font-size: 0.938vw;
+                    font-weight: 600;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: rgba(236, 95, 112, 1);
+                    border-radius: 5px;
+
+              
+
+                }
+
+                }
+            }
+
+            .about{
+                display: flex;
+                font-family: Poppins;
+                font-size: 0.938vw;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.5);
+
+
+
+            }
+
+            .tutorinfo{
+
+                display: flex;
+                align-items: center;
+                width: 35.406vw;
+                height: 5.313vw;
+                padding: 1.25vw 0px 1.25vw 0px;
+                gap: 36px;
+
+
+                .tutorinfo1{
+                    font-family: Poppins;
+                    font-size: 1.042vw;
+                    font-weight: 600;
+                    text-align: left;
+                    color: rgba(0, 0, 0, 0.7);
+
+
+                    }
+                .tutorinfo2{
+
+                    font-family: Poppins;
+                    font-size: 0.833vw;
+                    font-weight: 500;
+                    letter-spacing: 0.01em;
+                    text-align: left;
+                    color: rgba(127, 127, 127, 0.7);
+
+
+                    
+                }
+                .qualification{
+                    
+                }
+                .experience{
+
+                }
+                .location{
+
+                }
+
+                .tutorinfohline{
+                    width: 0px;
+                    height: 1.77vw;
+                    border: 1px solid rgba(236, 95, 112, 1);
+
+                }
+            }
+
+            .buttons{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 31.4vw;
+
+                .unsubscribe{
+                    width: 9.948vw;
+                    height: 2.604vw;
+                    padding: 13px 45px 13px 44px;
+                    border-radius: 10px;
+                    background: rgba(236, 95, 112, 1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 0px;
+                    cursor: pointer;
+
+                    font-family: Poppins;
+                    font-size: 0.833vw;
+                    font-weight: 600;
+                    text-align: center;
+
+                    color: rgba(255, 255, 255, 1);
+
+
+
+
+                }
+                .priceline{
+                    width: 10.104vw;
+                    height: 2.604vw;
+                    padding: 0.34vw 0px 0.389vw 1.042vw;
+                    gap: 0.272vw;
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    border: 1.6px solid rgba(236, 95, 112, 1);
+                    background-color: transparent;
+                    color: rgba(236, 95, 112, 1);
+
+
+                    
+                    .price{
+                        
+                        font-family: Poppins;
+                        font-size: 1.25vw;
+                        font-weight: 700;
+                    color: rgba(236, 95, 112, 1);
+
+                    }
+
+
+                }
+                .report{
+                    font-family: Poppins;
+                    font-size: 0.833vw;
+                    font-weight: 600;
+                    text-align: left;
+                    color: rgba(236, 95, 112, 1);
+
+                    text-decoration: underline;
+                    cursor: pointer;
+
+
+                }
+
+                .requestdemobutton{
+                    width: 12.656vw;
+                    height: 2.604vw;
+                    padding: 0.573vw 0.833vw 0.573vw 1.094vw;
+                    border-radius: 10px;
+                    background:  rgba(236, 95, 112, 1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    border: 0px;
+
+                    font-family: Poppins;
+                    font-size: 0.833vw;
+                    font-weight: 600;
+                    text-align: left;
+
+                    color: rgba(255, 255, 255, 1);
+
+                    cursor: pointer;
+
+
+
+                    .requestdemonumber{
+                        width: 1.51vw;
+                        height: 1.51vw;
+                        border-radius: 50%;
+                        background: rgba(255, 255, 255, 1);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+
+                        font-family: Poppins;
+                        font-size: 0.9375vw;
+                        font-weight: 600;
+                        text-align: left;
+                        color:rgba(236, 95, 112, 1);
+                        margin: 0%;
+                        padding: 0%;
+
+
+                    }
+
+
+                }
+            }
+        }
+    }

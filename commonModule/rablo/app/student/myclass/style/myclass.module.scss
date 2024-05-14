@@ -1,0 +1,512 @@
+.main {
+  display: flex;
+  flex-grow: unset;
+  width: 100vw;
+  height: 100vh;
+  margin: -8px;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(248, 248, 248, 1);
+}
+
+.wrapper2 {
+  min-width: 23.8vw;
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../icons/SealLightHouse.gif") no-repeat fixed 0 20% / 100vw
+    100vh;
+  transition: all 0.3s ease-in;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.wrapper {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  width: fit-content;
+  height: 90vh;
+  display: flex;
+  font-family: Poppins;
+
+  .viewplancard {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+
+    .crossicon {
+      width: 0.938vw;
+      height: 0.938vw;
+      background: transparent;
+      position: fixed;
+      top: 5%;
+      left: 95%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 0px;
+    }
+
+    .bottomviewplancard {
+      width: 39.375vw;
+      height: 5.104vw;
+      background: rgba(255, 255, 255, 1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15vw;
+      margin-top: 2vw;
+      border-radius: 15px;
+
+      .sharebutton {
+        width: 7.43vw;
+        height: 3.177vw;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 3px solid rgba(248, 32, 131, 0.8);
+        background: transparent;
+
+        font-family: Poppins;
+        font-size: 1.042vw;
+        font-weight: 600;
+        text-align: center;
+        color: rgba(248, 32, 131, 0.8);
+      }
+
+      .subscribebutton {
+        width: 12.76vw;
+        height: 3.281vw;
+        border-radius: 8px;
+        border: 1px solid rgba(248, 32, 131, 0.8);
+        background: rgba(248, 32, 131, 0.8);
+
+        font-family: Poppins;
+        font-size: 1.25vw;
+        font-weight: 600;
+        text-align: center;
+
+        color: rgba(255, 255, 255, 1);
+
+        cursor: pointer;
+      }
+    }
+  }
+
+  .lightbrightness {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #000000ad;
+  }
+
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    .myclassTabs {
+      width: 40.867vw;
+      height: 7.916vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 2vw;
+
+      .top {
+        width: 29.982vw;
+        min-height: 3.4375vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+          color: rgba(0, 0, 0, 0.7);
+          font-weight: 600;
+          font-size: 1.667vw;
+          width: 7.604vw;
+        }
+
+        .searchbox {
+          width: 17.169vw;
+          min-height: 3.4375vw;
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          input {
+            width: 17.169vw;
+            min-height: 3.4375vw;
+            padding-left: 3.646vw;
+            border: 0px;
+            border-radius: 16px;
+            font-size: 0.833vw;
+            background: rgba(236, 236, 236, 1);
+          }
+
+          .searchIcon {
+            position: absolute;
+            height: 1.666vw;
+            width: 1.666vw;
+            margin-left: 1.25vw;
+          }
+        }
+      }
+
+      .bottom {
+        width: 14.114vw;
+        min-height: 2.656vw;
+        display: flex;
+
+        button {
+          width: 7.27vw;
+          min-height: 2.448vw;
+          cursor: pointer;
+          font-family: Poppins;
+          font-weight: 700;
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 1.042vw;
+          border: 0px;
+          border-bottom: 0.208vw solid rgba(208, 78, 98, 0.3);
+          background-color: transparent;
+        }
+
+        .selected {
+          color: rgba(208, 78, 98, 1);
+          border-bottom: 0.208vw solid rgba(208, 78, 98, 1);
+        }
+      }
+    }
+
+    .classContent {
+      display: flex;
+      height: 75vh;
+      width: 79.167vw;
+      flex: 1;
+
+      .left {
+        flex: 0.36;
+        display: flex;
+        justify-content: center;
+
+        .list {
+          width: 20.833vw;
+          height: 70vh;
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 1vh;
+
+          .listheading {
+            font-size: 1.1458vw;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.7);
+            margin-left: 0.52vw;
+          }
+
+          button {
+            width: 11.198vw;
+            min-height: 2.6vw;
+            font-size: 1.041vw;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 1);
+            background-color: rgba(236, 95, 112, 1);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 0;
+            border-radius: 7px;
+            cursor: pointer;
+
+            .addicon {
+              height: 1.25vw;
+              width: 1.25vw;
+            }
+          }
+
+          .classCardContainer {
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            gap: 40px;
+            width: 24.833vw;
+            height: 75vh;
+            margin-top: 40px;
+            padding-bottom: 40px;
+          }
+
+          .classCardContainer::-webkit-scrollbar {
+            display: none;
+          }
+        }
+      }
+
+      .horizontalline {
+        border: 1px solid rgba(208, 78, 98, 0.5);
+        height: 61.018vh;
+        align-self: center;
+      }
+
+      .right {
+        flex: 0.64;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .overview {
+          display: flex;
+          flex-direction: column;
+          // justify-content: center;
+          gap: 2vh;
+          width: 39.375vw;
+          height: 70vh;
+
+          .bottombuttons {
+            width: 39.375vw;
+            height: 5.104vw;
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
+
+            a {
+              font-family: Poppins;
+              font-size: 1.041vw;
+              font-weight: 500;
+              text-align: left;
+              color: var(--New-red-color, rgba(236, 95, 112, 1));
+              text-decoration: underline;
+              cursor: pointer;
+            }
+
+            button {
+              border: 2px solid var(--New-red-color, rgba(236, 95, 112, 1));
+              width: 11.146vw;
+              height: 3.177vw;
+              color: var(--New-red-color, rgba(236, 95, 112, 1));
+              border-radius: 10px;
+              font-family: Poppins;
+              font-size: 1.041vw;
+              font-weight: 500;
+              cursor: pointer;
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+
+    .tutorcontainer {
+      display: flex;
+      height: auto;
+      width: 66.5vw;
+      flex: 1;
+      flex-direction: column;
+      padding: 2vw;
+
+      .scroller {
+        display: flex;
+        width: 63.27vw;
+        padding: 0.52vw;
+        height: 40vw;
+        gap: 0.52vw;
+        overflow: hidden;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+      }
+      .scroller::-webkit-scrollbar {
+        display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .scroller {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+
+      .wrapper4 {
+        display: flex;
+        width: 64.53vw;
+        height: auto;
+        padding: 0px 0.26vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.833vw;
+
+        .heading {
+          color: rgba(0, 0, 0, 0.7);
+          font-family: "Poppins" sans-serif;
+          font-size: 1.667vw;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+        .sub_heading {
+          color: rgba(0, 0, 0, 0.5);
+          font-family: "Poppins" sans-serif;
+          font-size: 1.145vw;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+
+    .leftcontainer {
+      width: 66.042vw;
+      height: auto;
+      margin: 2vw;
+    }
+  }
+
+  .leftContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .rightContainer {
+    width: 26.281vw;
+    height: 90vh;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex: 1;
+
+    overflow-y: auto;
+
+    .verticallineright {
+      width: 0px;
+      height: 70vh;
+      border: 2px solid rgba(103, 100, 255, 0.2);
+      margin-top: 5vw;
+    }
+
+    .rightwrapper {
+      width: 22.292vw;
+      height: 46.302vw;
+      border-radius: 30px;
+      background: rgba(236, 236, 236, 1);
+      padding-left: 1.5vw;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+
+      margin-top: 1.5vw;
+
+      .heading {
+        width: 17.552vw;
+        height: 4.854vw;
+
+        font-family: Poppins;
+        font-size: 1.458vw;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        text-align: left;
+
+        color: rgba(0, 0, 0, 0.8);
+
+        margin-left: 1.6vw;
+      }
+
+      .points {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+        width: 20.052vw;
+        height: 4.583vw;
+
+        margin-left: 1.6vw;
+
+        .point {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 0px;
+          margin: 0px;
+          height: fit-content;
+        }
+
+        .redtick {
+          width: 1.5625vw;
+          height: 1.5625vw;
+          padding: 0px;
+          margin-right: 0.7vw;
+        }
+
+        p {
+          font-family: Poppins;
+          font-size: 1.042vw;
+          font-weight: 400;
+          text-align: left;
+          padding: 0px;
+          margin: 0px;
+
+          color: rgba(29, 29, 29, 1);
+        }
+      }
+
+      .planline {
+        font-family: Poppins;
+        font-size: 0.9375vw;
+        font-weight: 600;
+        text-align: left;
+        height: 1.046vw;
+
+        margin-left: 1.6vw;
+
+        color: rgba(0, 0, 0, 0.7);
+      }
+
+      .plans {
+        width: 17.24vw;
+        height: 24.479vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-left: 1.6vw;
+      }
+
+      .downkey {
+        width: 1.563vw;
+        height: 1.563vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        align-self: center;
+
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50%;
+
+      }
+    }
+  }
+
+  .rightContainer::-webkit-scrollbar {
+    display: none;
+  }
+}

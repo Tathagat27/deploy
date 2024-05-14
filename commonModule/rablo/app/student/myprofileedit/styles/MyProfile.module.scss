@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.tab {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+
+  div {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    gap: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ec5f70;
+    border-radius: 14px;
+    transition:
+      background-color 0.3s,
+      color 0.3s,
+      border-color 0.3s;
+
+    .tabImg {
+      height: 20px;
+      margin-right: 6px;
+    }
+
+    .borderright {
+      border-radius: 0;
+      border-right: 1px solid #cfcfcf;
+      margin-right: 30px;
+    }
+
+    &.active {
+      background-color: #ec5f70;
+      color: #fff;
+    }
+
+    .tabdiv {
+      background-color: #fff;
+    }
+  }
+}
+
+.MySideProfile {
+  width: calc((470 / 1920) * 100vw);
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: calc((10 / 1920) * 100vw);
+  transition: 0.3s;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  .MySideProfileContainer {
+    height: 100vh - 6vh;
+    width: calc((380 / 1920) * 100vw);
+    margin: calc((5 / 1920) * 100vw);
+    padding: calc((10 / 1920) * 100vw);
+    border-radius: calc((8 / 1920) * 100vw);
+    background-color: rgba(223, 205, 210, 0.7);
+    transition: 0.3s;
+  }
+
+  .profileDetails {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+    .button {
+      margin-top: calc((5 / 1920) * 100vw);
+      background-color: #ef6b7d;
+      color: #fff;
+      border-radius: calc((6 / 1920) * 100vw);
+    }
+  }
+
+  .img {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+
+    .Logo {
+      width: 4vw;
+      height: 4vw;
+      border-radius: 50%;
+    }
+  }
+
+  .statlogo {
+    width: calc((35 / 1920) * 100vw);
+    color: #ec5f70;
+    margin-top: calc((5 / 1920) * 100vw);
+  }
+
+  .username {
+    margin: 0;
+    margin-top: calc((10 / 1920) * 100vw);
+    color: #fff;
+    font-size: calc((18 / 1920) * 100vw);
+  }
+
+  .fullName {
+    margin: 0;
+    font-size: calc((22 / 1920) * 100vw);
+  }
+
+  .grade {
+    margin: 0;
+    font-size: calc((18 / 1920) * 100vw);
+  }
+
+  .gradeType {
+    font-size: calc((14 / 1920) * 100vw);
+    font-weight: 400;
+  }
+
+  .board {
+    font-weight: bold;
+  }
+
+  .editProfileButton {
+    padding: calc((15 / 1920) * 100vw) calc((15 / 1920) * 100vw);
+    border: none;
+    border-radius: calc((10 / 1920) * 100vw);
+    background-color: #ef6b7d;
+    color: #fff;
+    font-size: calc((18 / 1920) * 100vw);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #ea5b6e;
+    }
+  }
+
+  .statistics {
+    flex: 1 1 28%;
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .statisticsTitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .statsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .stat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: calc((165 / 1920) * 100vw);
+    height: auto;
+    padding: 2px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+  }
+
+  .statInfo {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .statVal {
+    margin: 0;
+    font-size: calc((22 / 1920) * 100vw);
+  }
+
+  .statValue {
+    margin: 0;
+    font-size: calc((20 / 1920) * 100vw);
+  }
+
+  .statLabel {
+    margin: 0;
+    color: #000;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .calender {
+    flex: 1 1 48%;
+    margin-top: 5px;
+  }
+
+  .calenderTitle {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .calenderContent {
+    height: 200px;
+    background-color: #f4f4f4;
+  }
+
+  .preferredLanguages {
+    flex: 1 1 50%;
+    margin-top: 10px;
+  }
+
+  .languagesTitle {
+    font-size: 16px;
+  }
+
+  .languagesContent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .svglogo {
+    height: 20px;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: auto;
+    padding: 4px;
+    gap: 10px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+  }
+
+  .statlog {
+    color: #ec5f70;
+  }
+
+  .ArrowUp {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+  }
+}
+
+.MyProfilePage {
+  font-family: "Poppins", sans-serif;
+
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+
+  .tabDiv {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+  }
+}
+
+.myprofile {
+  font-family: "Poppins", sans-serif;
+
+  .wrapupbar {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: #fff;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00000099;
+    cursor: pointer;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .borderright {
+      display: flex;
+      align-items: center;
+      border-right: 1px solid #c7c7c7;
+      padding-right: 20px;
+      margin-right: 20px;
+    }
+
+    .right {
+      margin-left: 30px;
+      margin-right: 40px;
+      h3 {
+        color: rgba(236, 95, 112, 0.75);
+        border-bottom: 1px solid #cfcfcf;
+      }
+    }
+
+    .border {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .profile,
+    .locked {
+      border-radius: 100%;
+      background-color: rgba(236, 95, 112, 0.5);
+      width: 65px;
+      height: 65px;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .locked {
+      background-color: #ec5f70;
+    }
+
+    .addbutton {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+    }
+
+    .red {
+      color: rgba(236, 95, 112, 1);
+    }
+  }
+}

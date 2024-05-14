@@ -1,0 +1,54 @@
+.Referral_Verified_Main_content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 42.239vw;
+    height: 22.708vw;
+    border-radius: 1vh;
+    background-color:rgb(255, 255, 255);
+
+    >div:nth-of-type(1){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.604vw;
+        width: 2.604vw;
+        border-radius: 3vh;
+        background-color: #6764FF99;
+
+    }
+    .verified_icon{
+        font-size: 1.862vw;
+        color: #ffff;
+    }
+    >h4{
+        font-family: 'Poppins',sans-serif;
+        font-size: 1.510vw;
+        font-weight: 600;
+        color: #650606CC;
+        margin: 0;
+        padding: 0;
+        margin-top: 1vw;
+    }
+    >p{
+        font-family: 'Poppins',sans-serif;
+        font-size: 0.989vw;
+        color: #00000066;
+        margin: 0;
+        padding: 0;
+       
+    }
+    >button{
+        width: 7.291vw;
+        height: 2.708vw;
+        padding: 0.781vw, 2.083vw, 0.781vw, 2.083vw;
+        border-radius: 1.688vw;
+        border-style: none;
+        gap: 0.375vw;
+        background-color: #6764FF99;
+        color: #ffff;
+        margin-top: 1vw;
+    }
+}

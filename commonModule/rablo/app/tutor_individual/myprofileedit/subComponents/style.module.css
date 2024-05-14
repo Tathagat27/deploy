@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.transMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  border-radius: 14px;
+  width: 1000px;
+  height: 550px;
+}
+.transMain .transContent {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.transMain .btn {
+  height: 40px;
+  width: 130px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ec5f70;
+  border-radius: 12px;
+}
+
+.overMain {
+  width: 1000px;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 50px 0px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.overMain .overview {
+  margin: 10px 0;
+  padding-bottom: 150px;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.overMain .overview .row {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: #ec5f70;
+}
+.overMain .overview .row .rowMain {
+  font-weight: 700;
+  font-size: 22px;
+}
+.overMain .overview .row .edit {
+  cursor: pointer;
+}
+.overMain .overview .details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.overMain .overview .details > div {
+  width: calc(43.33% - 20px);
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+.overMain .overview .details > div h3 {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.overMain .overview .details > div .profile,
+.overMain .overview .details > div .locked {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #ec5f70;
+  width: 60px;
+  height: 60px;
+}
+.overMain .overview .details > div .profile {
+  background-color: lightblue;
+}
+.overMain .overview .details > div .addbutton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.overMain .overview .details > div .addbutton span {
+  font-weight: bold;
+  cursor: pointer;
+}
+.overMain .overview .details > div .addbutton .red {
+  font-size: 16px;
+  color: #ec5f70;
+  display: flex;
+  align-items: center;
+}
+.overMain .overview .details > div.locked .add-button {
+  display: none;
+}
+.overMain .textBlack {
+  font-size: 24px;
+  color: #000000;
+}
+.overMain .red {
+  color: rgb(236, 95, 112);
+  font-size: 14px;
+}
+.overMain .divCenter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.overMain .location {
+  width: 100%;
+}
+.overMain .borderBottom {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.overMain .rowEd {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: #ec5f70;
+}
+.overMain .rowEd .rowMain {
+  font-weight: 700;
+  font-size: 22px;
+}
+.overMain .rowEd .edit {
+  cursor: pointer;
+  text-decoration: none;
+}
+.overMain .details {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.overMain .details .divCenter {
+  display: flex;
+}
+.overMain .subjects {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+  gap: 30px;
+}
+.overMain .divCenter {
+  display: flex;
+  align-items: center;
+  width: 270px;
+  margin-bottom: 20px;
+}
+.overMain .divCenter h3 {
+  font-size: 16px;
+}
+.overMain .locked {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 50%;
+  margin-right: 20px; /* Adjust as needed */
+}
+.overMain .textBlack {
+  font-size: 18px; /* Adjust as needed */
+  color: rgba(0, 0, 0, 0.6); /* Black color */
+}
+.overMain .addbutton {
+  display: flex;
+  align-items: center;
+}
+.overMain .red {
+  color: #ec5f70; /* Red color */
+  font-weight: bold; /* Bold font weight */
+}
+.overMain > div {
+  align-items: flex-start;
+}/*# sourceMappingURL=style.module.css.map */

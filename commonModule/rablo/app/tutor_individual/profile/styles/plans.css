@@ -1,0 +1,212 @@
+.main_page {
+  background-color: transparent;
+  padding-bottom: 2vw;
+}
+.main_page .decrease {
+  width: 60vw;
+}
+.main_page .wrapUp {
+  border: #F8F8F8;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 1.2vw 1.4vw 1.4vw 1.4vw;
+  padding: 1vw;
+  padding-bottom: 2.5vw;
+}
+.main_page .wrapUp h2 {
+  margin-left: 1.4vw;
+  margin-bottom: 1.4vw;
+  font-size: 1.8vw;
+  font-weight: 550;
+}
+.main_page .wrapUp .grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0% 12% 0% 2%;
+  position: relative;
+}
+.main_page .wrapUp .grid .gridContent:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  transform: translateX(-20px) scaleY(1.5);
+  border-left: solid rgb(232, 229, 229);
+}
+.main_page .wrapUp .grid .verticalLine {
+  border-left: solid rgb(232, 229, 229);
+}
+.main_page .wrapUp .grid .image {
+  float: left;
+  width: 20%;
+  height: auto;
+  padding: 0;
+}
+.main_page .wrapUp .grid .head {
+  float: right;
+  padding-left: 1.2vw;
+  line-height: 0;
+}
+.main_page .wrapUp .grid .head .head1 {
+  color: #BAC5FD;
+  font-size: 1.2vw;
+  padding-bottom: 0.2vh;
+  padding-top: 1vh;
+}
+.main_page .wrapUp .grid .head .head2 {
+  font-size: 1.2vw;
+}
+.main_page .wrapUp .grid .head .head2 .colour {
+  color: #6764FF;
+}
+.main_page .wrapUp .grid .head hr {
+  background-color: #d5d5d8;
+  border: none;
+  height: 0.4vh;
+  margin-top: 2vh;
+}
+.main_page .view .viewChange {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 3vw;
+  margin: 3vw 0 1vw 3vw;
+  position: relative;
+  font-size: 1.3vw;
+  color: #BAC5FD;
+  cursor: pointer;
+  font-weight: 600;
+}
+.main_page .view .viewChange .content:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  height: 85%;
+  transform: translateX(-25px) scaleY(1.1);
+  border-left: solid rgb(232, 229, 229);
+}
+.main_page .view .content.active {
+  color: #fff;
+  background-color: rgba(103, 100, 255, 0.6);
+  padding: 0.4vw 0.9vw;
+  border-radius: 10px;
+  margin-top: -0.4vw;
+}
+.main_page .view .content.active Image {
+  color: white;
+}
+.main_page .view .overview {
+  display: none;
+  border: #F8F8F8;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 1.2vw 1.4vw 1.4vw 1.4vw;
+  padding: 1vw;
+  padding-bottom: 2.5vw;
+}
+.main_page .view .overview .head {
+  color: #BAC5FD;
+  margin: 1vw 0 0 6vw;
+  font-size: 1.4vw;
+  font-weight: 600;
+}
+.main_page .view .overview .contactDetails {
+  padding: 1.2vw 0 0 6vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vh;
+}
+.main_page .view .overview .contactDetails .details {
+  margin: 0.3vw 0 0 5.5vw;
+  line-height: 1.7vw;
+  font-size: 1.2vw;
+}
+.main_page .view .overview .contactDetails .details .name {
+  color: #BAC5FD;
+  font-size: 1vw;
+}
+.main_page .view .overview hr {
+  margin: 2vw 8vw 0 6vw;
+}
+.main_page .view .overview.active {
+  display: flex;
+}
+.main_page .view .reviews {
+  display: none;
+}
+.main_page .view .reviews .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+.main_page .view .reviews .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+  color: rgba(0, 0, 0, 0.4);
+}
+.main_page .view .reviews.active {
+  display: flex;
+}
+.main_page .view .transactions {
+  color: rgba(0, 0, 0, 0.45);
+  display: none;
+}
+.main_page .view .transactions .heading {
+  padding: 2vw 8vw 1vw 3.6vw;
+  font-size: 1.1vw;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  color: rgba(0, 0, 0, 0.45);
+}
+.main_page .view .transactions .heading .item2 {
+  margin-left: 1vw;
+}
+.main_page .view .transactions .heading .item3 {
+  margin-left: 1vw;
+}
+.main_page .view .transactions .heading .item4 {
+  margin-left: 1vw;
+}
+.main_page .view .transactions .heading .item5 {
+  margin-left: 1.5vw;
+}
+.main_page .view .transactions .values {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  background-color: #fff;
+  margin: 0 1vw 0.6vw 1.4vw;
+  padding: 0.7vw 0.5vw 0.3vw 1.2vw;
+  border-radius: 6px;
+  font-size: 1vw;
+  font-weight: 600;
+  color: black;
+}
+.main_page .view .transactions .values .item2 {
+  margin-left: -0.5vw;
+}
+.main_page .view .transactions .values .item3 {
+  margin-left: 1vw;
+}
+.main_page .view .transactions .values .item4 {
+  margin-left: 3.5vw;
+}
+.main_page .view .transactions .values .item5 {
+  margin-left: 3vw;
+  color: #6764FF;
+}
+.main_page .view .transactions .values button {
+  margin-top: -0.5vw;
+  padding: 0.3vw 0.6vw 0.3vw 0.6vw;
+  color: white;
+  background-color: #6764FF;
+  border-radius: 5px;
+}
+.main_page .view .transactions.active {
+  display: flex;
+}/*# sourceMappingURL=plans.css.map */

@@ -1,0 +1,158 @@
+.center-section {
+  margin: 4.814vh 0 0 14.167vw;
+  width: 40.822vw;
+  height: 84.759vh;
+}
+.center-section .container-1 {
+  display: flex;
+  gap: 1.388vh;
+  flex-direction: column;
+}
+.center-section .container-1 .heading-1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.875vw;
+  font-weight: 600;
+}
+.center-section .container-1 .line-1 {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1.146vw;
+  font-weight: 400;
+}
+.center-section .container-1 .bread-crumbs {
+  display: flex;
+  gap: 0.513vw;
+  width: 40.405vw;
+  height: 3.649vh;
+  align-items: center;
+}
+.center-section .container-1 .bread-crumbs .single-crumb {
+  display: flex;
+  align-items: center;
+}
+.center-section .container-1 .bread-crumbs .single-crumb .container-sc-1 {
+  display: flex;
+  align-items: center;
+}
+.center-section .container-1 .bread-crumbs .single-crumb .container-sc-1 .completed {
+  background-color: rgba(103, 100, 255, 0.5);
+}
+.center-section .container-1 .bread-crumbs .single-crumb .container-sc-1 .completed-span {
+  color: rgba(103, 100, 255, 0.5);
+}
+.center-section .container-1 .bread-crumbs .single-crumb .step-box {
+  width: 1.064vw;
+  height: 1.883vh;
+  background-color: #e6e6e6;
+  border-radius: 0.296vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.591vw;
+}
+.center-section .container-1 .bread-crumbs .single-crumb .step-box div {
+  color: #f2f2f2;
+  display: flex;
+  width: 0.591vw;
+  height: 1.601vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.709vw;
+  font-weight: 600;
+  line-height: 92%;
+}
+.center-section .container-1 .bread-crumbs .single-crumb span {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 1.064vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.center-section .container-1 .bread-crumbs .single-crumb img {
+  width: 0.998vw;
+  height: 1.682vh;
+  margin-left: 0.532vw;
+}
+.center-section .container-2 {
+  display: flex;
+  width: 40.147vw;
+  margin-top: 1.563vw;
+}
+.center-section .container-2 .progress-bar {
+  width: 3.542vw;
+  height: 64vh;
+  margin: 0.631vh 1.042vw 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.center-section .container-2 .progress-bar .bar-text {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.625vw;
+  font-weight: 400;
+}
+.center-section .container-2 .progress-bar .bar {
+  background: rgba(153, 153, 153, 0.41);
+  width: 0.26vw;
+  height: 58.426vh;
+  margin: 0.926vh 0;
+}
+.center-section .container-2 .progress-bar .bar .fill {
+  background: rgba(103, 100, 255, 0.6);
+  width: 0.26vw;
+}
+.center-section .container-2 .progress-bar .bar .percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.083vw;
+  height: 3.704vh;
+  position: absolute;
+  color: white;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: 600;
+  font-size: 0.55vw;
+  left: 1.5vh;
+  background-image: url("../../../../../GlobalComponents/Assets_tutor/Images/Ellipse.svg");
+}
+.center-section .container-2 .progress-bar .skip-button {
+  display: flex;
+  margin-top: 2vh;
+  width: 4.072vw;
+  height: 3.426vh;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(103, 100, 255, 0.8);
+  font-size: 1.042vw;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+.center-section .container-3 .buttons {
+  margin-top: 3.2vh;
+}
+.center-section .container-3 .buttons .back-button {
+  width: 8.424vw;
+  height: 5.648vh;
+  color: #6764FF;
+  background-color: white;
+  border: 3px solid #6764FF;
+  border-radius: 10px;
+  margin: 0 3.51vw 0 8.088vw;
+  font-size: 1.25vw;
+  font-weight: 500;
+}
+.center-section .container-3 .buttons .next-button {
+  width: 15.525vw;
+  height: 5.833vh;
+  background: rgba(103, 100, 255, 0.8);
+  color: white;
+  border-radius: 0.417vw;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25vw;
+  font-weight: 500;
+}/*# sourceMappingURL=CenterSection.css.map */

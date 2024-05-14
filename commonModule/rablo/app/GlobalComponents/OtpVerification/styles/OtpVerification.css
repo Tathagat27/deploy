@@ -1,0 +1,61 @@
+.verifypage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 7rem 10rem 0 10rem;
+}
+.verifypage .Back_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.775rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid #6764ff;
+  cursor: pointer;
+  margin-left: 2vw;
+  color: #6764ff;
+  font-size: 0.9625rem;
+  font-weight: 600;
+}
+.verifypage div:nth-child(2) {
+  color: #6764ff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.verifypage .verify_description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2vw;
+  width: 30vw !important;
+  margin-top: 1vh;
+  margin-bottom: 1vw;
+}
+.verifypage .verify_description > p {
+  color: #6764ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.9vw;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.verifypage div:nth-child(4) {
+  margin-top: 1.44375rem;
+}
+.verifypage div:nth-child(5) {
+  display: flex;
+  width: 50%;
+  margin-top: 1.44375rem;
+}
+.verifypage div:nth-child(5) div {
+  margin-right: 5.7rem;
+}/*# sourceMappingURL=OtpVerification.css.map */

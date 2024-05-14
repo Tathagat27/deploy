@@ -1,0 +1,99 @@
+.Vertical_Main_content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 30.239vw;
+  height: 17.708vw;
+  border-radius: 1vh;
+  background-color: rgb(255, 255, 255);
+  margin-left: 42.996vw;
+  margin-top: -29.986vw;
+  z-index: 1000; /* Ensure the modal content appears above the overlay */
+}
+
+.Popup_Close {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  font-size: 2vw;
+  color: #ec5f70;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 32, 32, 0.5); /* Semi-transparent gray background */
+  z-index: 999; /* Ensure the overlay appears above everything else except the modal */
+  margin-left: 26.506vw;
+}
+
+.Vertical_Main_content > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.604vw;
+  width: 2.604vw;
+  border-radius: 3vh;
+  background-color: #ec5f70;
+  margin-bottom: 1vw;
+}
+
+.Vertical_Main_content > h4 {
+  color: rgba(101, 6, 6, 0.8);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.Vertical_Main_content > p {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1vw;
+}
+
+.Leave_and_cancel_btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.Leave_and_cancel_btn > button {
+  display: inline-flex;
+  padding: 0.781vw 2.083vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375vw;
+  border: none;
+  border-radius: 1.688vw;
+  cursor: pointer;
+}
+
+.Leave_and_cancel_btn > button:nth-of-type(1) {
+  background: rgba(245, 51, 74, 0.7);
+  margin-left: -1.5vw;
+  color: #f8f8f8;
+}
+
+.Leave_and_cancel_btn > button:nth-of-type(2) {
+  border: 0.2vw solid #ec5f70;
+  background: rgba(103, 100, 255, 0.05);
+  margin-left: 2vw;
+  color: #ec5f70;
+}/*# sourceMappingURL=Vertical.css.map */

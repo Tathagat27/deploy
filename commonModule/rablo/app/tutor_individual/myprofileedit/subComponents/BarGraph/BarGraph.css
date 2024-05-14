@@ -1,0 +1,266 @@
+.BarGraph_Wrapper {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.BarGraph_Wrapper > p > span {
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+}
+.BarGraph_Wrapper .Graph_Selection {
+  width: 45.7vw;
+}
+.BarGraph_Wrapper .Graph_Selection .Details {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: -30px;
+}
+.BarGraph_Wrapper .Graph_Selection .Details > div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.BarGraph_Wrapper .Graph_Selection .Details > div p {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f5334a;
+}
+.BarGraph_Wrapper .Graph_Selection .Details p {
+  margin: 0;
+  color: rgba(245, 51, 74, 0.8);
+}
+.BarGraph_Wrapper .Graph_Selection .darkened-range {
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  background: rgba(159, 159, 159, 0.3);
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 2vw;
+  width: 45.7vw;
+  position: relative;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper input[type=range] {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 42vw;
+  margin: 0;
+  padding: 0 2px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 1px;
+  outline: none;
+  background: linear-gradient(#f5334a, #f5334a) no-repeat center;
+  background-size: 100% 2px;
+  pointer-events: none;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper input[type=range]:active, .BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper input[type=range]:focus {
+  outline: none;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper input[type=range]::-webkit-slider-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 28px;
+  background-color: #f5334a;
+  position: relative;
+  margin: 5px 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+          appearance: none;
+  pointer-events: all;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper input[type=range]::-webkit-slider-thumb::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 100%;
+  width: 2000px;
+  height: 2px;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper .multi-range {
+  position: absolute;
+  height: 32px;
+  margin-left: 27px;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper .multi-range input[type=range] {
+  position: absolute;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper .multi-range input[type=range]:nth-child(1)::-webkit-slider-thumb::before {
+  background-color: red;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper .multi-range input[type=range]:nth-child(2) {
+  background: none;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper .multi-range input[type=range]:nth-child(2)::-webkit-slider-thumb::before {
+  background-color: #f5334a;
+}
+.BarGraph_Wrapper .Graph_Selection .Section_9_range_bar_wrapper .arrow_range_bar {
+  font-size: 1.562vw;
+  color: #f5334a;
+}
+.BarGraph_Wrapper .Start_at {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 1.5vw;
+  align-items: center;
+}
+.BarGraph_Wrapper .Start_at > p:nth-of-type(1) {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8vw;
+  color: #f5334a;
+  font-weight: 400;
+}
+.BarGraph_Wrapper .Start_at > h4:nth-of-type(1) {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  color: #f5334a;
+  font-weight: 700;
+}
+.BarGraph_Wrapper .Maximum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1.5vw;
+  margin-top: -2.5vw;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.BarGraph_Wrapper .Maximum > p:nth-of-type(1) {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8vw;
+  color: #f5334a;
+  font-weight: 400;
+}
+.BarGraph_Wrapper .Maximum > h4:nth-of-type(1) {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  color: #f5334a;
+  font-weight: 700;
+}
+.BarGraph_Wrapper .Ask_and_avg {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.2vw;
+  justify-content: space-evenly;
+  width: 97%;
+}
+.BarGraph_Wrapper .Ask_and_avg .Ask_Price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 13.821vw;
+  height: 3.385vw;
+  border-radius: 0.52vw;
+  border: 2px solid #f5334a;
+  position: relative;
+}
+.BarGraph_Wrapper .Ask_and_avg .Ask_Price > h4:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.177vw;
+  height: 1.562vw;
+  border-radius: 0.26vw;
+  background-color: rgba(103, 100, 255, 0.1019607843);
+  color: #f5334a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 1vw;
+}
+.BarGraph_Wrapper .Ask_and_avg .Ask_Price > h4:nth-of-type(2) {
+  color: #f5334a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 2vw;
+}
+.BarGraph_Wrapper .Ask_and_avg .Ask_Price > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.385vw;
+  position: absolute;
+  width: 3vw;
+  border: 1px solid #f5334a;
+  right: -0.2vh;
+  top: -0.2vh;
+  border-radius: 0 0.52vw 0.52vw 0;
+  color: #f5334a;
+}
+.BarGraph_Wrapper .Ask_and_avg .Avg_Price {
+  width: 13.821vw;
+  height: 3.385vw;
+  border-radius: 0.52vw;
+  border: 2px solid #f5334a;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.BarGraph_Wrapper .Ask_and_avg .Avg_Price > h4:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.177vw;
+  height: 1.562vw;
+  border-radius: 0.26vw;
+  background-color: rgba(35, 218, 54, 0.1019607843);
+  color: #f5334a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 1vw;
+}
+.BarGraph_Wrapper .Ask_and_avg .Avg_Price > h4:nth-of-type(2) {
+  color: #f5334a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 2vw;
+}
+.BarGraph_Wrapper .Ask_and_avg .Avg_Price > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.385vw;
+  position: absolute;
+  width: 3vw;
+  border: 1px solid #f5334a;
+  right: -0.2vh;
+  top: -0.2vh;
+  border-radius: 0 0.52vw 0.52vw 0;
+  color: #f5334a;
+}/*# sourceMappingURL=BarGraph.css.map */

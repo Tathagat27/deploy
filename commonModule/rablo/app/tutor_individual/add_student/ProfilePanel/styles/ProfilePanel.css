@@ -1,0 +1,13 @@
+.ProfilePanel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 22vw;
+  height: 100%;
+  color: #fff;
+  overflow-x: hidden;
+  position: relative;
+  background: url("../../../../GlobalComponents/Assets_tutor/Images/LightHouse.gif") 95% 95%/cover no-repeat, rgba(103, 100, 255, 0.56);
+  transition: 0.3s ease-in; /* Add transition property */
+}/*# sourceMappingURL=ProfilePanel.css.map */

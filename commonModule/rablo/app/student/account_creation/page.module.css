@@ -1,0 +1,95 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.leftPanelWrapper {
+  display: flex;
+  width: 25.354vw;
+  height: 100vh;
+  background: url("../../GlobalComponents/Assets_student/Images/LightHouse.gif") 15% /
+      cover no-repeat,
+    rgb(202, 52, 52);
+}
+.leftPanelWrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 25.354vw;
+  background-color: rgba(245, 51, 74, 0.7);
+}
+
+.logo__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+  margin-top: 3.489vw;
+  margin-left: 7.916vh;
+  margin-right: 7.916vh;
+  z-index: 1;
+  padding: 0;
+}
+.logo {
+  filter: brightness(1000%);
+  width: 16vw;
+  height: 3.75vw;
+}
+
+.Header__Help__wrapper {
+  display: flex;
+  height: 3.8vw;
+  width: 68.646vw;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.help__section {
+  display: flex;
+  height: 3.8vw;
+  width: 50%;
+  justify-content: flex-end;
+  padding-right: 3.072vw;
+}
+
+.userInputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 90vh;
+  width: 68.646vw;
+  margin-top: -3vw;
+}
+.log_btn {
+  position: absolute;
+  bottom: 1.041vw;
+  left: 1.041vw;
+}
+.log_btn .logout_button {
+  display: flex;
+  align-items: center;
+  width: 7.49vw;
+  color: var(--New-red-color, #ec5f70);
+  font-family: "Poppins";
+  font-size: 1.241vw;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 0.72vw;
+  border: none;
+  padding: 0.408vw;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

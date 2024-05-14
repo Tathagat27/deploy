@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.transMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  border-radius: 0.7291666667vw;
+  width: 65.1041666667vw;
+  height: 60vh;
+  overflow: scroll;
+  padding: 5.2083333333vw 0px;
+}
+
+.transContent {
+  margin-top: 5.2083333333vw;
+  margin-bottom: 10.4166666667vw;
+  padding: 1.0416666667vw 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  height: 3.125vw;
+  width: 13.0208333333vw;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ec5f70;
+  border-radius: 0.625vw;
+}
+
+.transMain::-webkit-scrollbar {
+  width: 0px;
+}
+
+.overMain {
+  width: 59.8958333333vw;
+  height: 60vh;
+  overflow: scroll;
+  font-family: "Poppins", sans-serif;
+  padding: 2.6041666667vw 2.6041666667vw 2.6041666667vw;
+  background-color: #fff;
+  border-radius: 0.4166666667vw;
+}
+.overMain .overview {
+  margin: 0.5208333333vw 0;
+  padding-bottom: 14.5833333333vw;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.overMain .overview .row {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-bottom: 1.5625vw;
+  color: #ec5f70;
+}
+.overMain .overview .row .rowMain {
+  font-weight: 700;
+  font-size: 1.1458333333vw;
+}
+.overMain .overview .row .edit {
+  cursor: pointer;
+}
+.overMain .overview .details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 0.5208333333vw;
+}
+.overMain .overview .details > div {
+  width: 27vw;
+  padding: 1.0416666667vw;
+  display: flex;
+}
+.overMain .overview .details > div h3 {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.0416666667vw;
+  margin-bottom: 0.5208333333vw;
+}
+.overMain .overview .details > div .profile,
+.overMain .overview .details > div .locked {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #ec5f70;
+  width: 3.125vw;
+  height: 3.125vw;
+}
+.overMain .overview .details > div .profile {
+  background-color: lightblue;
+}
+.overMain .overview .details > div .addbutton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.overMain .overview .details > div .addbutton span {
+  font-weight: bold;
+  cursor: pointer;
+}
+.overMain .overview .details > div .addbutton .red {
+  font-size: 0.8333333333vw;
+  color: #ec5f70;
+  display: flex;
+  align-items: center;
+}
+.overMain .overview .details > div.locked .add-button {
+  display: none;
+}
+.overMain .textBlack {
+  font-size: 1.25vw;
+  color: #000000;
+}
+.overMain .red {
+  color: rgb(236, 95, 112);
+  font-size: 0.7291666667vw;
+}
+.overMain .divCenter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.overMain .location {
+  width: 100%;
+}
+.overMain .borderBottom {
+  padding-bottom: 0.5208333333vw;
+  border-bottom: 0.0520833333vw solid rgba(0, 0, 0, 0.15);
+}
+.overMain .rowEd {
+  display: flex;
+  width: 100%;
+  margin-top: 1.0416666667vw;
+  justify-content: space-between;
+  margin-bottom: 0.78125vw;
+  color: #ec5f70;
+}
+.overMain .rowEd .rowMain {
+  font-weight: 700;
+  font-size: 1.1458333333vw;
+}
+.overMain .rowEd .edit {
+  cursor: pointer;
+  text-decoration: none;
+}
+.overMain .details {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.0520833333vw solid #ccc;
+}
+.overMain .details .divCenter {
+  display: flex;
+}
+.overMain .subjects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  margin-left: 1.5625vw;
+  border-bottom: 0.0520833333vw solid #ccc;
+  gap: 1.5625vw;
+}
+.overMain .divCenter {
+  display: flex;
+  align-items: center;
+  width: 15.625vw;
+  margin-bottom: 1.0416666667vw;
+  flex-shrink: 0; /* Prevent items from shrinking */
+}
+.overMain .detLogo {
+  width: 3.6458333333vw;
+  height: 3.6458333333vw;
+}
+.overMain .locked {
+  width: 3.90625vw;
+  height: 3.90625vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 50%;
+  margin-right: 1.8229166667vw; /* Adjust as needed */
+}
+.overMain .textBlack {
+  font-size: 1.1458333333vw; /* Adjust as needed */
+  color: rgba(0, 0, 0, 0.6); /* Black color */
+}
+.overMain .addbutton {
+  display: flex;
+  align-items: center;
+}
+.overMain .subLogo {
+  width: 4.5vw;
+  height: 4.5vw;
+}
+.overMain .red {
+  color: #ec5f70;
+  font-weight: bold;
+}
+.overMain > div {
+  align-items: flex-start;
+}
+
+.overMain::-webkit-scrollbar {
+  width: 0px;
+}/*# sourceMappingURL=style.module.css.map */

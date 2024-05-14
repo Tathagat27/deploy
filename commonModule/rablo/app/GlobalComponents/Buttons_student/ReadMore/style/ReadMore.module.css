@@ -1,0 +1,21 @@
+.Read_More {
+  background-color: #EC3737;
+  height: 4.62vh;
+  padding: 0.58vw 1.52vw;
+  border-radius: 1.11vh;
+  box-shadow: 0px 0.35vw 0.35vw rgba(236, 55, 55, 0.31);
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.Read_More_text {
+  color: #F8F8F8;
+  font-family: "Poppins" sans-serif;
+  font-size: 0.946vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  overflow: hidden;
+}/*# sourceMappingURL=ReadMore.module.css.map */

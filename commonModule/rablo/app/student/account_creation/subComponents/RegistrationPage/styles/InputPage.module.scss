@@ -1,0 +1,72 @@
+.Page__title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 3vh;
+    width: 41.25vw;
+    height: 5.625vw;
+    padding: 0;
+    line-height: 0;
+}
+
+.Section__navbar{
+    display: flex;
+    flex-direction: row;
+    width: 35.770vw;
+    height: 2.031vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4vh;
+    margin-left: 6vh;
+    padding: 0;
+}
+.section{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 2.031vw;
+}
+.section__bar{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: -0.2vh;
+    width: 10.520vw;
+    height: 0.260vw;
+}
+
+.User__Input__Heading{
+    display: flex;
+    flex-direction: column;
+    width: 27.748vw;
+    height:4.340vw;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 3vh;
+    margin-left: 6vh;
+    padding: 0;
+}
+.User__Input__Heading h2{
+    margin: 0;
+}
+
+.overflow__wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 32.5vw;  
+}
+
+.overflow__wrapper::-webkit-scrollbar {
+    width: 8px;
+      background-color: #eeee;
+  }
+  
+  .overflow__wrapper::-webkit-scrollbar-thumb {
+    background-color: #EC5F70;
+    border-radius: 4px;
+  
+  }

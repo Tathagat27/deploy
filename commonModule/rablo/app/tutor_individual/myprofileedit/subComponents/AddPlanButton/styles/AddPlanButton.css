@@ -1,0 +1,48 @@
+.AddPlanButton_wrapper,
+.Shrinked_AddPlanButton_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.208vw;
+  width: 20.833vw;
+  transition: 0.3s;
+}
+
+.AddPlan_button {
+  height: 5.208vw;
+  width: 20.833vw;
+  border-radius: 10px;
+  border: 4px dashed #6764FF;
+  transition: 0.3s;
+}
+
+.AddPlan_button:hover {
+  border: 4px solid #6764FF;
+}
+
+.Plus_Icon {
+  color: #6764FF;
+  font-size: 2.2vw;
+  flex-shrink: 0;
+}
+
+.Shrinked_AddPlanButton_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.645vw;
+  width: 3.645vw;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.Shrinked_AddPlanButton_wrapper .AddPlan_button {
+  height: 3.645vw;
+  width: 3.645vw;
+  border-radius: 10px;
+  border: 4px dashed #6764FF;
+}
+.Shrinked_AddPlanButton_wrapper .AddPlan_button:hover {
+  border: 4px solid #6764FF;
+}/*# sourceMappingURL=AddPlanButton.css.map */

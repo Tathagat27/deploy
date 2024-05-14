@@ -1,0 +1,238 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 4.6vw;
+  height: 100%;
+  color: #fff;
+  overflow-x: hidden;
+  transition: width 0.4s ease;
+  position: relative;
+  background: url("../../Assets_student/Images/LightHouse.gif") 0% 0%/cover no-repeat,rgba(245, 51, 74, 0.70);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(245, 51, 74, 0.70);
+  pointer-events: none; /* This prevents the overlay from capturing clicks */
+}
+.sidebar:hover {
+  width: 20.833vw;
+  height: 100%;
+  color: #fff;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+  align-items: flex-start;
+}
+/* .sidebar.open {
+  width: 20.833vw;
+  height: 100%;
+  color: #fff;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  align-items: flex-start;
+} */
+
+.sidebar button {
+  position: relative;
+  z-index: 1;
+  pointer-events: auto;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hamburger {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 3vh;
+  height: 2vh;
+  margin-top: 2.354vw;
+  z-index: 1;
+  margin-bottom: 2vw;
+}
+.hamburger .HamBurger_Icon {
+  display: flex;
+  z-index: 1;
+  margin-right: 0.8vh;
+}
+.hamburger .Close_Icons {
+  display: none;
+  z-index: 1;
+}
+
+.DashBoard__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin-left: 0.6vw; */
+ margin-top: 2vh;
+
+  height: 21.20vh;
+  z-index: 1;
+  pointer-events: auto;
+
+  
+
+}
+
+.Class_heading{
+  z-index: 1;
+  font-size: 1.66vw;
+ color: #FFFFFFCC;
+ float: left;
+  line-height: 2.5vw;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-left: 1.66vw;
+  margin-bottom: 0;
+  display: none;
+}
+.sidebar:hover .Class_heading{
+  display: flex;
+}
+
+.Class__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 0.6vw;
+  margin-top: 1vw;
+  width: 90%;
+  height: 11vw;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.Settings__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 0.6vw;
+  margin-top: 4vw;
+  width: 90%;
+  height: 16vw;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.Container_heading {
+  margin: 0;
+  padding: 0;
+  height: 1.5vw;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.041vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.Link_Wrapper {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  justify-content: flex-start;
+  color: #FFF;
+  font-size: 1.302vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 1vh;
+  cursor: pointer;
+  height: 2.95vw;
+  z-index: 1;
+}
+
+.Icons {
+  height: 1.5vw;
+  width: 1.5vw;
+  white-space: nowrap;
+  margin-right: 1vh;
+  flex-shrink: 0;
+}
+.wrapper_div{
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10.1vh;
+
+}
+.logout{
+  z-index: 1;
+  position: absolute;
+  bottom: 5vh;
+  margin-left: 1.66vw;
+}
+.Icons_logout{
+  height: 1.5vw;
+  width: 1.5vw;
+  white-space: nowrap;
+  margin-right: 2vh;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.label {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.302vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  white-space: nowrap;
+  display: none;
+}
+.sidebar:hover .label{
+  display: block;
+}
+.transprant{
+  z-index: 1;
+}
+.sidebar:hover .hamburger .HamBurger_Icon {
+  display: none;
+}
+.sidebar:hover .hamburger .Close_Icons {
+  display: flex;
+}
+.Post{
+  display: none;
+
+}
+.sidebar:hover .Post{
+  display: block;
+}
+.FreePointsCard{
+  display: none;
+}
+.sidebar:hover .FreePointsCard{
+  display: block;
+}
+.logout_div{
+  display: none;
+}
+.Icons_logout{
+  display: block;
+}
+.sidebar:hover .logout_div{
+  display: block;
+}
+.sidebar:hover .Icons_logout{
+  display: none;
+}
+/*# sourceMappingURL=SideNavBar.css.map */

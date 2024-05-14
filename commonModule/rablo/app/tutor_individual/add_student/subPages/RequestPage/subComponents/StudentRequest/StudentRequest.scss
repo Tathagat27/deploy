@@ -1,0 +1,209 @@
+.RequestPage_StudentRequest_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 66vw;
+    height: 3.2vw;
+    border-radius:5px;
+    margin-left: 1vh;
+    margin-bottom:1vw ;
+    background-color:#FBFBFB;
+
+    .Name{
+        margin: 0;
+        padding: 0;
+        width: 5.5vw;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1vw;
+        flex-shrink: 0;
+        color: #000000B2;
+        margin-left: 1vw;
+    }
+    
+    .Class{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 5.5vw;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1vw;
+        flex-shrink: 0;
+        color: #000000B2;
+    }
+    
+    .Subjects_wrapper{
+        display: flex;
+        flex-direction: row;
+        width: 10vw;
+        flex-shrink: 0;
+        
+        .Subjects{
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+            font-family: 'Poppins',sans-serif;
+            font-size: 0.9vw;
+            flex-shrink: 0;
+            margin-left: 1vh;
+            color: #000000B2;
+        }
+    }
+    
+    
+    .Mode{
+        display: flex;
+        font-family: Arial;
+        font-size: 1vw;
+        font-weight: 700;
+        width: 6vw;
+        margin: 0;
+        padding: 0;
+        flex-shrink: 0;
+        margin-left:1vw ;
+        color: #6764FF;
+    }
+    
+    .Timings{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        width: 5vw;
+        margin-left: 2.5vw;
+
+        >h4:nth-of-type(1){
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+            font-family: 'Poppins',sans-serif;
+            font-size: 1vw;
+            color: #6764FF;
+        }
+        >p:nth-of-type(1){
+            margin: 0;
+            padding: 0;
+            margin-left: 0.8vh;
+            font-weight: 600;
+            font-family: 'Poppins',sans-serif;
+            font-size: 0.8vw;
+            color: #0000004D;
+        }
+    }
+
+    .Demo_Dates{
+        display: flex;
+        flex-direction: column;
+        width: 10vw;
+        margin-left: 1.5vw;
+        height: 100%;
+
+        .Weeks{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            h4{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+                width: 2vw;
+                height: 1.5vw;
+                font-family: 'Poppins',sans-serif;
+                font-size: 0.7vw;
+                font-weight: 400;
+                color: #00000099;
+            } 
+        }
+        .Days{
+            display: flex;
+            flex-direction: row;
+            width: 98%;
+            align-items: center;
+            margin-left: 0.2vh;
+            justify-content: space-between;
+            .Day_selected{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+                width: 1.3vw;
+                height: 1.3vw;
+                border-radius: 2px;
+                background-color: #6764FF;
+                font-family: 'Poppins',sans-serif;
+                font-size: 0.9vw;
+                font-weight: 600;
+                color: #ffffff;
+            }
+            .Day_Not_selected{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+                width: 1.3vw;
+                height: 1.3vw;
+                font-family: 'Poppins',sans-serif;
+                font-size: 0.9vw;
+                font-weight: 600;
+                color: #00000040;
+            }
+        }
+    }
+    
+    .Plan{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 6vw;
+        font-weight: 600;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1vw;
+        color: #00000080;
+        margin-left: 1.5vw;
+    }
+
+    .Accept_or_Close{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        width: 10vw;
+        margin-left: 1vw;
+
+        .cancel_or_remove{
+            font-family: 'Poppins',sans-serif;
+            font-size: 1vw;
+            font-weight: 600;
+            color: #6764FF;
+            cursor: pointer;
+            margin-top: 1vh;
+        }
+        .accept_btn{
+            width:5.2vw;
+            height:2.187vw;
+            border-radius: 0.6vw;
+            background-color: #6764FF;
+            color: #FFFFFF;
+            font-family: 'Poppins',sans-serif;
+            font-size: 0.78vw;
+            border-style: none;
+        }
+        .accept_btn:hover{
+            border: 2px solid #6764FF;
+            color: #6764FF;
+            background-color: #FFFFFF;
+        }
+        .Close_btn{
+            width: 0.8vw;
+            margin-left: 1.5vh;
+            cursor: pointer;
+        }
+    }
+    
+    
+}

@@ -1,0 +1,64 @@
+.otp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1vw;
+    .otp-ip {
+        .ip {
+            width: 3.6575rem;
+            height: 2.64726rem;
+            margin-right: 10px;
+            outline: none;
+            border-radius: 4px;
+            border: 1px solid #4a5ef9;
+            background: #fff;
+            text-align: center;
+            font-size: 1rem;
+        }
+        .ip:focus {
+            outline: none;
+        }
+    }
+    .otp-resend {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        margin-top: 7px;
+        .otp-resend-p:nth-child(1) {
+            margin-right: 10px;
+            text-align: center;
+            font-size: 0.77rem;
+            color: #1D2CA1;
+            text-align: center;
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            line-height: normal;
+        }
+        .otp-resend-p:nth-child(2),
+        .InActive_otp-resend-p {
+            font-size: 0.77rem;
+            color: #6764ff;
+            font-weight: 700;
+            line-height: 150%;
+            text-decoration-line: underline;
+            cursor: pointer;
+            user-select: none;
+        }
+        .InActive_otp-resend-p{
+            color: #D4D4D4;
+        }
+    }
+    .otp_alert{
+        margin: 0;
+        padding: 0;
+        font-size: 1vw;
+        font-family: 'Poppins',sans-serif;
+        position: absolute;
+        bottom: -1.5vw;
+        color: #f44336;
+    }
+}

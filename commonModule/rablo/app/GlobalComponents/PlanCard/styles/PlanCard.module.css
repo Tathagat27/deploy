@@ -1,0 +1,412 @@
+.PlanCard_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20.833vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: 0.3s;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.PlanCard_wrapper .Card_background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  border-radius: 0vw 0.52vw 0.52vw 0.52vw;
+  background-color: #ffffff;
+  transition: 0.3s;
+  box-shadow: 0px 0.208vw 0.208vw 0px rgba(0, 0, 0, 0.25);
+}
+.PlanCard_wrapper .Card_top {
+  height: 1.041vw;
+  width: 7.812vw;
+  border-radius: 10px 10px 0px 0px;
+  margin-right: auto;
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3.2vw;
+  width: 19.218vw;
+  transition: 0.1s;
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div > h4 {
+  /* Styles for h4 inside .Class_Subjects_and_price_Div */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(248, 32, 131, 0.8);
+  height: 2.291vw;
+  width: 2.291vw;
+  border-radius: 2vw;
+  background-color: #FFE9F3;
+  color: #F94D9C;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.562vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: auto;
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div .class_and_subjects {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div .class_and_subjects > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1.6vw;
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div .class_and_subjects > div:nth-of-type(1) > p:nth-of-type(1) {
+  color: rgba(0, 0, 0, 0.3);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div .class_and_subjects > div:nth-of-type(1) > p:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.3);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  height: 85%;
+  width: 5.5vw;
+  margin-left: 1.2vh;
+  border-radius: 0.26vw;
+  background: rgba(248, 32, 131, 0.1);
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div .class_and_subjects > h4 {
+  color: rgba(248, 32, 131, 0.8);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.041vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  flex-shrink: 0;
+  height: 1.6vw;
+  margin: 0;
+  padding: 0;
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div .price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 2.291vw;
+  width: 4.6vw;
+  border-radius: 5px;
+  margin-left: auto;
+  background: rgba(248, 32, 131, 0.6);
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div .price > h4 {
+  /* Styles for h4 inside .price */
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: none;
+  text-transform: capitalize;
+  margin: -0.3vh;
+  padding: 0;
+}
+.PlanCard_wrapper .Class_Subjects_and_price_Div .price > p {
+  /* Styles for p inside .price */
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.625vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: none;
+  margin: -0.3vh;
+  padding: 0;
+}
+.PlanCard_wrapper .View_and_Success_rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3.2vw;
+  width: 19.218vw;
+  border-radius: 0.5vw;
+  transition: 0.3s;
+}
+.PlanCard_wrapper .View_and_Success_rate .Views {
+  display: flex;
+  flex-direction: row;
+}
+.PlanCard_wrapper .View_and_Success_rate .Views > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vh;
+  margin-right: 2vw;
+}
+.PlanCard_wrapper .View_and_Success_rate .Views > div:nth-of-type(1) > p {
+  color: rgba(248, 32, 131, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.PlanCard_wrapper .View_and_Success_rate .Views > div:nth-of-type(1) > h4 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+.PlanCard_wrapper .View_and_Success_rate > div:nth-of-type(2) {
+  height: 70%;
+  width: 0.2vh;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.PlanCard_wrapper .View_and_Success_rate .Success_rate {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5vw;
+}
+.PlanCard_wrapper .View_and_Success_rate .Success_rate > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vh;
+}
+.PlanCard_wrapper .View_and_Success_rate .Success_rate > div:nth-of-type(1) > p {
+  color: rgba(248, 32, 131, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.PlanCard_wrapper .View_and_Success_rate .Success_rate > div:nth-of-type(1) > h4 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+.PlanCard_wrapper .Class_occupancy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 3.2vw;
+  width: 19.218vw;
+  border-radius: 0.5vw;
+  background-color: #F8F8F8;
+  transition: 0.3s;
+}
+.PlanCard_wrapper .Class_occupancy > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 65%;
+}
+.PlanCard_wrapper .Class_occupancy > div .Class_Occupancy_and_Capacity {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+  align-items: center;
+}
+.PlanCard_wrapper .Class_occupancy > div .Class_Occupancy_and_Capacity > p:nth-of-type(1) {
+  color: rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.67vw;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-right: 1vh;
+}
+.PlanCard_wrapper .Class_occupancy > div .Class_Occupancy_and_Capacity > span:nth-of-type(1) {
+  height: 60%;
+  width: 0.2vh;
+  background: rgba(0, 0, 0, 0.1);
+  margin-right: 1vh;
+}
+.PlanCard_wrapper .Class_occupancy > div .Class_Occupancy_and_Capacity > span:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  color: rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.67vw;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.PlanCard_wrapper .Class_occupancy > div .Class_Occupancy_and_Capacity > span:nth-of-type(2) > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.67vw;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-left: 0.5vh;
+}
+.PlanCard_wrapper .Class_occupancy > div > .progress_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+.PlanCard_wrapper .Class_occupancy > div > .progress_bar > h4 {
+  color: rgba(248, 32, 131, 0.8);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-right: 1vh;
+}
+.PlanCard_wrapper .Class_occupancy > div > .progress_bar > div {
+  border-radius: 0.5vh;
+  height: 1vh;
+  width: 80%;
+  background-color: #dddddd;
+  position: relative;
+}
+.PlanCard_wrapper .Class_occupancy > div > .progress_bar > div > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0.5vh;
+  height: 1vh;
+  background-color: #F82083;
+  position: relative;
+  transition: 0.3s;
+}
+.PlanCard_wrapper .Class_occupancy > button {
+  width: 4.687vw;
+  height: 2.187vw;
+  border-radius: 0.52vw;
+  border: 0.105vw solid rgba(248, 32, 131, 0.5);
+  color: rgba(248, 32, 131, 0.5);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 0.55vh;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.Shrinked_PlanCard_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 3.645vw;
+  height: 3.645vw;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Shrinked_PlanCard_wrapper .Shrinked_Card_background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.52vw 0.52vw 0.52vw 0.52vw;
+  background-color: #D2D2D2;
+  transition: 0.3s;
+  box-shadow: none;
+}
+.Shrinked_PlanCard_wrapper .Card_top {
+  display: none;
+  height: 1.041vw;
+  width: 7.812vw;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #F82083;
+  margin-right: auto;
+}
+.Shrinked_PlanCard_wrapper .Class_Subjects_and_price_Div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.Shrinked_PlanCard_wrapper .Class_Subjects_and_price_Div > h4 {
+  /* Styles for h4 inside .Class_Subjects_and_price_Div */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(248, 32, 131, 0.8);
+  height: 2.291vw;
+  width: 2.291vw;
+  border-radius: 2vw;
+  background-color: #FFE9F3;
+  color: #F94D9C;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.562vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: auto;
+}
+.Shrinked_PlanCard_wrapper .Class_Subjects_and_price_Div .class_and_subjects {
+  display: none;
+}
+.Shrinked_PlanCard_wrapper .Class_Subjects_and_price_Div .price {
+  display: none;
+}
+.Shrinked_PlanCard_wrapper .View_and_Success_rate {
+  display: none;
+}
+.Shrinked_PlanCard_wrapper .Class_occupancy {
+  display: none;
+}/*# sourceMappingURL=PlanCard.module.css.map */

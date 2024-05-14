@@ -1,0 +1,56 @@
+.RegistrationForm__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 42vw;
+  height: 100%;
+  z-index: 100;
+  overflow-y: scroll;
+}
+
+.RegistrationForm__wrapper::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(238, 238, 238, 0.9333333333);
+}
+
+.RegistrationForm__wrapper::-webkit-scrollbar-thumb {
+  background-color: #6764FF;
+  border-radius: 4px;
+}
+
+.Input__wrapper {
+  display: flex;
+  width: 37.4vw;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 6vw;
+  margin-bottom: 1vw;
+  margin-left: 1vh;
+}
+
+.Input__wrapper__ImageUpload {
+  display: flex;
+  width: 35.4vw;
+  flex-direction: column;
+  justify-content: space-between;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 1vh;
+  margin-bottom: 1vw;
+}
+
+.Input__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 4.6vw;
+  width: 16.562vw;
+}
+
+.Appartment__Input__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 4.8vw;
+}/*# sourceMappingURL=RegistrationForm.css.map */

@@ -1,0 +1,66 @@
+.main_container {
+  width: 70vw;
+}
+
+.banner_container {
+  width: 64.5833vw;
+  height: 23.24vh;
+  background: url("../../../../GlobalComponents/Assets_student/Images/Frame 427319604.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 2vw 2.5vw;
+  display: flex;
+  align-items: center;
+  border-radius: 1.0416vw;
+  border: none;
+}
+
+.title_container {
+  width: 26.96vw;
+  height: 10.399vh;
+  margin-top: 4.8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container_heading {
+  font-size: 1.875vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: start;
+  color: #d04e62;
+  margin: 0;
+  margin-top: 0.052vw;
+  line-height: 2.81vw;
+}
+
+.sub_heading {
+  font-size: 1.25vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+
+.line {
+  flex: auto;
+  border: 0.052vw solid #000000;
+  background: #000;
+  margin-top: 2.39vh;
+}
+
+.accordion_container {
+  width: 59.5833vw;
+  height: 58.24vh;
+  overflow-y: scroll;
+  margin-left: 8.958vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3vw;
+}
+.accordion_container::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=frequently.module.css.map */

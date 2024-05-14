@@ -1,0 +1,35 @@
+.Active__Section__nav__icons {
+  margin-right: 1vh;
+  color: rgba(236, 55, 55, 0.85);
+  font-size: 2.6vh;
+  cursor: pointer;
+}
+
+.InActive__Section__nav__icons {
+  margin-right: 1vh;
+  color: #dadada;
+  font-size: 2.6vh;
+  cursor: pointer;
+}
+
+.back__Icon {
+  font-size: 3vw;
+  color: #ffffff;
+  filter: brightness(1000%);
+  cursor: pointer;
+}
+
+.calender {
+  position: absolute;
+  right: 1vw;
+  bottom: 2.2vh;
+  font-size: 1.25vw;
+  color: #EC5F70;
+  cursor: pointer;
+}
+
+.gender {
+  font-size: 1.302vw;
+  padding-right: 0.2vw;
+  cursor: pointer;
+}/*# sourceMappingURL=Icons.module.css.map */

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.WrapFix{
+  position: fixed;
+  background-color: #f8f8f8;
+  height: fit-content;
+}
+
+.sidebar{
+  width: 5.20vw;
+}
+.Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  background: url('../../../Images/Images_tutor/LightHouse.gif') 0% 0% / cover no-repeat, rgba(230, 230, 255, 0.1);
+
+}
+.Plans__page {
+  height: 100vh;
+  width: 70.833vw;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background: #f8f8f8;
+}
+
+.Plans__page::-webkit-scrollbar {
+  width: 0px;
+}
+.Mypro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.Main_Div_Contains_PlanDetails_and_PlanOverview {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+}
+.Separation_Line {
+  width: 2px;
+  height: 80%;
+  margin-top: 2.8vw;
+  background: rgba(103, 100, 255, 0.2);
+}

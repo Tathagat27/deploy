@@ -1,0 +1,116 @@
+.login-box {
+  width: 500px;
+  height: auto;
+  margin: 8vh auto;
+}
+.login-box .nav {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.login-box .nav .nav-btn {
+  font-family: "Poppins", sans-serif;
+  width: 150px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+.login-box .container-lb {
+  border-radius: 0 10px 10px 10px;
+  padding: 0px 0px 15px;
+}
+.login-box .container-lb .heading {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 56px;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+.login-box .container-lb .button {
+  width: 300px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 30px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.login-box .container-lb .button .icon {
+  height: 50px;
+  width: 30px;
+  margin-right: 15px;
+}
+.login-box .container-lb .para {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  height: 50px;
+  margin: 30px auto;
+}
+.login-box .red-shadow {
+  box-shadow: -30px 30px 30px 0px rgba(255, 255, 255, 0.11) inset, 30px -30px 30px 0px rgba(194, 76, 76, 0.11) inset;
+  background-color: linear-gradient(180deg, rgba(242, 113, 130, 0.65) 41.15%, rgba(237, 110, 127, 0.65) 100%);
+}
+.login-box .blue-shadow {
+  box-shadow: -30px 30px 30px 0px rgba(255, 255, 255, 0.11) inset, 30px -30px 30px 0px rgba(78, 76, 194, 0.11) inset;
+  background-color: rgba(78, 76, 194, 0.11);
+}
+@media (max-width: 550px) {
+  .login-box {
+    width: 90%;
+    left: 5%;
+  }
+  .login-box .nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .login-box .nav .nav-btn {
+    width: 100%;
+  }
+  .login-box .container-lb {
+    height: auto;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .login-box .container-lb .heading {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 20px 0 30px 0;
+  }
+  .login-box .container-lb .button {
+    width: 80%;
+  }
+  .login-box .container-lb .para {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .login-box .login-box .container-lb .button {
+    width: 85%;
+  }
+}/*# sourceMappingURL=LoginBox.css.map */

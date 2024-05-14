@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.tab {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+
+  div {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    gap: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ec5f70;
+    border-radius: 14px;
+    transition:
+      background-color 0.3s,
+      color 0.3s,
+      border-color 0.3s;
+
+    .tabImg {
+      height: 20px;
+      margin-right: 6px;
+    }
+
+    .borderright {
+      border-radius: 0;
+      border-right: 1px solid #cfcfcf;
+      margin-right: 30px;
+    }
+
+    &.active {
+      background-color: #ec5f70;
+      color: #fff;
+    }
+
+    .tabdiv {
+      background-color: #fff;
+    }
+  }
+}
+
+.MySideProfile {
+  width: 470px;
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  transition: 0.3s;
+
+  h2{
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .MySideProfileContainer {
+    height: 100vh-4vh;
+    flex-shrink: 0;
+    width: 330px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(223, 205, 210, 0.7);
+    transition: 0.3s;
+  }
+
+  
+
+  .profileDetails {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 1px;
+  }
+
+  .img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .statlogo {
+    width: 35px;
+    color: #ec5f70;
+    margin-top: 5px;
+  }
+
+  .username {
+    margin: 0;
+    color: #fff;
+    font-size: 10px;
+  }
+
+  .fullName {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+
+  .grade {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .gradeType {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .board {
+    font-weight: bold;
+  }
+
+  .editProfileButton {
+    padding: 3px 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ef6b7d;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .editProfileButton:hover {
+    background-color: #ea5b6e;
+  }
+
+  .statistics {
+    flex: 1 1 28%;
+    margin-top: 2px;
+    align-items: center;
+  }
+
+  .statisticsTitle {
+    font-size: 14px;
+    margin-bottom: 10px; 
+  }
+
+  .statsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .stat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150px;
+    height: auto;
+    padding: 4px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+  }
+
+  .statInfo {
+    font-size: 14px;
+  }
+
+  .statValue {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .statLabel {
+    margin: 0;
+    color: #000;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .calender {
+    flex: 1 1 48%;
+  }
+
+  .calenderTitle {
+    font-size: 14px;
+  }
+
+  .calenderContent {
+    height: 200px;
+    background-color: #f4f4f4;
+  }
+
+  .preferredLanguages {
+    flex: 1 1 50%;
+    margin-top: 0px;
+  }
+
+  .languagesTitle {
+    font-size: 16px;
+  }
+
+  .languagesContent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .svglogo {
+    height: 20px;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: auto;
+    padding: 4px;
+    gap: 10px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+  }
+
+  .statlog {
+    color: #ec5f70;
+  }
+
+  .ArrowUp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.MyProfilePage {
+  font-family: "Poppins", sans-serif;
+
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+
+  .tabDiv {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+  }
+}
+
+.myprofile {
+  font-family: "Poppins", sans-serif;
+
+  .wrapupbar {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: #fff;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00000099;
+    cursor: pointer;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .borderright {
+      display: flex;
+      align-items: center;
+      border-right: 1px solid #c7c7c7;
+      padding-right: 20px;
+      margin-right: 20px;
+    }
+
+    .right {
+      margin-left: 30px;
+      margin-right: 40px;
+      h3 {
+        color: rgba(236, 95, 112, 0.75);
+        border-bottom: 1px solid #cfcfcf;
+      }
+    }
+
+    .border {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .profile,
+    .locked {
+      border-radius: 100%;
+      background-color: rgba(236, 95, 112, 0.5);
+      width: 65px;
+      height: 65px;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .locked {
+      background-color: #ec5f70;
+    }
+
+    .addbutton {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+    }
+
+    .red {
+      color: rgba(236, 95, 112, 1);
+    }
+  }
+}

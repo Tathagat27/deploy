@@ -1,0 +1,119 @@
+.calendar {
+    width: 18.625vw;
+    margin: auto;
+    background-color: #fff;
+    padding: 0.2604vw;
+    border-radius: 0.5208vw;
+    border: 0.1042vw solid #EC5F70;
+}
+
+button {
+    border: 0;
+    background-color: #fff;
+    color: #EC5F70;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.2604vw;
+    /* Changed padding to vw */
+    margin-bottom: 0.2604vw;
+    /* Changed margin-bottom to vw */
+    border-bottom: 0.0521vw solid #ccc;
+    /* Changed border-bottom to vw */
+}
+
+.currentMonth {
+    font-weight: bold;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.1042vw;
+    /* Changed gap to vw */
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5625vw;
+    /* Changed width to vw */
+    height: 1.5625vw;
+    /* Changed height to vw */
+    color: rgba(103, 100, 255, 1);
+    cursor: pointer;
+}
+
+.disabled {
+    color: #ccc;
+}
+
+.currentDay {
+    border-radius: 50%;
+    border: 0.1042vw solid rgb(154, 255, 2);
+    /* Changed border to vw */
+}
+
+.weekday {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.day:nth-child(7n) {
+    color: red;
+}
+
+.rowcalend {
+    margin-top: 0.2604vw;
+    /* Changed margin-top to vw */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5208vw;
+    /* Changed gap to vw */
+}
+
+.cancel {
+    border: 0.1042vw solid #EC5F70;
+    /* Changed border to vw */
+    padding: 0.2604vw 0.4167vw;
+    /* Changed padding to vw */
+    border-radius: 0.4167vw;
+    /* Changed border-radius to vw */
+    font-weight: bold;
+}
+
+.save {
+    border: 0.1042vw solid #EC5F70;
+    /* Changed border to vw */
+    background-color: #EC5F70;
+    color: #fff;
+    padding: 0.2604vw 0.4167vw;
+    /* Changed padding to vw */
+    border-radius: 0.4167vw;
+    /* Changed border-radius to vw */
+    font-weight: bold;
+}
+
+.Modal {
+    padding: 5px;
+
+    textarea {
+        width: 100%;
+        height: 7.2917vw;
+        /* Changed height to vw */
+        border: 0;
+    }
+
+    textarea:focus {
+        width: 100%;
+        outline: none;
+    }
+}

@@ -1,0 +1,19 @@
+.Request_page_wrapper{
+    width: 98%;
+
+    .Column_names{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        align-items: center;
+        margin-left: 2.5vw;
+        margin-top: 0.8vw;
+        margin-bottom: 0.8vw;
+        >h4{
+            font-family: 'Poppins',sans-serif;
+            font-size: 0.9vw;
+            color: #0000004D;
+            font-weight: 600;
+        }
+    }
+}

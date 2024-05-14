@@ -1,0 +1,64 @@
+.ChooseYourPlan_wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 6vw;
+        height: 95%;
+        width: 43vw;
+        margin-top: 1vw;
+
+        >h4{
+            color: #6764FF;
+            font-family: 'Poppins',sans-serif;
+            font-size: 1.875vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            padding: 0;
+        }
+        
+        >p{
+            color: rgba(0, 0, 0, 0.70);
+            font-family: 'Poppins',sans-serif;
+            font-size: 1.145vw;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-top: -1vh;
+            padding: 0;
+        }
+
+        .Search_image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+        }
+        .Basic_instructions{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin-top: 2vh;
+            >h4{
+                color: rgba(103, 100, 255, 0.80);
+                text-align: center;
+                font-family: 'Poppins',sans-serif;
+                font-size: 1.142vw;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 0.8vw;
+            }
+            >ul li{
+                color: rgba(0, 0, 0, 0.58);
+                font-family: 'Poppins',sans-serif;
+                font-size: 1.041vw;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.254vw;
+                margin-bottom: 1vh;
+            }
+        }
+}

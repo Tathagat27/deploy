@@ -1,0 +1,27 @@
+.stepotpbutton,
+.Inactive_stepotpbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 0.9625rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  background: rgba(103, 100, 255, 0.8);
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.Inactive_stepotpbutton {
+  color: #d4d4d4;
+  opacity: 0.5;
+  background: rgba(103, 100, 255, 0.4);
+}/*# sourceMappingURL=SendOtpButton.css.map */

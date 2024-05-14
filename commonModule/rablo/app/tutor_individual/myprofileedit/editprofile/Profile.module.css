@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.profile {
+  font-family: "Poppins", sans-serif;
+  padding: 4.074vh 4.479vw 4.72vh 4.58vw;
+  width: 100%;
+  margin-top: 0;
+}
+.profile h1 {
+  font-size: 1.7vw;
+  line-height: 4.44vh;
+  margin-bottom: 3.611vh;
+  font-weight: 500;
+  align-items: last-baseline;
+}
+.profile .backarrow {
+  margin-right: 0.2vw;
+}
+.profile input:focus {
+  outline: none;
+}
+.profile .emailinp {
+  width: 240px;
+}
+.profile .tab {
+  margin-bottom: 2.778vh;
+}
+.profile .tab div {
+  display: flex;
+  width: 25.57vw;
+  border-bottom: 3px solid rgb(217, 217, 217);
+  justify-content: space-around;
+}
+.profile .tab div div {
+  padding: 0 0.4vw 1.48vh;
+  padding-bottom: 1.48vh;
+  width: 5.8vw;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.04167vw;
+  line-height: 1.5625vh;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0.5vh;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.profile .tab div div:hover {
+  background-color: #f3f3f3;
+}
+.profile .tab div div.active {
+  border-bottom: 4px solid #6764ff;
+  color: #6764ff;
+}
+.profile .formDiv {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.52vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+  width: 61.77vw;
+  height: 65.185vh;
+  padding: 4.63vh 13.02vw 0;
+}
+.profile .form {
+  background-color: #fff;
+  width: 62vw;
+  height: 60.555vh;
+  overflow: scroll;
+  padding: 0;
+  margin: 0;
+  border-radius: 0.52vw;
+  z-index: 10;
+}
+.profile .form h2 {
+  font-size: 20px;
+  margin-bottom: 23px;
+  color: #000000;
+}
+.profile .form .formGroup {
+  margin-bottom: 4.167vh;
+  width: 35.68vw;
+}
+.profile .form .formGroup label {
+  display: block;
+  margin-bottom: 0.9259vh;
+  color: rgba(74, 55, 148, 0.8);
+  line-height: 2.7778vh;
+  font-size: 1.042vw;
+  font-weight: 600;
+}
+.profile .form .formGroup .prelabel {
+  color: #6764ff;
+}
+.profile .form .formGroup .inputWithButton {
+  display: flex;
+  height: 6.0185vh;
+  border-radius: 0.3125vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0.052vw solid rgb(103, 100, 255);
+  padding: 1.574vh 1.3vw 1.389vh 1.3vw;
+}
+.profile .form .formGroup .inputWithButton p {
+  font-size: 0.833vw;
+  height: 2.22vh;
+  font-weight: 400;
+  line-height: 2.22vh;
+  color: rgb(153, 153, 153);
+  margin-bottom: 0.2vh;
+  letter-spacing: 0.31em;
+  font-style: normal;
+}
+.profile .form .formGroup .inputWithButton input[type=file],
+.profile .form .formGroup .inputWithButton input[type=email],
+.profile .form .formGroup .inputWithButton input[type=tel] {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  margin: 0px;
+  color: rgb(153, 153, 153);
+}
+.profile .form .formGroup .inputWithButton input[type=tel] {
+  width: 7.1875vw;
+  height: 2.22vh;
+  border: 0px;
+  margin: 0px;
+  color: rgb(153, 153, 153);
+  font-family: Poppins;
+  letter-spacing: 0.31em;
+  font-size: 0.833vw;
+  font-weight: 400;
+  line-height: 2.22vh;
+  text-align: left;
+}
+.profile .form .formGroup .inputWithButton input[type=email] {
+  min-width: 7.34375vw;
+  height: 2.22vh;
+  font-size: 0.833vw;
+  line-height: 2.22vh;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: left;
+  padding: 0;
+  margin-right: 20vw;
+  background-color: rgba(217, 217, 217, 0);
+  color: rgb(153, 153, 153);
+}
+.profile .form .formGroup .inputWithButton button {
+  font-size: 12px;
+  width: 4vw;
+  height: 3.055vh;
+  font-family: Poppins;
+  font-size: 0.78125vw;
+  font-weight: 400;
+  line-height: 2.08333vh;
+  text-align: center;
+  border-radius: 0.3125vw;
+  border: 0.052vw solid rgb(103, 100, 255);
+  margin-left: 0.78125vw;
+  background-color: rgb(103, 100, 255);
+}
+.profile .form .formGroup .inputWithButton img {
+  margin: 10px;
+}
+.profile .form .formGroup .inputWithButton .phoneInput {
+  display: flex;
+  margin: 0;
+}
+.profile .form .formGroup .inputWithButton .phoneInput .phoneIn {
+  width: 15px;
+  height: 30px;
+  margin: 0 5px;
+  text-align: center;
+  border: none;
+  border: 1px solid black; /* Only bottom border */
+  font-size: 16px;
+}
+.profile .form .formGroup .inputWithButton .phoneInput .phoneIn:focus {
+  outline: none;
+  border-bottom-color: blue; /* Change focus border color as needed */
+}
+.profile .form .formGroup select,
+.profile .form .formGroup input[type=text],
+.profile .form .formGroup input[type=tel],
+.profile .form .formGroup textarea {
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+  border: 0.052vw solid rgb(103, 100, 255);
+  border-radius: 0.3125vw;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.profile .form .formGroup .verifyButton {
+  background-color: #6764ff;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  width: 4.2185vw;
+  height: 3.02vh;
+  border-radius: 0.4167vw;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 0.4375em;
+  font-weight: 400;
+  line-height: 2.0833;
+  text-align: center;
+}
+.profile .form .formGroup .verifyButton:hover {
+  background-color: #6764ff;
+}
+.profile .form .formGroup textarea {
+  height: 100px;
+}
+.profile .form button {
+  background-color: #6764ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 15.4786vw;
+  border-radius: 8px;
+  height: 5.833vh;
+  background-color: rgba(103, 100, 255, 0.8);
+}
+.profile .form .formGroupRow {
+  display: flex;
+  width: 35.68vw;
+  height: 9.722vh;
+  gap: 1.5vw;
+  align-items: last baseline;
+  margin-bottom: 0;
+}
+.profile .form .formGroupRow .formGroup {
+  margin: 0;
+}
+.profile .form .formGroupRow .formGroup input,
+.profile .form .formGroupRow .formGroup input[type=file],
+.profile .form .formGroupRow .formGroup input[type=email] {
+  width: 17vw;
+  height: 6.0185vh;
+  font-size: 0.833vw;
+}
+.profile .form .formGroupRow .formGroup input[type=tel] {
+  color: rgb(153, 153, 153);
+  font-family: Poppins;
+  letter-spacing: 0.31em;
+  font-size: 0.833vw;
+  font-weight: 400;
+  line-height: 2.22vh;
+  text-align: left;
+  margin-left: 0.278vw;
+}
+.profile .form .formGroupRow .formGroup label {
+  display: block;
+  margin-bottom: 0.9259vh;
+  color: rgba(74, 55, 148, 0.8);
+  line-height: 2.7778vh;
+  font-size: 1.042vw;
+  font-weight: 600;
+}
+.profile .form .formGroupRow .formGroup .inputWithButton {
+  width: 16.5625vw;
+  height: 6.0185vh;
+  border-radius: 0.3125vw;
+  padding: 1.48vh 1.2vw;
+  border: 0.052vw solid rgb(103, 100, 255);
+}
+.profile .form .formGroupRow .formGroup .inputWithButton h4 {
+  font-size: 0.833vw;
+  height: 1.25vw;
+  font-family: Poppins;
+  font-weight: 400;
+  letter-spacing: 0.31em;
+  text-align: left;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+}
+.profile .form .formGroupRow .formGroup .inputWithButton input {
+  width: 8vw;
+  height: 1.25vw;
+  font-size: 0.833vw;
+  line-height: 1.25vw;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: left;
+  padding: 0;
+}
+.profile .form .formGroupRow .formGroup .inputWithButton input[type=tel] {
+  width: 8vw;
+  height: 2.22vh;
+  border: 0px;
+  margin: 0px;
+  color: rgb(153, 153, 153);
+  font-family: Poppins;
+  letter-spacing: 0.31em;
+  font-size: 0.833vw;
+  font-weight: 400;
+  line-height: 2.22vh;
+  text-align: left;
+  margin-left: 0.278vw;
+}
+.profile .form .formGroupRow .formGroup .inputWithButton .verifyButton {
+  background-color: #6764ff;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  width: 4.2185vw;
+  height: 3.02vh;
+  border-radius: 0.4167vw;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 0.78125vw;
+  font-weight: 400;
+  line-height: 2.0833vh;
+  text-align: center;
+  margin-left: 0.78125vw;
+}
+.profile .form .formGroupRow .formGroup .inputWithButton button {
+  background-color: rgb(103, 100, 255);
+}
+.profile .form .formGroupRow .formGroup .inputWithButton .verifyButton:hover {
+  background-color: #6764ff;
+}
+.profile .form .formGroupRow .lszero {
+  letter-spacing: 0.31em;
+}
+.profile .form .savebtn {
+  width: 15.4786vw;
+  border-radius: 8px;
+  height: 5.833vh;
+  background-color: rgba(103, 100, 255, 0.8);
+}
+.profile .form .languageButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.profile .form .languageButton {
+  background-color: #fff;
+  color: #6764ff;
+  border: 1px solid #6764ff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.profile .form .languageButton:hover {
+  color: #fff;
+  background-color: #6764ff;
+  border: 1px solid #6764ff;
+  transition: background-color 0.3s ease;
+}
+.profile .form .languageButton.selected {
+  background-color: #6764ff;
+  color: #fff;
+}
+.profile .form::-webkit-scrollbar {
+  width: 0px;
+}
+.profile .unaccessilble {
+  background-color: rgba(217, 217, 217, 0.2);
+}
+.profile .rowBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5.833vh;
+}
+.profile .rowBtn .basicbtn {
+  border: 0;
+  width: 3.59vw;
+  background-color: #fff;
+  color: #6764ff;
+  font-size: 1.04167vw;
+  line-height: 1.5625vw;
+  padding: 0 0 0 0;
+}
+.profile .marginB {
+  margin-top: 4.44vh;
+}
+
+.form {
+  padding-bottom: 0;
+}
+
+#whatsapp {
+  height: 6.0185vh;
+  border-radius: 0.3125vw;
+  border: 0.052vw solid rgb(103, 100, 255);
+  font-family: Poppins;
+  font-size: 0.833vw;
+  font-weight: 400;
+  line-height: 2.222vh;
+  text-align: left;
+  color: rgb(153, 153, 153);
+}/*# sourceMappingURL=Profile.module.css.map */

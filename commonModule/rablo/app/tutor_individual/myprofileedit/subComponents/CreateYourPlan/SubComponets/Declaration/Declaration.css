@@ -1,0 +1,172 @@
+.Declaration__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 39.375vw;
+  height: 29.3vw;
+  border-radius: 1vw;
+  background-color: rgba(103, 100, 255, 0.5019607843);
+}
+.Declaration__wrapper > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  height: 13%;
+}
+.Declaration__wrapper > div:nth-of-type(1) .Summary_heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.562vw;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.Declaration__wrapper > div:nth-of-type(1) .Assured {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 5.625vw;
+  height: 1.614vw;
+  padding: 0.2vw, 0.52vw, 0.2vw, 0.52vw;
+  border-radius: 1vw;
+  border: 1.5px solid white;
+  gap: 5px;
+}
+.Declaration__wrapper > div:nth-of-type(1) .Assured > h4:nth-of-type(1) {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8vw;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6980392157);
+  margin: 0;
+  padding: 0;
+}
+.Declaration__wrapper .Declaration_main_contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 87%;
+  width: 100%;
+  border-radius: 1vw;
+  background-color: white;
+}
+.Declaration__wrapper .Declaration_main_contents > p:nth-last-of-type(1) {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8vw;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 0;
+  margin-top: 1vw;
+}
+.Declaration__wrapper .Declaration_main_contents > p:nth-last-of-type(1) > span:nth-of-type(1) {
+  font-weight: 700;
+}
+.Declaration__wrapper .Declaration_main_contents .Details {
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  margin-left: 1vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+.Declaration__wrapper .Declaration_main_contents > ul:nth-of-type(1) > li {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.833vw;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5019607843);
+  margin: 0;
+  padding: 0;
+}
+.Declaration__wrapper .Declaration_main_contents > ul:nth-of-type(1) > li > span {
+  font-weight: 700;
+}
+.Declaration__wrapper .Declaration_main_contents .Seperation_line {
+  height: 2px;
+  width: 95%;
+  background-color: rgba(103, 100, 255, 0.2);
+  margin-top: -1vh;
+}
+.Declaration__wrapper .Declaration_main_contents .Terms_and_Condition_check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 90%;
+  margin-top: 0.5vh;
+}
+.Declaration__wrapper .Declaration_main_contents .Terms_and_Condition_check > input {
+  height: 1.354vw;
+  width: 1.354vw;
+  border: 1px solid #D9D9D9;
+  cursor: pointer;
+}
+.Declaration__wrapper .Declaration_main_contents .Terms_and_Condition_check > label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.833vw;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.Declaration__wrapper .Declaration_main_contents .Your_payment_per_class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.968vw;
+  width: 95%;
+  margin-top: 1vh;
+  background-color: #F8F8F8;
+}
+.Declaration__wrapper .Declaration_main_contents .Your_payment_per_class > h4:nth-of-type(1) {
+  font-family: Barlow Condensed;
+  font-size: 1.562vw;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(103, 100, 255, 0.8);
+  margin: 0;
+  padding: 0;
+  margin-left: 2vw;
+}
+.Declaration__wrapper .Declaration_main_contents .Your_payment_per_class > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+  margin-right: 1vw;
+}
+.Declaration__wrapper .Declaration_main_contents .Your_payment_per_class > div:nth-of-type(1) .Rupees_symbol {
+  font-family: Barlow Condensed;
+  font-size: 1.2vw;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(103, 100, 255, 0.8);
+}
+.Declaration__wrapper .Declaration_main_contents .Your_payment_per_class > div:nth-of-type(1) > h4:nth-of-type(1) {
+  font-family: Barlow Condensed;
+  font-size: 1.562vw;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(103, 100, 255, 0.8);
+  margin: 0;
+  padding: 0;
+  margin-right: 0.7vh;
+}
+.Declaration__wrapper .Declaration_main_contents .Your_payment_per_class > div:nth-of-type(1) > p:nth-of-type(1) {
+  font-family: Barlow Condensed;
+  font-size: 1.041vw;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(103, 100, 255, 0.5019607843);
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=Declaration.css.map */

@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.add_student_Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  background: #F8F8F8;
+}
+
+.add__Student__page {
+  height: 100vh;
+  width: 100%;
+}
+
+.add__Student_Main_Contains {
+  height: 90vh;
+  width: 100%;
+}/*# sourceMappingURL=layout.css.map */

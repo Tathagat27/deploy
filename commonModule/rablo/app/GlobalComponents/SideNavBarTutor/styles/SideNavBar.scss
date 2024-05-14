@@ -1,0 +1,337 @@
+
+.sidebar{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 4.6vw ;
+    height: 100%;
+    color: #fff;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+    position: relative;
+    background: url('../../Assets_tutor/Images/LightHouse.gif') 0% 0% / cover no-repeat, rgba(103, 100, 255, 0.56);
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(82, 113, 255, 0.50);
+    pointer-events: none; /* This prevents the overlay from capturing clicks */
+  }
+  
+  .sidebar.open {
+    width: 20.833vw;
+    height: 100%;
+    color: #fff;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+  }
+  .Container_heading{
+    display: none;
+  }
+
+  .sidebar:hover {
+    width: 20.833vw;
+    height: 100%;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    .Container_heading{
+      display:flex;
+    }
+    .label{
+      display: flex;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    .Logout_button{
+      display: flex;
+      margin-top: 1.38889vh ;
+    }
+    .Logout_icon{
+      display: none;
+    }
+
+    .hamburger{
+      .HamBurger_Icon{
+        display: none;
+      }
+      .Close_Icons{
+        display: flex;
+      }
+    }
+
+    .Class__Container{
+    .Container_heading{
+      display: flex;
+    }}
+    .Settings__Container{
+      // padding-bottom: 3vh;
+      // height: 30h;
+      margin-top: 12vh;
+
+      .Free_point_card{
+        display:flex;
+        margin-bottom: 0;
+      }
+      .Setting{
+        display: flex;
+        
+        .marginbotm14 {
+          margin-bottom: 0.297vh ;
+        }
+    }}
+    .Link_Wrapper{
+      margin-left: 2.8645vw;
+    }
+    .Link_Wrapper2{
+      width: 16vw;
+      background-color:white;
+      border-radius: 0.52vw;
+     height: 5.5556vh;
+     padding: 0;
+     display: flex;
+     align-content: flex-start;
+     margin-left: 2.7vw;
+     position: relative;
+     right:1vw;
+
+      .Icon {
+        margin-right: 0.5vw;
+        white-space: nowrap;
+      flex-shrink: 0;
+      }
+    }
+    .label2 {
+      display: flex;
+      position: relative;
+      right:15px;
+      font-size: 1.04167vw;
+      line-height: 2.77778vh;
+      align-content: flex-start;
+    }
+    .white_background {
+      background-color: rgba(255, 255, 255, 0.5);
+      opacity:90%;
+      margin-left: 0;
+      padding: 1.3889vh 5vw 1.3889vh 2vw;
+      border-width: 0 0 0 1vh;
+      border-style: solid;
+      border-color: white;
+      position: relative;
+      right:1.4vw;
+      z-index: 5;
+      width:28vw;
+    }
+  }
+  
+  .sidebar button {
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .hamburger{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2vh;
+    height: 2vh;
+    margin-top: 2.354vw;
+
+    .HamBurger_Icon{
+      display: flex;
+      z-index: 0;
+      margin-right: 0.8vh;
+    }
+    .Close_Icons{
+      display: none;
+      z-index: 999;
+    }
+  }
+  .DashBoard__Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    //margin-left: 0.6vw;
+    margin-top: 8.274vh;
+    width: 90%;
+    height: 14.907vh;
+    z-index: 1;
+    pointer-events: auto;
+  }
+  .Class__Container{
+    display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  // margin-left: 2.8645vw;
+  margin-top: 1vw;
+  width: 90%;
+  margin-bottom: 4vh;
+  height: 11vw;
+  z-index: 1;
+  pointer-events: auto;
+
+    .Link_Wrapper{
+      margin-left: 2.8645vw;
+    }
+
+    .Container_heading{
+      display: none;
+    }
+  }
+  // .Free__Point__wrapper{
+  //   display: none;
+  //   align-items: flex-end;
+  //   justify-content: flex-start;
+  //   padding-bottom: 2vw;
+  //   height: 10vw;
+  //   width: 70%;
+  //   z-index: 1;
+  //   background-color: aqua;
+  // }
+  // .Free__Point__wrapper.open{
+  //   display: block;
+  //   height: 10vw;
+  //   width: 70%;
+  // }
+  .Settings__Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 0.6vw;
+    margin-top: 25vh;
+    width: 90%;
+    height: 34.44vh;
+    z-index: 1;
+    pointer-events: auto;
+    padding-bottom: 3.24vh;
+    .Free_point_card{
+      display: none;
+      margin-bottom: 7vh;
+    }
+    .Setting{
+      display: none;
+    }
+  }
+  .Container_heading{
+    margin: 0;
+    padding: 0;
+    height: 2.85vh;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.041vw;
+    font-style: bold;
+    font-weight: 800;
+    line-height: 2.77798vh;
+    white-space: nowrap;
+    margin-bottom: 1.944vh;
+    margin-left:2.03125vw;
+  }
+
+  .Link_Wrapper{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: flex-start;
+    color: #FFF;
+    font-size: 1.302vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.4722vh;
+    margin-left: 1.6667vw;
+    cursor: pointer;
+    height: 2.95vw;
+  }
+
+  .white_background {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity:90%;
+    margin-left: 0;
+    padding-left: 1.125vw;
+    padding-right: 5vw;
+    border-width: 0 0 0 1vh;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+    right:7px;
+    z-index: 5;
+  }
+
+  .Icons{
+      height: 1.5vw;
+      width: 1.5vw;
+      white-space: nowrap;
+      margin-right: 1vw;
+      flex-shrink: 0;
+      
+  }
+
+  .Icon {
+    margin-right: 1vw;
+  }
+
+  .mvright{
+    position: relative;
+    right: 0.9vh;
+  }
+  .label{
+    display: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.302vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+    margin-top: 1vh;
+  }
+  .Logout_button{
+    display: none;
+  }
+  .Logout_icon{
+    display: flex;
+  }
+  .Link_Wrapper2{
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1.302vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 1.4vw;
+    cursor: pointer;
+    height: 2.95vw;
+  }
+  .label2{
+    display: none;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1vh;
+    color: #6777F0;
+    font-family: Poppins;
+  font-size: 1.04vw;
+  font-weight: 600;
+  line-height: 1.56vw;
+  text-align: left;
+  
+  
+  }
+
+  

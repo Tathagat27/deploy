@@ -1,0 +1,93 @@
+.gender {
+  display: flex;
+}
+.gender .gender-gen {
+  display: flex;
+}
+.gender .gender-gen .gender-gen-btn1 {
+  display: flex;
+  border: 1px solid;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 0vw;
+  height: 2.864vw;
+  width: 4vw;
+  border-radius: 10px;
+  border: 0.769px solid #EC5F70;
+  background: #7e1212;
+  color: rgba(236, 95, 112, 0.9);
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.gender .gender-gen .gender-gen-btn1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gender .gender-gen .gender-gen-btn {
+  display: flex;
+  border: 1px solid;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 0.3vw;
+  padding-left: 0.3vw;
+  height: 2.864vw;
+  width: 5vw;
+  border-radius: 10px;
+  border: 0.769px solid #EC5F70;
+  background: #7e1212;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgba(236, 95, 112, 0.9);
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.gender .gender-gen .gender-gen-btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1vh;
+}
+.gender .gender-ngen .gender-gen-btn {
+  display: flex;
+  border: 1px solid;
+  padding: 0.8vh;
+  border-radius: 0.5vw;
+  border: 0.769px solid #EC5F70;
+  background: #fff;
+  color: rgba(236, 95, 112, 0.9);
+  font-size: 0.9vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-right: 0.4vw;
+  margin-top: 0.6vh;
+  cursor: pointer;
+}
+.gender .gender-ngen .gender-gen-btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gender .gender-ngen .gender-gen-btn .other-genip {
+  border-radius: 0.5vw;
+  border: 0.2px solid #EC5F70;
+  background: rgba(248, 248, 248, 0.5);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  color: #000000;
+  font-size: 0.8vw;
+  font-weight: 400;
+  letter-spacing: 0.2vh;
+  text-align: center;
+  height: 4.6vh;
+  width: 11.6vw;
+}
+.gender .gender-ngen .gender-gen-btn .other-genip:focus {
+  border: 1px solid #EC5F70;
+}/*# sourceMappingURL=Gender.css.map */

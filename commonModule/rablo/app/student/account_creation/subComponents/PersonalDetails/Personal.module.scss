@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 49vh;
+    width: 35.781vw;
+    margin-left: 5.5vh;
+    margin-top: 2vh;
+    padding: 0;
+}
+
+.Input__Section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5.468vw;
+    width: 35.781vw;
+    margin-top: 2vh;
+}
+
+.Input__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 5vw;
+    width: 16.562vw;
+    position: relative;
+    padding: 0;
+}
+
+.label{
+    color: #EC5F70;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.041vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    margin-top: -0.5vh;
+    padding: 0;
+    flex-shrink: 0;
+    position: relative;
+
+    >span:nth-of-type(1){
+        color: rgba(0, 0, 0, 0.30);
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.833vw;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        flex-shrink: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
+.Input{
+    width: 100%;
+    height: 3vw;
+    padding:  2.197vh;
+    border-radius: 0.2083vw;
+    border: 1px solid #EC5F70;
+    background: #FFF;
+    margin: 0;
+    color: #999;
+    outline: 1px solid #EC5F70;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Input:focus{
+    outline: 2px solid #EC5F70;
+}
+    .Input::placeholder{
+        top:28.072vw;
+        left: 47.656vw;
+        gap: 0.520vw;
+    }
+
+.Gender__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 16.562vw;
+    height: 3.385vw;
+}
+.Gender__label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 5vw;
+    padding-left: 0.2vw;
+    height: 2.864vw;
+    background-color: #7a6666;
+    border-radius: 0.520vw;
+    border: 0.040vh solid #EC5F70;
+    color: #EC5F70;
+font-family: 'Poppins', sans-serif;
+font-size: 0.888vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: #FFF;
+cursor: pointer;
+}
+.Gender__input{
+    display: none;
+}
+.Number__Input{
+    width: 100%;
+    height: 3vw;
+    padding-left:7vh;
+    border-radius: 0.2083vw;
+    border: 1px solid #EC5F70;
+    background: #FFF;
+    margin: 0;
+    outline: 1px solid #EC5F70;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #999;
+    letter-spacing: 0.258vw;
+    text-transform: capitalize;
+}
+.Number__label{
+    position: absolute;
+    bottom: 1.88vh;
+    left: 2vh;
+    color: #EC5F70;
+
+font-family: 'Poppins', sans-serif;
+font-size: 0.833vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing:0.258vw;
+text-transform: capitalize;
+}
+
+
+.button{
+    width: 15.593vw;
+    height: 3.281vw;
+    border-radius: 0.416vw;
+background: #EC5F70;
+color: #FFF;
+border: none;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 1.25vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+
+.Input__Button__Section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 5.468vw;
+    width: 35.781vw;
+    margin-top: 5.565vh;
+}

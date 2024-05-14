@@ -1,0 +1,45 @@
+.question{
+  
+    padding: 0;
+    font-size: 1.04vw;
+    font-weight: 600;
+    color: #D04E62;
+    line-height: 1.5625vw;
+    font-family: "Poppins" sans-serif;
+ 
+}
+.main_heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: all .3s ease;
+}
+.answer{
+    width: 35.104vw;
+    color:#000;
+    font-size: 1.04166vw;
+    font-family: "Poppins" sans-serif;
+    font-weight: 500;
+    line-height: 1.5625vw;
+    margin-top: 0;
+}
+.line{
+    border: 0.0520vw solid #E0E0E0;
+    width: 31.409vw;
+}
+.icon_wrapper{
+    width: 2.91vw !important;
+    height: 2.91vw !important;
+    margin-right: 1.5vw;
+   
+    cursor: pointer;
+
+    .icon{
+        color: gray;
+           
+    }
+    .icon_down{
+        color: gray;
+        transform: rotate(180deg);    
+    }
+}

@@ -1,0 +1,49 @@
+.MuiInputBase-root {
+  height: 3vw !important;
+  color: #787878 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  margin-top: 0.5vh !important;
+  text-transform: capitalize !important;
+  position: relative;
+  width: 16.387vw;
+  background-color: #fff;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-radius: 0.208vw !important;
+  border: 2px solid #EC5F70 !important;
+  outline: none !important;
+}
+
+.MuiOutlinedInput-notchedOutline:focus {
+  border: 2px solid #EC5F70 !important;
+}
+
+.MuiDateCalendar-root {
+  border-radius: 0.52vw !important;
+  width: 21.875vw !important;
+  height: 19.843vw !important;
+  border: 2px solid #EC5F70 !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root {
+  display: flex !important;
+  border-bottom: 2px solid #EC5F70;
+  justify-content: space-evenly !important;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root .MuiPickersCalendarHeader-labelContainer {
+  position: absolute !important;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root .MuiPickersArrowSwitcher-root {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root .MuiPickersArrowSwitcher-root .MuiButtonBase-root {
+  color: #EC5F70;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root .MuiPickersArrowSwitcher-root .MuiPickersArrowSwitcher-spacer {
+  width: 30vh !important;
+}/*# sourceMappingURL=Calender.css.map */

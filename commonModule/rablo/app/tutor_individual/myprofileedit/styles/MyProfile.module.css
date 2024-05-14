@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.tab {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+.tab div {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  gap: 0px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ec5f70;
+  border-radius: 14px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.tab div .tabImg {
+  height: 20px;
+  margin-right: 6px;
+}
+.tab div .borderright {
+  border-radius: 0;
+  border-right: 1px solid #cfcfcf;
+  margin-right: 30px;
+}
+.tab div.active {
+  background-color: #ec5f70;
+  color: #fff;
+}
+.tab div .tabdiv {
+  background-color: #fff;
+}
+
+.MySideProfile {
+  width: 470px;
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  transition: 0.3s;
+}
+.MySideProfile h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.MySideProfile .MySideProfileContainer {
+  height: 96vh;
+  flex-shrink: 0;
+  width: 330px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(223, 205, 210, 0.7);
+  transition: 0.3s;
+}
+.MySideProfile .profileDetails {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 1px;
+}
+.MySideProfile .img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.MySideProfile .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.MySideProfile .statlogo {
+  width: 35px;
+  color: #ec5f70;
+  margin-top: 5px;
+}
+.MySideProfile .username {
+  margin: 0;
+  color: #fff;
+  font-size: 10px;
+}
+.MySideProfile .fullName {
+  margin: 5px 0;
+  font-size: 15px;
+}
+.MySideProfile .grade {
+  margin: 0;
+  font-size: 15px;
+}
+.MySideProfile .gradeType {
+  font-size: 12px;
+  font-weight: 400;
+}
+.MySideProfile .board {
+  font-weight: bold;
+}
+.MySideProfile .editProfileButton {
+  padding: 3px 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ef6b7d;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.MySideProfile .editProfileButton:hover {
+  background-color: #ea5b6e;
+}
+.MySideProfile .statistics {
+  flex: 1 1 28%;
+  margin-top: 2px;
+  align-items: center;
+}
+.MySideProfile .statisticsTitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.MySideProfile .statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.MySideProfile .stat {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 150px;
+  height: auto;
+  padding: 4px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+}
+.MySideProfile .statInfo {
+  font-size: 14px;
+}
+.MySideProfile .statValue {
+  margin: 0;
+  font-size: 16px;
+}
+.MySideProfile .statLabel {
+  margin: 0;
+  color: #000;
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: bold;
+}
+.MySideProfile .calender {
+  flex: 1 1 48%;
+}
+.MySideProfile .calenderTitle {
+  font-size: 14px;
+}
+.MySideProfile .calenderContent {
+  height: 200px;
+  background-color: #f4f4f4;
+}
+.MySideProfile .preferredLanguages {
+  flex: 1 1 50%;
+  margin-top: 0px;
+}
+.MySideProfile .languagesTitle {
+  font-size: 16px;
+}
+.MySideProfile .languagesContent {
+  display: flex;
+  justify-content: space-between;
+}
+.MySideProfile .svglogo {
+  height: 20px;
+}
+.MySideProfile .stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: auto;
+  padding: 4px;
+  gap: 10px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+}
+.MySideProfile .statlog {
+  color: #ec5f70;
+}
+.MySideProfile .ArrowUp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.MyProfilePage {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+}
+.MyProfilePage .tabDiv {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.myprofile {
+  font-family: "Poppins", sans-serif;
+}
+.myprofile .wrapupbar {
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 12px;
+  font-weight: bold;
+  background-color: #fff;
+}
+.myprofile h3 {
+  font-size: 18px;
+}
+.myprofile h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.myprofile .details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.myprofile .details .borderright {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #c7c7c7;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.myprofile .details .right {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.myprofile .details .right h3 {
+  color: rgba(236, 95, 112, 0.75);
+  border-bottom: 1px solid #cfcfcf;
+}
+.myprofile .details .border {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.myprofile .details .profile,
+.myprofile .details .locked {
+  border-radius: 100%;
+  background-color: rgba(236, 95, 112, 0.5);
+  width: 65px;
+  height: 65px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.myprofile .details .locked {
+  background-color: #ec5f70;
+}
+.myprofile .details .addbutton {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.myprofile .details .red {
+  color: rgb(236, 95, 112);
+}/*# sourceMappingURL=MyProfile.module.css.map */

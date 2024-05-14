@@ -1,0 +1,200 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: unset;
+  width: 100vw;
+  height: 100vh;
+  margin: -8px;
+  padding: 0;
+  overflow: hidden;
+}
+.wrapper {
+  flex: auto;
+  height: 100vh;
+}
+.wrapper2 {
+  width: 24.4vw;
+  // flex:auto ;
+
+  height: 100vh;
+  padding-top: 0.98vw;
+  padding-left: 1.71vw;
+  background: url("../../../GlobalComponents/Assets_student/Images/LightHouse.gif") 15% /
+    cover no-repeat;
+  transition: all 0.3s ease-in;
+
+  &.hidden {
+    display: none;
+  }
+}
+.container {
+  width: 70vw;
+  margin-top: 1.2vw;
+  margin-left: 0.989vw;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vw;
+}
+.container2 {
+  width: 64.63vw;
+  // display: flex;
+  // flex-direction: column;
+  // gap:2.55vw;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  padding-bottom: 5px;
+}
+
+.scroller {
+  display: flex;
+  width: 63.27vw;
+  height: 52.037vh;
+  padding: 0.52vw;
+  gap: 0.52vw;
+  overflow: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroller {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.container3 {
+  overflow: hidden;
+}
+.wrapper4 {
+  display: flex;
+  width: 64.53vw;
+  height: 62.5vh;
+  padding: 0px 0.26vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.833vw;
+
+  box-sizing: border-box;
+  margin-bottom: 2.55vw;
+
+  .heading {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Poppins" sans-serif;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .sub_heading {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Poppins" sans-serif;
+    font-size: 1.145vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.wrapper5 {
+  width: 64.53vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.75vw;
+  gap: 2.55vw;
+
+  border-radius: 0.78vw;
+  background-color: #ffcacc;
+  box-sizing: border-box;
+
+  .heading {
+    width: 37.6vw;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Poppins" sans-serif;
+    font-size: 1.99vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .sub_heading {
+    width: 50.26vw;
+    color: #555758;
+    font-family: "Poppins" sans-serif;
+    font-size: 1.196vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.5vw;
+  }
+}
+
+.frame_wrapper {
+  height: 35.9vh;
+  width: 58.577vw;
+
+  box-sizing: border-box;
+  display: flex;
+  gap: 2.5833vw;
+}
+
+.main_container {
+  width: 70vw;
+  margin-top: 2.03vw;
+  margin-left: 0.989vw;
+  height: 100vh;
+  // display: flex;
+  // align-items: center;
+  // flex-direction: column;
+  // gap:2.343vw;
+  border: 1px solid #000000;
+}
+
+.frame_main {
+  width: 13.07vw;
+  box-sizing: border-box;
+  height: 20.17;
+  border-radius: 0.729vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+  padding: 0.729vw;
+  background-color: #f8f8f8;
+}
+.frame_text1 {
+  width: 10vw;
+  color: #d04e62;
+  font-family: "Poppins" sans-serif;
+  font-size: 1.196vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.794vw;
+}
+.frame_text2 {
+  margin: 0vw auto;
+  margin-left: 1.19vw;
+  padding: 0;
+  width: 10.26vw;
+  color: #555758;
+  font-family: "Poppins" sans-serif;
+  font-size: 0.747vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.121vw;
+  box-sizing: border-box;
+}
+.frame_icon {
+  width: 3.75vw;
+  height: 3.75vw;
+  margin-bottom: 2.5vw;
+  margin-top: 1.05vw;
+}

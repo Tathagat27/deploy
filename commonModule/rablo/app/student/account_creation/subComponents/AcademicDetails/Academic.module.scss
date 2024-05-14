@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 36.781vw;
+  margin-left: 5.5vh;
+  margin-top: 2vh;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.subjects__wrapper{
+  margin-top: 1vh;
+
+  .Input__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35vw;
+    gap: 1vw;
+    margin-top: 1vw;
+  }
+  .Subject__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width:fit-content;
+    height: 3vw;
+    padding: 1.2vw;
+    border-radius: 2.122vw;
+    border: 1px solid #EC5F70;
+    background: #FFF;
+    color: #EC5F70;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.943vw;
+    cursor: pointer;
+    user-select: none;
+    }
+
+    .Subject__label:hover{
+      background-color: #f8adb6;
+      color: #FFF;
+    }
+}
+
+
+/* For WebKit browsers (Chrome, Safari) */
+/* .Input__wrapper::-webkit-scrollbar {
+  width: 8px;
+    background-color: #eeee;
+}
+
+.Input__wrapper::-webkit-scrollbar-thumb {
+  background-color: #EC5F70;
+  border-radius: 4px;
+
+} */
+
+.Input{
+  width: 100%;
+  height: 3vw;
+  padding:  2.197vh;
+  border-radius: 0.2083vw;
+  border: 1px solid #EC5F70;
+  background: #FFF;
+  margin: 0;
+  margin-left: 0.1vh;
+  color: #999;
+  outline: 0.052vw solid #EC5F70;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.833vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+
+
+
+.checkBox__input {
+  display: none;
+ 
+}
+
+
+.Input__Button__Section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 3.468vw;
+  width: 35.781vw;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
+  overflow-y: auto; 
+}

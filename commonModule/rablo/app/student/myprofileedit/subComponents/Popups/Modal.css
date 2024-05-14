@@ -1,0 +1,130 @@
+.main-button {
+    background-color: rgba(245, 51, 74, 1);
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.primary-button {
+    background-color: rgba(245, 51, 74, 1);
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.main-btn {
+    width: 200px;
+    border-radius: 12px;
+    height: 45px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-cont {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    height: 400px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    >h2 {
+        margin: 10px 0;
+        color: rgba(101, 6, 6, 0.8);
+        font-size: 32px;
+    }
+
+    >p {
+        margin: 0;
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    >.pink {
+        color: rgba(248, 32, 131, 1);
+    }
+
+    >.pinkm {
+        color: rgba(248, 32, 131, 1);
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+        height: 50px;
+        background-color: rgba(248, 32, 131, 0.6);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .pinkbtn {
+        width: 350px;
+        height: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgba(248, 32, 131, 1);
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .close-button {
+        position: relative;
+        top: -220px;
+        right: -350px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    .close-btn {
+        position: relative;
+        top: -260px;
+        right: -350px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        color: #000000;
+    }
+
+}
+
+.ModalLogo {
+    margin-top: 80px;
+}
+
+
+
+.verify {
+    width: 500px;
+    height: 500px;
+}

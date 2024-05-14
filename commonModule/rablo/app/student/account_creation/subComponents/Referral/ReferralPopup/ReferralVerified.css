@@ -1,0 +1,54 @@
+.Referral_Verified_Main_content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 30.239vw;
+  height: 18.708vw;
+  border-radius: 1vh;
+  z-index: 999;
+  margin-top: -28.987vw;
+  background-color: rgb(255, 255, 255);
+  margin-left: 45.875vw;
+}
+.Referral_Verified_Main_content > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.604vw;
+  width: 2.604vw;
+  border-radius: 3vh;
+  background-color: #ec5f70;
+}
+.Referral_Verified_Main_content .verified_icon {
+  font-size: 1.862vw;
+  color: white;
+}
+.Referral_Verified_Main_content h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.51vw;
+  font-weight: 600;
+  color: rgba(101, 6, 6, 0.8);
+  margin: 0;
+  padding: 0;
+  margin-top: 1vw;
+}
+.Referral_Verified_Main_content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.989vw;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 0;
+}
+.Referral_Verified_Main_content button {
+  width: 7.291vw;
+  height: 2.708vw;
+  padding: 0.781vw, 2.083vw, 0.781vw, 2.083vw;
+  border-radius: 1.688vw;
+  border-style: none;
+  gap: 0.375vw;
+  background-color: #ec5f70;
+  color: white;
+  margin-top: 1vw;
+}/*# sourceMappingURL=ReferralVerified.css.map */

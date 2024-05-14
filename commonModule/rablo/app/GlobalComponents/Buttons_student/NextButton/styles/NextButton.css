@@ -1,0 +1,12 @@
+.nextbutton {
+  height: 3.281vw;
+  width: 15.593vw;
+  border-radius: 0.416vw;
+  border: 0.052vw solid #6764ff;
+  background: rgba(103, 100, 255, 0.8);
+  color: #fff;
+  font-size: 1.25vw;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}/*# sourceMappingURL=NextButton.css.map */

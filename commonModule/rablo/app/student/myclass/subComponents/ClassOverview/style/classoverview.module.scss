@@ -1,0 +1,149 @@
+.classOverviewContainer{
+
+    height: 24.916vw;
+    width: 39.375vw;
+    max-height: 65vh;
+    border: 1px solid rgba(203, 203, 203, 1);
+    background: rgba(236, 236, 236, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+
+
+    .toptext{
+        font-family: Poppins;
+        font-size: 1.563vw;
+        font-weight: 600;
+        align-self: flex-start;
+        margin-left: 3.125vw;
+
+    }
+
+
+
+
+    
+    .classoverviewcontent{
+        background: rgba(255, 255, 255, 1);
+        width: 39.062vw;
+        height: 21.823vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+
+
+        .uls{
+            width: 34.77vw;
+            padding: 0;
+            text-align: left;
+            height: 13.854vw;
+            display: flex;
+            gap: 0.5vw;
+
+
+            ul{
+                font-family: Poppins;
+                font-size: 0.833vw;
+                font-weight: 400;    
+                padding: 0%;
+                height: 12.708vw;
+                color: rgba(0, 0, 0, 0.5);
+
+
+
+            }
+
+            :first-child{
+                width: fit-content;
+            }
+
+            :first-child + ul{
+                list-style: none;
+                height: 12.708vw;
+
+
+            }
+
+            :first-child + ul + ul{
+                list-style: none;
+                font-family: Poppins;
+                font-weight: 600;
+                text-align: left;
+                color: var(--New-red-color, rgba(236, 95, 112, 1));
+                // width: 571px;
+                height: 12.708vw;
+
+
+
+
+
+            }
+
+            .locationhere{
+                font-family: Poppins;
+                font-size: 0.833vw;
+                font-weight: 400;
+                text-align: left;
+                text-decoration: underline;    
+                cursor: pointer;           
+
+
+            }
+            
+        }
+
+
+        .paymentbar{
+            width: 36.77vw;
+            height: 2.968vw;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: rgba(236, 236, 236, 1);
+
+
+            p{
+                font-family: Barlow Condensed;
+                font-size: 1.5625vw;
+                font-style: italic;
+                font-weight: 600;
+                letter-spacing: 0.02em;
+
+            }
+
+
+
+        }
+
+    }
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  

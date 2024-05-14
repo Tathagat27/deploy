@@ -1,0 +1,74 @@
+.PlanUpdate_Main_content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 42.239vw;
+  height: 22.708vw;
+  border-radius: 1vh;
+  background-color: rgb(255, 255, 255);
+}
+.PlanUpdate_Main_content .Popup_Close {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  font-size: 2vw;
+  color: #6764FF;
+  cursor: pointer;
+}
+.PlanUpdate_Main_content > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.604vw;
+  width: 2.604vw;
+  border-radius: 3vh;
+  background-color: rgba(103, 100, 255, 0.6);
+  margin-bottom: 1vw;
+}
+.PlanUpdate_Main_content > div:nth-of-type(1) .Ribbon_icon {
+  color: white;
+  font-size: 2vw;
+  margin-right: 0;
+}
+.PlanUpdate_Main_content > h4 {
+  color: rgba(101, 6, 6, 0.8);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.PlanUpdate_Main_content > p {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1vw;
+}
+.PlanUpdate_Main_content .Go_to_your_plan_btn {
+  display: flex;
+  flex-direction: row;
+}
+.PlanUpdate_Main_content .Go_to_your_plan_btn > button:nth-of-type(1) {
+  display: flex;
+  padding: 0.781vw 2.083vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375vw;
+  border: none;
+  font-size: "Poppins", sans-serif;
+  border-radius: 1.688vw;
+  background: rgba(103, 100, 255, 0.8);
+  color: #F8F8F8;
+  cursor: pointer;
+}/*# sourceMappingURL=PlanUpdated.css.map */

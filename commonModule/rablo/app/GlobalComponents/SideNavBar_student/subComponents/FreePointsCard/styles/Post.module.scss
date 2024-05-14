@@ -1,0 +1,26 @@
+.post_wrapper{
+    width:15.31vw ;
+    height: 6.296vh;
+    background-color: #F9E9EC;
+    border-radius: 0.57vw;
+    display: flex;
+    gap:0.56vw;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+    div{
+        font-size: 1.041vw;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        color: #EC5F70;
+        line-height: 1.5vw;
+    }
+
+   
+}
+.icon{
+    font-size: 2.13vw;
+    color: #EC5F70;
+}

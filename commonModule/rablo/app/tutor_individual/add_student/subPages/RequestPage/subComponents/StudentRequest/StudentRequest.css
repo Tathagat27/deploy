@@ -1,0 +1,194 @@
+.RequestPage_StudentRequest_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 66vw;
+  height: 3.2vw;
+  border-radius: 5px;
+  margin-left: 1vh;
+  margin-bottom: 1vw;
+  background-color: #FBFBFB;
+}
+.RequestPage_StudentRequest_wrapper .Name {
+  margin: 0;
+  padding: 0;
+  width: 5.5vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.6980392157);
+  margin-left: 1vw;
+}
+.RequestPage_StudentRequest_wrapper .Class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 5.5vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+.RequestPage_StudentRequest_wrapper .Subjects_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 10vw;
+  flex-shrink: 0;
+}
+.RequestPage_StudentRequest_wrapper .Subjects_wrapper .Subjects {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  flex-shrink: 0;
+  margin-left: 1vh;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+.RequestPage_StudentRequest_wrapper .Mode {
+  display: flex;
+  font-family: Arial;
+  font-size: 1vw;
+  font-weight: 700;
+  width: 6vw;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  margin-left: 1vw;
+  color: #6764FF;
+}
+.RequestPage_StudentRequest_wrapper .Timings {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 5vw;
+  margin-left: 2.5vw;
+}
+.RequestPage_StudentRequest_wrapper .Timings > h4:nth-of-type(1) {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  color: #6764FF;
+}
+.RequestPage_StudentRequest_wrapper .Timings > p:nth-of-type(1) {
+  margin: 0;
+  padding: 0;
+  margin-left: 0.8vh;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8vw;
+  color: rgba(0, 0, 0, 0.3019607843);
+}
+.RequestPage_StudentRequest_wrapper .Demo_Dates {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  margin-left: 1.5vw;
+  height: 100%;
+}
+.RequestPage_StudentRequest_wrapper .Demo_Dates .Weeks {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.RequestPage_StudentRequest_wrapper .Demo_Dates .Weeks h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 2vw;
+  height: 1.5vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7vw;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+.RequestPage_StudentRequest_wrapper .Demo_Dates .Days {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  align-items: center;
+  margin-left: 0.2vh;
+  justify-content: space-between;
+}
+.RequestPage_StudentRequest_wrapper .Demo_Dates .Days .Day_selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 1.3vw;
+  height: 1.3vw;
+  border-radius: 2px;
+  background-color: #6764FF;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  font-weight: 600;
+  color: #ffffff;
+}
+.RequestPage_StudentRequest_wrapper .Demo_Dates .Days .Day_Not_selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 1.3vw;
+  height: 1.3vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.2509803922);
+}
+.RequestPage_StudentRequest_wrapper .Plan {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 6vw;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  color: rgba(0, 0, 0, 0.5019607843);
+  margin-left: 1.5vw;
+}
+.RequestPage_StudentRequest_wrapper .Accept_or_Close {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  margin-left: 1vw;
+}
+.RequestPage_StudentRequest_wrapper .Accept_or_Close .cancel_or_remove {
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  font-weight: 600;
+  color: #6764FF;
+  cursor: pointer;
+  margin-top: 1vh;
+}
+.RequestPage_StudentRequest_wrapper .Accept_or_Close .accept_btn {
+  width: 5.2vw;
+  height: 2.187vw;
+  border-radius: 0.6vw;
+  background-color: #6764FF;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.78vw;
+  border-style: none;
+}
+.RequestPage_StudentRequest_wrapper .Accept_or_Close .accept_btn:hover {
+  border: 2px solid #6764FF;
+  color: #6764FF;
+  background-color: #FFFFFF;
+}
+.RequestPage_StudentRequest_wrapper .Accept_or_Close .Close_btn {
+  width: 0.8vw;
+  margin-left: 1.5vh;
+  cursor: pointer;
+}/*# sourceMappingURL=StudentRequest.css.map */

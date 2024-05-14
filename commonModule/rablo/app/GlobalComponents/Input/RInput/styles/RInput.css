@@ -1,0 +1,161 @@
+.Label {
+  color: rgba(74, 55, 148, 0.8);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.041vw;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+.Input_Field {
+  height: 2.864vw;
+  width: 100%;
+  border-radius: 0.208vw;
+  border: 1px solid #6764FF;
+  background: #FFF;
+  color: #787878;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.833vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  text-transform: capitalize;
+  padding-left: 1vw;
+}
+
+.MuiInputBase-root {
+  height: 3vw !important;
+  color: #787878 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  margin-top: 0.5vh !important;
+  text-transform: capitalize !important;
+  position: relative;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-radius: 0.208vw !important;
+  border: 1px solid #6764FF !important;
+  outline: none !important;
+}
+
+.MuiOutlinedInput-notchedOutline:focus {
+  border: 2px solid #6764FF !important;
+}
+
+.MuiDateCalendar-root {
+  border-radius: 0.52vw !important;
+  border: 2px solid #6764FF !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root {
+  display: flex !important;
+  border-bottom: 2px solid rgba(103, 100, 255, 0.2);
+  justify-content: space-evenly !important;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root .MuiPickersCalendarHeader-labelContainer {
+  position: absolute !important;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root .MuiPickersArrowSwitcher-root {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root .MuiPickersArrowSwitcher-root .MuiButtonBase-root {
+  color: #6764FF;
+}
+.MuiDateCalendar-root .MuiPickersCalendarHeader-root .MuiPickersArrowSwitcher-root .MuiPickersArrowSwitcher-spacer {
+  width: 30vh !important;
+}
+
+.Input_Field:focus {
+  outline: 2px solid #6764FF;
+}
+
+.Input_Field[type=date] {
+  letter-spacing: 0.2vw;
+  text-transform: uppercase;
+}
+
+.Input_Field[type=date]::-webkit-calendar-picker-indicator {
+  height: 1.3vw;
+  width: 1.3vw;
+  margin-right: 1vw;
+  background: #fff url("../icons/calender.svg");
+  cursor: pointer;
+}
+
+.Tutor_mob_num {
+  position: relative;
+}
+.Tutor_mob_num .mob_num {
+  position: absolute;
+  left: 0.7vw;
+  top: 0.7vw;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1vw;
+  color: #6764FF;
+}
+.Tutor_mob_num .Num_Input_Field {
+  height: 2.864vw;
+  width: 16.5vw;
+  border-radius: 0.208vw;
+  border: 1px solid #6764FF;
+  background: #FFF;
+  color: #787878;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.833vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  text-transform: capitalize;
+  padding-left: 3vw;
+  -moz-appearance: textfield; /* Firefox */
+  -webkit-appearance: textfield; /* Safari and Chrome */
+  appearance: textfield;
+}
+.Tutor_mob_num .Num_Input_Field:focus {
+  outline: 2px solid #6764FF;
+}
+.Tutor_mob_num .Num_Input_Field[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+.Tutor_mob_num .Num_Input_Field[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
+}
+
+.Input_Field_Pincode {
+  height: 2.864vw;
+  width: 100%;
+  border-radius: 0.208vw;
+  border: 1px solid #6764FF;
+  background: #FFF;
+  color: #787878;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.833vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  text-transform: capitalize;
+  padding-left: 1vw;
+  letter-spacing: 1vw;
+}
+
+.Input_Field_Pincode::-moz-placeholder {
+  letter-spacing: 0px;
+}
+
+.Input_Field_Pincode::placeholder {
+  letter-spacing: 0px;
+}/*# sourceMappingURL=RInput.css.map */

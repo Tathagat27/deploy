@@ -1,0 +1,16 @@
+.main{
+    height: 5.09vh;
+    border-radius:2.34vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D04E62;
+    color: #D04E62;
+    font-family: "Poppins" sans-serif;
+    font-size: 1.041vw;
+    cursor: pointer;
+    &:hover{
+        background-color: #e597a2;
+        color: white;
+    }
+}

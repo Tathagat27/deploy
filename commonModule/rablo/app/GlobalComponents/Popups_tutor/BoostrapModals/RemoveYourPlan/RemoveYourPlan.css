@@ -1,0 +1,94 @@
+.RemovePlan_main_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 42.239vw;
+  height: 22.708vw;
+  flex-shrink: 0;
+  background-color: #FFF;
+  border-radius: 1vh;
+  position: relative;
+}
+.RemovePlan_main_wrapper .close_btn {
+  top: 2vh;
+  right: 2vh;
+  position: absolute;
+  font-size: 1.5vw;
+  color: #6764FF;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.RemovePlan_main_wrapper > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3vh;
+  width: 2.604vw;
+  height: 2.604vw;
+  background-color: rgba(248, 32, 131, 0.5);
+}
+.RemovePlan_main_wrapper > h4 {
+  color: rgba(101, 6, 6, 0.8);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 28.642px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.RemovePlan_main_wrapper > p {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19.095px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.RemovePlan_main_wrapper > p > span {
+  font-weight: 700;
+}
+.RemovePlan_main_wrapper > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vw;
+}
+.RemovePlan_main_wrapper > div:nth-of-type(2) > button:nth-of-type(1) {
+  display: inline-flex;
+  padding: 0.781vw 2.083vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375vw;
+  border-radius: 1.688vw;
+  background: rgba(248, 32, 131, 0.8);
+  color: #F8F8F8;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-style: none;
+  margin-left: 2vw;
+}
+.RemovePlan_main_wrapper > div:nth-of-type(2) > button:nth-of-type(2) {
+  display: inline-flex;
+  padding: 0.52vw 1.041vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375vw;
+  border-radius: 1.688vw;
+  border: 2px solid #6764FF;
+  background: rgba(103, 100, 255, 0.05);
+  color: #6764FF;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2vw;
+}/*# sourceMappingURL=RemoveYourPlan.css.map */

@@ -1,0 +1,41 @@
+@import "common";
+
+.main {
+  background-image: url(../../../GlobalComponents/Assets_tutor/Images/bg-img.gif);
+  background-size: cover;
+  display: flex;
+  font-family: "poppins";
+
+  .content {
+    background-color: white;
+    width: 73.5vw;
+    height: 100vh;
+  }
+
+  .top-container {
+    width: 19.323vw;
+    height: 2.407vh;
+    margin: 4.423vh 3.177vw 0 46.25vw;
+    display: flex;
+    gap: 0.926vh;
+
+    .line {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: normal;
+      text-align: center;
+      font-size: 1.302vw;
+    }
+
+    .line1 {
+      color: rgba(0, 0, 0, 0.43);
+      font-weight: 400;
+    }
+
+    .line2 {
+      color: $blue-color;
+      font-weight: 600;
+    }
+  }
+}
