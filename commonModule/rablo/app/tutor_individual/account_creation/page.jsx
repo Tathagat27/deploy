@@ -41,7 +41,6 @@ const Register = () => {
 
   if (!tutorId || !authtoken) {
     router.push("/login");
-    return null;
   }
 
   useEffect(() => {

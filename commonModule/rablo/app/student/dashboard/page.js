@@ -80,7 +80,7 @@ const Page = () => {
           {/* Tutor Card conponents */}
           <div className={styles.scroller}>
             {recommededTutors?.map((items, index) => (
-              <UnsubscribeCard items={items} index={index} />
+              <UnsubscribeCard key={index} items={items} index={index} />
             ))}
           </div>
         </div>

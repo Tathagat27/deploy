@@ -18,7 +18,6 @@ export default function Home() {
 
   // if (!tutorId || !authtoken) {
   //   router.push("/login");
-  //   return null;
   // }
   // const [user, setUser] = useState({
   //   tutorID: "",

@@ -13,7 +13,7 @@ import phoneIcon from "../../GlobalComponents/Assets_tutor/Images/call.svg";
 // import locationIcon from '../../GlobalComponents/Assets_tutor/Images/location.svg'
 import reviewIcon from "../../GlobalComponents/Assets_tutor/Images/noReview.svg";
 // import verifiedBtn from '../../GlobalComponents/Buttons_tutor/verifiedBtn/verifiedBtn'
-import verifyButton from "../../GlobalComponents/Buttons_tutor/verifyButton/verifyButton";
+import VerifyButton from "../../GlobalComponents/Buttons_tutor/verifyButton/verifyButton";
 import categoryIcon from "../../GlobalComponents/Assets_tutor/Images/icon_category.svg";
 import walletIcon from "../../GlobalComponents/Assets_tutor/Images/icon_wallet.svg";
 import starIcon from "../../GlobalComponents/Assets_tutor/Images/icon_star.svg";
@@ -205,7 +205,7 @@ const Profile = () => {
             </center>
           </div>
         </div>
-        <verifyButton />
+        <VerifyButton />
 
         <div
           className={`transactions ${

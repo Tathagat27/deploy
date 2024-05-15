@@ -52,7 +52,6 @@ const Dashboard = () => {
 
   if (!tutorId || !authtoken) {
     router.push("/login");
-    return null;
   }
 
   useEffect(() => {

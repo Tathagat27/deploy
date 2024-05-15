@@ -3,7 +3,7 @@ import React from 'react'
 import { useRouter } from 'next/navigation'
 import './styles/plans.scss'
 
-const verifyButton = () => {
+const VerifyButton = () => {
     const router = useRouter()
     return( 
     <div className="button">
@@ -12,4 +12,4 @@ const verifyButton = () => {
     );
 }
 
-export default verifyButton;
+export default VerifyButton;
