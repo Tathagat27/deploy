@@ -4,7 +4,7 @@ import DropDown from "../../../DropDown/DropDown";
 import Others from "../../../Others/Others";
 import { IoIosArrowDown } from "react-icons/io";
 import Checkbox from "../../Checkbox/Checkbox";
-import { alphabets } from "../../../data";
+import { alphabets } from "../../../data.JS";
 
 const PreferenceForm = ({
   selectedSection,

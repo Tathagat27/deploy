@@ -3,8 +3,8 @@ import { useState } from "react";
 import "./Others.css";
 import { FiPlus } from "react-icons/fi";
 import Checkbox from "../center-section/Checkbox/Checkbox";
-import { alphabets } from "../data";
-// import { alphabets } from "../data";
+import { alphabets } from "../data.JS";
+// import { alphabets } from "../data.JS";
 
 const Others = ({ options, setOptions, classInput }) => {
   const [inputValue, setInputValue] = useState("");
