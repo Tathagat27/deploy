@@ -2,7 +2,7 @@
 import './styles/SideNavBar.css'
 import React, { useState } from 'react';
 //Icons
-import Menu_Icon from './icons/Menu_Icon.svg'
+import Menu_Icon from './icons/Menu_icon.svg'
 import Home_Icon from './icons/Home.svg'
 import Add_Students from './icons/Add_students.svg'
 import Batch_Icon from './icons/Batch.svg'

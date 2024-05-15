@@ -1,9 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './UserAlreadyExits.css'
+import './UserALreadyExits.css'
 import Image from 'next/image';
-import User from './user.svg'
+import User from './User.svg'
 import { IoClose } from "react-icons/io5";
 
 function UserAlreadyExits(props) {

@@ -2,7 +2,7 @@
 import SideNavBar from "../../GlobalComponents/SideNavBar_tutor/SideNavBar";
 import TopBar from "../../GlobalComponents/TopBar_tutor/TopBar";
 import ProfilePanel from "./ProfilePanel/ProfilePanel";
-import "./layoutstyles/Layout.css";
+import "./layoutstyles/layout.css";
 import { useState } from "react";
 import Image from "next/image";
 export default function Layout({ children }) {

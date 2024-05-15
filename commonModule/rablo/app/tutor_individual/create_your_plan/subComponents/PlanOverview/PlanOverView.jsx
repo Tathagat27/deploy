@@ -1,7 +1,7 @@
 "use client";
 import "./styles/PlanOverView.css";
 
-import Delete_Icon from "./Assets/Delete_Icon.svg";
+import Delete_Icon from "./Assets/Delete_icon.svg";
 import deletegreen from "./Assets/bag.svg";
 import Left_arrow from "./Assets/Left_arrow.svg";
 import Right_arrow from "./Assets/Right_arrow.svg";
