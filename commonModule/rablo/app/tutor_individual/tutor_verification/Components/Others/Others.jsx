@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./Others.css";
 import { FiPlus } from "react-icons/fi";
 import Checkbox from "../center-section/Checkbox/Checkbox"
-import { alphabets } from "../data";
+import { alphabets } from "../data.js";
 // import { alphabets } from "../data";
 
 const Others = ({ options, setOptions, classInput }) => {

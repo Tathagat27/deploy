@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import SideNavBar from "../../GlobalComponents/SideNavBar_tutor/SideNavBar";
 import ProfilePanel from "./subComponents/RightPanel/RightPanel";
 import TopBar from "../../GlobalComponents/TopBar_tutor/TopBar";
-import "./layoutstyles/Layout.css";
+import "./layoutstyles/layout.css";
 
 const Layout = ({ children }) => {
   const [isHovered, setIsHovered] = useState(false);
