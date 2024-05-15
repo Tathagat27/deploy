@@ -15,8 +15,10 @@ import { useSearchParams, useRouter } from "next/navigation";
 const Page = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
+  if (typeof window !== 'undefined') {
   const studentID = localStorage.getItem("query1");
   const authtoken = localStorage.getItem("query2");
+  }
 
   // if (!studentID || !authtoken) {
   //   router.push('/login');
@@ -29,6 +31,7 @@ const Page = () => {
   // })
 
   // useEffect(() => {
+  //    if (typeof window !== 'undefined') {
   //   const tutorId = localStorage.getItem("query1");
   //   const authtoken = localStorage.getItem("query2");
   //   const userID = searchParams.get('query1');
@@ -50,6 +53,7 @@ const Page = () => {
   //       studentID: tutorId,
   //       tokenID: authtoken
   //     });
+  //   }
   //   }
   // },[]);
 
@@ -164,6 +168,6 @@ const Page = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Page;

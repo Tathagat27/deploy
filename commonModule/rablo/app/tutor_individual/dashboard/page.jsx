@@ -41,8 +41,10 @@ const Dashboard = () => {
 
   const router = useRouter();
 
+  if (typeof window !== 'undefined') {
   const tutorId = localStorage.getItem("query1");
   const authtoken = localStorage.getItem("query2");
+  }
 
   const [user, setUser] = useState({
     tutorID: "",
@@ -55,6 +57,7 @@ const Dashboard = () => {
   }
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
     const tutorId = localStorage.getItem("query1");
     const authtoken = localStorage.getItem("query2");
     const userID = searchParams.get("query1");
@@ -78,6 +81,7 @@ const Dashboard = () => {
         tokenID: authtoken,
       });
     }
+  }
   }, []);
 
   useEffect(() => {

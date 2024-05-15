@@ -36,14 +36,17 @@ const Register = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  if (typeof window !== 'undefined') {
   const tutorId = localStorage.getItem("query1");
   const authtoken = localStorage.getItem("query2");
+  }
 
   if (!tutorId || !authtoken) {
     router.push("/login");
   }
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
     const tutorId = localStorage.getItem("query1");
     const authtoken = localStorage.getItem("query2");
     const userID = searchParams.get("query1");
@@ -66,6 +69,7 @@ const Register = () => {
         tokenID: authtoken,
       });
     }
+  }
   }, []);
 
   return (

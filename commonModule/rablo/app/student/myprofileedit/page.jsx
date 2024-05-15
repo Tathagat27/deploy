@@ -21,8 +21,10 @@ import { useRouter } from "next/navigation";
 const Page = () => {
   const dispatch = useDispatch();
   const router = useRouter();
+  if (typeof window !== 'undefined') {
   const studentId = localStorage.getItem("query1");
   const authtoken = localStorage.getItem("query2");
+  }
 
   // if (!studentId || !authtoken) {
   //   router.push('/login');

@@ -77,8 +77,10 @@ const RegistrationPage = ({ Toggle }) => {
   };
 
   const sendData = () => {
+    if (typeof window !== 'undefined') {
     const tutorId = localStorage.getItem("query1");
     const token = localStorage.getItem("query2");
+    }
 
     console.log("function Calling tutor ID", tutorId);
     console.log("function Calling token ID", token);

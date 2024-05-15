@@ -12,6 +12,7 @@ export default function Account_Creation() {
     tokenID: "",
   });
   useEffect(() => {
+    if (typeof window !== 'undefined') {
     const tutorId = localStorage.getItem("query1");
     const authtoken = localStorage.getItem("query2");
     const userID = searchParams.get("query1");
@@ -35,6 +36,7 @@ export default function Account_Creation() {
         tokenID: authtoken,
       });
     }
+  }
   }, []);
 
   return (

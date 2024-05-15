@@ -13,8 +13,10 @@ export default function Home() {
   // console.log(selectedSection)
   const router = useRouter();
   const searchParams = useSearchParams();
+  if (typeof window !== 'undefined') {
   const tutorId = localStorage.getItem("query1");
   const authtoken = localStorage.getItem("query2");
+  }
 
   // if (!tutorId || !authtoken) {
   //   router.push("/login");
@@ -25,6 +27,7 @@ export default function Home() {
   // });
 
   // useEffect(() => {
+    // if (typeof window !== 'undefined') {
   //   const tutorId = localStorage.getItem("query1");
   //   const authtoken = localStorage.getItem("query2");
   //   const userID = searchParams.get("query1");
@@ -48,6 +51,7 @@ export default function Home() {
   //       tokenID: authtoken,
   //     });
   //   }
+// }
   // }, []);
   return (
     <main className="main">
