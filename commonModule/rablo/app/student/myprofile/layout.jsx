@@ -2,7 +2,7 @@
 import React from 'react';
 
  
-const Layout  = async ({ children, data}) => {
+function Layout({ children }) {
     
   return (
     <main>
