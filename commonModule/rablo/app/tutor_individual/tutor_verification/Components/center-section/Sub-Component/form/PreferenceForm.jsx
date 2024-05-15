@@ -4,16 +4,23 @@ import DropDown from "../../../DropDown/DropDown";
 import Others from "../../../Others/Others";
 import { IoIosArrowDown } from "react-icons/io";
 import Checkbox from "../../Checkbox/Checkbox";
-import {alphabets} from "../../../data.js";
+import { alphabets } from "../../../data";
 
-const PreferenceForm = ({selectedSection,setSelectedSection,languages,setLanguages,ModeofClass,setModeofClass,TimeInvest,setTimeInvest}) => {
-  
-
+const PreferenceForm = ({
+  selectedSection,
+  setSelectedSection,
+  languages,
+  setLanguages,
+  ModeofClass,
+  setModeofClass,
+  TimeInvest,
+  setTimeInvest,
+}) => {
   const addLanguage = (lang) => {
     setLanguages([...languages, lang]);
   };
 
-  alphabets
+  alphabets;
 
   const isLanguagePresent = (lang) => {
     const isPresent = languages.find((langauge) => langauge === lang);
@@ -42,7 +49,6 @@ const PreferenceForm = ({selectedSection,setSelectedSection,languages,setLanguag
     "Telegu",
   ]);
 
-
   const [classOptions, setClassOptions] = useState([
     "Pre-Primary (Nus - 2nd)",
     "Primary (3rd - 5th)",
@@ -58,11 +64,19 @@ const PreferenceForm = ({selectedSection,setSelectedSection,languages,setLanguag
           <div className="label" style={{ width: "17.135vw" }}>
             How much time you can invest?
           </div>
-          <DropDown option={TimeInvest} setOption={setTimeInvest} type="Choose Your Job Type" />
+          <DropDown
+            option={TimeInvest}
+            setOption={setTimeInvest}
+            type="Choose Your Job Type"
+          />
         </div>
         <div>
           <div className="label">Mode of Class</div>
-          <DropDown option={ModeofClass} setOption={setModeofClass} type="Your Preffered Mode Of Class" />
+          <DropDown
+            option={ModeofClass}
+            setOption={setModeofClass}
+            type="Your Preffered Mode Of Class"
+          />
         </div>
       </div>
       <div className="container-QF-1">
@@ -77,7 +91,9 @@ const PreferenceForm = ({selectedSection,setSelectedSection,languages,setLanguag
             Select the Section of Class you want to teach?
           </div>
           <div className="label-small" style={{ height: "max-content" }}>
-            {" Choosing a class section can attract students falling under that range. The first student's preference automatically selects the exact standard. For example, if the first student is from 4th standard, selecting the primary section will auto-select 4th standard as the primary class for that student. "}
+            {
+              " Choosing a class section can attract students falling under that range. The first student's preference automatically selects the exact standard. For example, if the first student is from 4th standard, selecting the primary section will auto-select 4th standard as the primary class for that student. "
+            }
           </div>
           <div className="container-Sec">
             {classOptions.map((option, idx) => (
@@ -91,7 +107,10 @@ const PreferenceForm = ({selectedSection,setSelectedSection,languages,setLanguag
                     : null
                 }
               >
-                <Checkbox text={alphabets[idx]} active={selectedSection === option}/>
+                <Checkbox
+                  text={alphabets[idx]}
+                  active={selectedSection === option}
+                />
                 {option}
               </div>
             ))}
@@ -132,7 +151,7 @@ const PreferenceForm = ({selectedSection,setSelectedSection,languages,setLanguag
           <Others options={options} setOptions={setOptions} />
           <div className="label-small" style={{ height: "max-content" }}>
             Your common means of Communication will be in{" "}
-            {languages.map((lang,index) => (
+            {languages.map((lang, index) => (
               <span key={index}>{lang}, </span>
             ))}
             as per the above selection

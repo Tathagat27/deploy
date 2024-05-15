@@ -5,7 +5,7 @@ import "./styles/DropDown.css";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import Checkbox from "../center-section/Checkbox/Checkbox";
-import { alphabets } from "../data.js";
+import { alphabets } from "../data";
 
 const DropDown = ({ type ,option,setOption}) => {
   let options = [];
