@@ -14,7 +14,7 @@ const Declaration = ({setSaveAndNextBtnDisabled,SaveAndNextBtnDisabled}) => {
         </div>
       </div>
       <div className='Declaration_main_contents'>
-          <p>If you have reviewed your selections and feel satisfied with your choices, you can simply <span> click <br/> on the "Create" button </span> located below to proceed.</p>
+          <p>If you have reviewed your selections and feel satisfied with your choices, you can simply <span> click <br/> on the &quot;Create&quot; button </span> located below to proceed.</p>
 
           <h4 className='Details'>Details</h4>
           <ul>
@@ -30,7 +30,7 @@ const Declaration = ({setSaveAndNextBtnDisabled,SaveAndNextBtnDisabled}) => {
 
           <div className='Terms_and_Condition_check'>
               <input type="checkbox" id="myCheckbox" name="myCheckbox" value="checkBoxValue" onChange={() => setSaveAndNextBtnDisabled(!SaveAndNextBtnDisabled)}/>
-              <label for="myCheckbox">I accept the terms and conditions and acknowledge that I have read and agree <br/> to abide by the company's policies and guidelines.</label>
+              <label for="myCheckbox">I accept the terms and conditions and acknowledge that I have read and agree <br/> to abide by the company&apos;s policies and guidelines.</label>
           </div>
 
           <div className='Your_payment_per_class'>

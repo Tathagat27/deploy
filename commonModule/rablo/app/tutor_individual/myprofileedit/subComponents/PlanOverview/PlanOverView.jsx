@@ -57,7 +57,7 @@ const PlanOverView = () => {
         <div className='Summary__wrapper'>
           <h4>Summary</h4>
               <div className='Summary_container'>
-                  <p>If you have reviewed your selections and feel satisfied with your choices, you can simply <span>click on the "Create" button</span> located below to proceed.</p>
+                  <p>If you have reviewed your selections and feel satisfied with your choices, you can simply <span>click on the &quot;Create&quot; button</span> located below to proceed.</p>
                   <h4 className='Details_Heading'>Details</h4>
                   <div className='Details_container'>
                         {

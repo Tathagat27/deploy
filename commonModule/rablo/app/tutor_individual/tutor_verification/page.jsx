@@ -1,9 +1,9 @@
 "use client";
 
 import "./styles/main.css";
-import LeftPanel from "./Components/LeftPanel/LeftPanel";
+import LeftPanel from "./Components/LeftPanel/LeftPanel.jsx";
 import CenterSection from "./Components/center-section/CenterSection.jsx";
-import TopBar from "../../GlobalComponents/TopBar_tutor/TopBar";
+import TopBar from "../../GlobalComponents/TopBar_tutor/TopBar.jsx";
 import { useSelector } from "react-redux";
 import { redirect, useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";

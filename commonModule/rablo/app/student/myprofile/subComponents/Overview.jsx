@@ -81,8 +81,8 @@ const Overview = () => {
                     <span className={styles.rowMain}>Subjects </span>
                 </div>
                 <div className={styles.subjects}>
-                    {myProfileData?.subjects.map(subject => (
-                        <div className={styles.divCenter}>
+                    {myProfileData?.subjects.map((subject, ind) => (
+                        <div key={ind} className={styles.divCenter}>
                             <div className={styles.locked}>
                                 <Image className={styles.subLogo} src={EnglishLogo} alt='alt' />
                             </div>

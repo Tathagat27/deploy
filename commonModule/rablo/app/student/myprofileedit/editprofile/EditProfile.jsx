@@ -156,7 +156,7 @@ const EditProfile = () => {
               </div>
 
               <div className={styles.formGroup}>
-                <label htmlFor="whatsapp">Guardian's Number</label>
+                <label htmlFor="whatsapp">Guardian&apos;s Number</label>
                 <input className={styles.input} type="tel" id="whatsapp" onChange={(e)=>setGuardianMobNumber(e.target.value)} value={guardianMobNumber} placeholder="Enter Guardian's Number" />
               </div>
             </div>  

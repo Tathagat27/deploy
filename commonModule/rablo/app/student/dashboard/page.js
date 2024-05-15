@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useSearchParams, useRouter } from "next/navigation";
 
-function page() {
+const Page = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const studentID = localStorage.getItem("query1");
@@ -166,4 +166,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

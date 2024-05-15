@@ -21,7 +21,7 @@ import TutorDetailCard from "./subComponents/TutorDetaillCard/TutorDetailCard";
 import TutorInformation from "./subComponents/TutorInformation/TutorInformation";
 import SubscribedTutors from "./subComponents/SubscribedTutors/SubscribedTutors";
 
-function page() {
+const Page = () => {
   const isSidebarOpen = useSelector((state) => state.sideNavBar.isSidebarOpen);
   const { myclassPages, setMyclassPages } =
     useLayoutContext();
@@ -234,4 +234,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

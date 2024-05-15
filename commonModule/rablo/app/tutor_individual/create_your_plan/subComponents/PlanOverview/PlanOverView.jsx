@@ -116,7 +116,7 @@ const PlanOverView = () => {
           <div className="Summary_container">
             <p>
               If you have reviewed your selections and feel satisfied with your
-              choices, you can simply <span>click on the "Create" button</span>{" "}
+              choices, you can simply <span>click on the &quot;Create&quot; button</span>{" "}
               located below to proceed.
             </p>
             <h4 className="Details_Heading">Details</h4>

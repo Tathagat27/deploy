@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
 import { redirect, useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 
-const page = () => {
+const Page = () => {
   const [user, setUser] = useState({
     tutorID: "",
     tokenID: "",
@@ -103,4 +103,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

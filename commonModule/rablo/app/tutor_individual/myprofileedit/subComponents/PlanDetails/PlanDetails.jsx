@@ -51,8 +51,8 @@ const PlanDetails = ({ navigation, SetNavigation }) => {
             </div>
           )}
 
-          {FetchedPlanDetails.map((plan) => (
-            <PlanCard plan={plan} />
+          {FetchedPlanDetails.map((plan, index) => (
+            <PlanCard key={index} plan={plan} />
           ))}
 
           <AddPlanButton

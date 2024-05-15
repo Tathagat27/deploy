@@ -159,7 +159,7 @@ const Class = () => {
         <div className='Section_1'>
             <div className='Section_1_main_content'>
                 <h4 className='Section_heading'>1: Select the Section of Class you want to teach? </h4>
-                <p className='Section_description'>Choosing a class section can attract students falling under that range. The <br/> first student's preference automatically selects the exact standard. <br/>For example, if the first student is from 4th standard, selecting the primary <br/> section will auto-select 4th standard as the primary class for that student.</p>
+                <p className='Section_description'>Choosing a class section can attract students falling under that range. The <br/> first student&apos;s preference automatically selects the exact standard. <br/>For example, if the first student is from 4th standard, selecting the primary <br/> section will auto-select 4th standard as the primary class for that student.</p>
             <div className='Types_of_SectionClass'>
 
                     <button className={isActive.A === true ? 'active' : 'Section1_option'} onClick={()=>handleClick("A")}>

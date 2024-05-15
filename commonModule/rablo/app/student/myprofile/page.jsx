@@ -28,7 +28,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setDataMyProfile } from "../../Redux/studentSlices/MyProfile";
 import { useRouter } from "next/navigation";
 
-const page = () => {
+const Page = () => {
   const router = useRouter();
   const dispatch = useDispatch();
   const studentId = localStorage.getItem("query1");
@@ -340,4 +340,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

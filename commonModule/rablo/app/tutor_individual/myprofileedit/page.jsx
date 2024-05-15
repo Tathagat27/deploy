@@ -27,7 +27,7 @@ import Transactions from "./subComponents/Transactions";
 import EditProfile from "./editprofile/EditProfile";
 import ProfilePanel from "../../GlobalComponents/ProfilePanel/ProfilePanel";
 
-const page = () => {
+const Page = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
 
@@ -147,4 +147,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

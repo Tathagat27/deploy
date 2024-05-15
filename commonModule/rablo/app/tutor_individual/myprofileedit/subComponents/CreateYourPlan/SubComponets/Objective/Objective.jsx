@@ -75,7 +75,7 @@ const Objective = () => {
 
       <div className='Objective_Complete_course'>
             {Options1?.map((items,index)=>(
-              <div className={objectives.includes(index) ? 'Active_Clickable_Options' : 'Clickable_Options'} 
+              <div key={index} className={objectives.includes(index) ? 'Active_Clickable_Options' : 'Clickable_Options'} 
                    onClick={() => handleOptionsClick(index)}>{items}
               </div>
             ))}
@@ -101,7 +101,7 @@ const Objective = () => {
 
             <div className='Objective_Complete_course'>
               {Options2?.map((items,index)=>(
-                <div className={Outcome.includes(index) ? 'Active_Clickable_Options' : 'Clickable_Options'} 
+                <div key={index} className={Outcome.includes(index) ? 'Active_Clickable_Options' : 'Clickable_Options'} 
                      onClick={() => handleOutcomeOptionsClick(index)}>{items}
                 </div>
               ))}
