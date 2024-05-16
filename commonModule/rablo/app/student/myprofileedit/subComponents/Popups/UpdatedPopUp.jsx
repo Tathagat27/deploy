@@ -18,7 +18,7 @@ const UpdatePopUp = ({ email, phoneNumber, addressLine1, guardianMobNumber, scho
     const [updatedBoards, setUpdatedBoards] = useState(myProfileEditData.boards);
 
     useEffect(() => {
-        console.log(updatedClass, updatedBoards)
+        // console.log(updatedClass, updatedBoards)
         setUpdatedBoards(myProfileEditData.boards)
         setUpdatedClass(myProfileEditData.class_)
     })

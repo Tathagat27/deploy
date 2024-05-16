@@ -13,30 +13,30 @@ export default function Account_Creation() {
   });
   useEffect(() => {
     if (typeof window !== 'undefined') {
-    const tutorId = localStorage.getItem("query1");
-    const authtoken = localStorage.getItem("query2");
-    const userID = searchParams.get("query1");
-    const tokenID = searchParams.get("query2");
+      const tutorId = localStorage.getItem("query1");
+      const authtoken = localStorage.getItem("query2");
+      const userID = searchParams.get("query1");
+      const tokenID = searchParams.get("query2");
 
-    if (!tutorId || !authtoken) {
-      if (userID && tokenID) {
-        localStorage.setItem("query1", userID);
-        localStorage.setItem("query2", tokenID);
-        setUser({
-          studentID: userID,
-          tokenID: tokenID,
-        });
+      if (!tutorId || !authtoken) {
+        if (userID && tokenID) {
+          localStorage.setItem("query1", userID);
+          localStorage.setItem("query2", tokenID);
+          setUser({
+            studentID: userID,
+            tokenID: tokenID,
+          });
+        } else {
+          alert("Invalid login");
+          router.push("/login");
+        }
       } else {
-        alert("Invalid login");
-        router.push("/login");
+        setUser({
+          studentID: tutorId,
+          tokenID: authtoken,
+        });
       }
-    } else {
-      setUser({
-        studentID: tutorId,
-        tokenID: authtoken,
-      });
     }
-  }
   }, []);
 
   return (

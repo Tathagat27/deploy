@@ -13,7 +13,7 @@ const DropDownC = ({ class_,updateClass }) => {
   const dispatch = useDispatch();
 
   const handleChangeClass = (newClass) => {
-    console.log(newClass)
+    // console.log(newClass)
     dispatch(updateClasses(newClass))
   };
 

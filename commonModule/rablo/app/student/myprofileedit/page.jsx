@@ -21,14 +21,14 @@ import { useRouter } from "next/navigation";
 const Page = () => {
   const dispatch = useDispatch();
   const router = useRouter();
+
   if (typeof window !== 'undefined') {
-  const studentId = localStorage.getItem("query1");
-  const authtoken = localStorage.getItem("query2");
+    const studentId = localStorage.getItem("query1");
+    const authtoken = localStorage.getItem("query2");
   }
 
   // if (!studentId || !authtoken) {
   //   router.push('/login');
-  //   return null;
   // }
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -42,7 +42,7 @@ const Page = () => {
           `http://localhost:5500/api/overview/${studentId}`
         );
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
         dispatch(setDataMyProfile(data.data));
       } catch (error) {
         console.error("Error fetching data:", error);

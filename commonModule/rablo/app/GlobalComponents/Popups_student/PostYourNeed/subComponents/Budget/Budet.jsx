@@ -39,7 +39,7 @@ function Budet({ nextHandler, closeModal }) {
             coachingInstitute:raputedInstitute,
             Budget:Budget.max
            });
-            console.log(data);
+            // console.log(data);
             closeModal();
 
         } catch (error) {

@@ -16,7 +16,7 @@ const AcademicDetails = ({ handleNext }) => {
 
   const {schoolName, Class, boards, subjects} = useSelector((state) => state.StudentAccountCreation)
   const [enableButton,setEnableButton] = useState(true);
-  console.log(schoolName, Class, boards, subjects);
+  // console.log(schoolName, Class, boards, subjects);
 
   const handleSubmission = () =>{
 

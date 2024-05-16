@@ -32,13 +32,11 @@ const Page = () => {
   const router = useRouter();
   const dispatch = useDispatch();
   if (typeof window !== 'undefined') {
-  const studentId = localStorage.getItem("query1");
-  const authtoken = localStorage.getItem("query2");
+    const studentId = localStorage.getItem("query1");
+    const authtoken = localStorage.getItem("query2");
   }
-
   // if (!studentId || !authtoken) {
   //   router.push('/login');
-  //   return null;
   // }
 
   const [tutors, setTutors] = useState(0);
@@ -60,7 +58,7 @@ const Page = () => {
         const tut = await len.json();
         setTutors(tut.data);
         const data = await response.json();
-        console.log(tut);
+        // console.log(tut);
         dispatch(setDataMyProfile(data.data));
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -79,7 +77,7 @@ const Page = () => {
     setActiveTab("overview");
   };
 
-  console.log("My Profile Data:", myProfileData);
+  // console.log("My Profile Data:", myProfileData);
 
   return (
     <main className="Wrapper">

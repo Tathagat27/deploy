@@ -16,7 +16,7 @@ const Declaration = ({setSaveAndNextBtnDisabled,SaveAndNextBtnDisabled,ModeOfCla
         </div>
       </div>
       <div className='Declaration_main_contents'>
-          <p>If you have reviewed your selections and feel satisfied with your choices, you can simply <span> click <br/> on the &quot;Create&quot; button </span> located below to proceed.</p>
+        <p>If you have reviewed your selections and feel satisfied with your choices, you can simply <span> click <br/> on the &quot;Create&quot; button </span> located below to proceed.</p>
 
           <h4 className='Details'>Details</h4>
           <ul>

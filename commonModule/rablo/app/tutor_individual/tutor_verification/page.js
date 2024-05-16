@@ -1,9 +1,9 @@
 "use client";
 
 import "./styles/main.css";
-import LeftPanel from "./Components/LeftPanel/LeftPanel.jsx";
+import LeftPanel from "./Components/LeftPanel/LeftPanel";
 import CenterSection from "./Components/center-section/CenterSection.jsx";
-import TopBar from "../../GlobalComponents/TopBar_tutor/TopBar.jsx";
+import TopBar from "../../GlobalComponents/TopBar_tutor/TopBar";
 import { useSelector } from "react-redux";
 import { redirect, useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
@@ -51,7 +51,7 @@ export default function Home() {
   //       tokenID: authtoken,
   //     });
   //   }
-// }
+  // }
   // }, []);
   return (
     <main className="main">

@@ -11,7 +11,7 @@ const DropDownB = ({ boards, updateBoard }) => {
   const dispatch = useDispatch();
 
   const handleChangeBoard = (newBoard) => {
-    console.log(newBoard);
+    // console.log(newBoard);
     dispatch(updateBoards(newBoard))
   };
   const indianStates = [
